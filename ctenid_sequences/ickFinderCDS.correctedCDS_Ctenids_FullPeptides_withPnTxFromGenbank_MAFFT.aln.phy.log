@@ -607,3 +607,38 @@ ModelFinder will test up to 1232 protein models (sample size: 486) ...
  14  LG+I+R2       33407.893    856 68527.787    1535711.787  72111.181
  15  LG+I+R3       33169.368    858 68054.736    1542098.736  71646.503
  16  LG+I+R4       33118.238    860 67956.476    1548876.476  71556.615
+ 17  LG+I+R5       33102.132    862 67928.265    1555740.265  71536.777
+ 18  LG+I+R6       33085.290    864 67898.581    1562618.581  71515.465
+ 19  LG+I+R7       33085.078    866 67902.156    1569546.156  71527.413
+ 30  LG+F+R5       33444.750    880 68649.501    1619209.501  72333.365
+ 31  LG+F+R6       33438.457    882 68640.914    1626252.914  72333.150
+ 40  LG+F+I+R6     33439.243    883 68644.487    1629788.487  72340.909
+ 52  WAG+R5        32820.132    861 67362.265    1551726.265  70966.590
+ 53  WAG+R6        32813.774    863 67353.547    1558617.547  70966.245
+ 62  WAG+I+R6      32818.684    864 67365.367    1562085.367  70982.251
+ 74  WAG+F+R5      33022.385    880 67804.770    1618364.770  71488.634
+ 75  WAG+F+R6      33017.805    882 67799.610    1625411.610  71491.846
+ 84  WAG+F+I+R6    33022.311    883 67810.623    1628954.623  71507.045
+ 96  JTT+R5        32808.602    861 67339.204    1551703.204  70943.530
+ 97  JTT+R6        32804.245    863 67334.491    1558598.491  70947.189
+106  JTT+I+R6      32808.195    864 67344.389    1562064.389  70961.274
+118  JTT+F+R5      33015.119    880 67790.237    1618350.237  71474.101
+119  JTT+F+R6      33013.187    882 67790.373    1625402.373  71482.609
+128  JTT+F+I+R6    33017.164    883 67800.328    1628944.328  71496.750
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+140  Q.pfam+R5     33018.674    861 67759.348    1552123.348  71363.673
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+141  Q.pfam+R6     33013.435    863 67752.870    1559016.870  71365.568
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+150  Q.pfam+I+R6   33012.088    864 67752.175    1562472.175  71369.060
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+162  Q.pfam+F+R5   33423.777    880 68607.553    1619167.553  72291.417
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+163  Q.pfam+F+R6   33418.710    882 68601.419    1626213.419  72293.655
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+172  Q.pfam+F+I+R6 33417.880    883 68601.759    1629745.759  72298.181
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+184  Q.bird+R5     33214.045    861 68150.090    1552514.090  71754.416
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+185  Q.bird+R6     33207.066    863 68140.131    1559404.131  71752.829
+WARNING: Normalizing state frequencies so that sum of them equals to 1

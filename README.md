@@ -11,6 +11,8 @@
 
 ```
 mkdir ctenid_sequences
+
+cd ctenid_sequences
 ```
 
 ### Extract non-male ICK entries for only ctenid taxa
@@ -48,21 +50,21 @@ cut -d"," -f1,6 ickFinderCDS.correctedCDS_Ctenids.csv | sed 's/^/>/g' | sed 's/,
 | PnTx3       | PnTx3-6 | P81792.2         |
 | PnTx4       | PnTx4-5 | P59367.2         |
 
-\>sp|P17727.2|TXL1_PHONI RecName: Full=Mu-ctenitoxin-Pn1a; Short=Mu-CNTX-Pn1a; AltName: Full=Toxin Tx1; Short=PNTx1; Short=PhTx1; Flags: Precursor
-MKLLGIFLVASFAFVLSFGEEMIEGENPLEDQRAELTSCFPVGHECDGDASNCNCCGDDVYCGCGWGRWN
-CKCKVADQSYAYGICKDKVNCPNRHLWPAKVCKKPCRRNCGG
- 
-\>sp|P29425.2|TX36A_PHONI RecName: Full=Delta-ctenitoxin-Pn2a; Short=Delta-CNTX-Pn2a; AltName: Full=Delta-CNTX-Pn1c; AltName: Full=Neurotoxin Tx2-6; Short=PnTx2-6; Flags: Precursor
-MKVAILFLSILVLAVASESIEESRDDFAVEELGRATCAGQDQPCKETCDCCGERGECVCGGPCICRQGYF
-WIAWYKLANCKK
- 
-\>sp|P81792.2|TX90B_PHONI RecName: Full=Omega-ctenitoxin-Pn4a; Short=Omega-CNTX-Pn4a; AltName: Full=CTK 01512-2; AltName: Full=Neurotoxin Tx3-6; Short=PnTx3-6; AltName: Full=Ph-alpha-1-beta toxin; Flags: Precursor
-MKCAVLFLSVIALVHIFVVEAEEEPDSDALVPQERACIPRGEICTDDCECCGCDNQCYCPPGSSLGIFKC
-SCAHANKYFCNRKKEKCKKA
- 
-\>sp|P59367.2|TX35C_PHONI RecName: Full=GAMMA-ctenitoxin-Pn1a; Short=GAMMA-CNTX-Pn1a; AltName: Full=Insecticidal neurotoxin Tx4(5-5); Short=PnTx4(5-5); Short=PnTx4-5-5; AltName: Full=Toxin Pn4A; Flags: Precursor
-MKVAIVFLSLLVLAFASESIEENREEFPVEESARCADINGACKSDCDCCGDSVTCDCYWSDSCKCRESNF
-KIGMAIRKKFC
+> \>sp|P17727.2|TXL1_PHONI RecName: Full=Mu-ctenitoxin-Pn1a; Short=Mu-CNTX-Pn1a; AltName: Full=Toxin > Tx1; Short=PNTx1; Short=PhTx1; Flags: Precursor
+> MKLLGIFLVASFAFVLSFGEEMIEGENPLEDQRAELTSCFPVGHECDGDASNCNCCGDDVYCGCGWGRWN
+> CKCKVADQSYAYGICKDKVNCPNRHLWPAKVCKKPCRRNCGG
+>  
+> \>sp|P29425.2|TX36A_PHONI RecName: Full=Delta-ctenitoxin-Pn2a; Short=Delta-CNTX-Pn2a; AltName: > Full=Delta-CNTX-Pn1c; AltName: Full=Neurotoxin Tx2-6; Short=PnTx2-6; Flags: Precursor
+> MKVAILFLSILVLAVASESIEESRDDFAVEELGRATCAGQDQPCKETCDCCGERGECVCGGPCICRQGYF
+> WIAWYKLANCKK
+>  
+> \>sp|P81792.2|TX90B_PHONI RecName: Full=Omega-ctenitoxin-Pn4a; Short=Omega-CNTX-Pn4a; AltName: > Full=CTK 01512-2; AltName: Full=Neurotoxin Tx3-6; Short=PnTx3-6; AltName: Full=Ph-alpha-1-beta > toxin; Flags: Precursor
+> MKCAVLFLSVIALVHIFVVEAEEEPDSDALVPQERACIPRGEICTDDCECCGCDNQCYCPPGSSLGIFKC
+> SCAHANKYFCNRKKEKCKKA
+>  
+> \>sp|P59367.2|TX35C_PHONI RecName: Full=GAMMA-ctenitoxin-Pn1a; Short=GAMMA-CNTX-Pn1a; AltName: > Full=Insecticidal neurotoxin Tx4(5-5); Short=PnTx4(5-5); Short=PnTx4-5-5; AltName: Full=Toxin Pn4A; > Flags: Precursor
+> MKVAIVFLSLLVLAFASESIEENREEFPVEESARCADINGACKSDCDCCGDSVTCDCYWSDSCKCRESNF
+> KIGMAIRKKFC
 
 - Add these to new full peptide file and reduce names to "Full=" names only
 
