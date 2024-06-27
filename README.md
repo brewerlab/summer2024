@@ -44,9 +44,9 @@ cut -d"," -f1,6 ickFinderCDS.correctedCDS_Ctenids.csv | sed 's/^/>/g' | sed 's/,
 | PnTx family | PnTx ID | Accession Number |
 | ----------- | ------- | ---------------- |
 | PnTx1       | PnTx1   | P17727.2         |
-| PnTx2       | PnTx2-6 | P17727.2         |
-| PnTx3       | PnTx3-6 | P17727.2         |
-| PnTx4       | PnTx4-5 | P17727.2         |
+| PnTx2       | PnTx2-6 | P29425.2         |
+| PnTx3       | PnTx3-6 | P81792.2         |
+| PnTx4       | PnTx4-5 | P59367.2         |
 
 \>sp|P17727.2|TXL1_PHONI RecName: Full=Mu-ctenitoxin-Pn1a; Short=Mu-CNTX-Pn1a; AltName: Full=Toxin Tx1; Short=PNTx1; Short=PhTx1; Flags: Precursor
 MKLLGIFLVASFAFVLSFGEEMIEGENPLEDQRAELTSCFPVGHECDGDASNCNCCGDDVYCGCGWGRWN
