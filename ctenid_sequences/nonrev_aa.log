@@ -1,0 +1,769 @@
+IQ-TREE multicore version 2.3.4 COVID-edition for Linux x86 64-bit built Jun 18 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DellXPS2022 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.phy -B 1000 --model-joint NONREV -T AUTO --prefix nonrev_aa
+Seed:    800329 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 28 11:17:57 2024
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 457 sequences with 486 columns, 421 distinct patterns
+251 parsimony-informative, 72 singleton sites, 163 constant sites
+                                                                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000562844 secs using 2624% CPU
+   1  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g1_i1                           81.89%    passed     87.43%
+   2  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g2_i1                           82.51%    passed     89.28%
+   3  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i2                           82.72%    passed     38.01%
+   4  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN1381_c0_g1_i3                          83.54%    passed     77.72%
+   5  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2114_c0_g1_i1                          81.89%    passed     41.92%
+   6  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN23352_c0_g1_i2                         76.75%    passed     74.33%
+   7  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2398_c0_g1_i1                          77.37%    passed     73.10%
+   8  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN292_c0_g1_i1                           82.72%    passed     27.32%
+   9  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN354_c0_g2_i1                           81.69%    passed     65.07%
+  10  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN37697_c0_g1_i1                         84.77%    passed     46.30%
+  11  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN42167_c0_g1_i1                         82.10%    passed     62.29%
+  12  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN4280_c0_g1_i1                          83.54%    passed     86.51%
+  13  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN5443_c0_g1_i2                          74.90%    passed     73.21%
+  14  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g1_i1                         83.54%    passed     90.31%
+  15  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g2_i1                         83.54%    passed     90.31%
+  16  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN632_c0_g1_i4                           82.92%    passed     94.24%
+  17  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN65230_c0_g1_i1                         82.92%    passed     65.46%
+  18  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74005_c0_g1_i1                         82.30%    passed      6.57%
+  19  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74842_c0_g1_i1                         82.92%    passed     99.65%
+  20  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN830_c0_g1_i1                           79.42%    passed     65.51%
+  21  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8386_c0_g1_i1                          83.13%    passed     86.34%
+  22  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8673_c0_g1_i1                          80.86%    passed     84.75%
+  23  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN10221_c0_g4_i4               77.37%    passed     59.01%
+  24  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c0_g1_i1               84.16%    passed     29.73%
+  25  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c1_g1_i1               82.72%    passed     18.33%
+  26  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1578_c0_g1_i1                74.69%    passed     32.29%
+  27  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1711_c1_g1_i1                77.57%    passed     90.30%
+  28  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1960_c0_g1_i3                72.43%    passed     25.91%
+  29  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN21582_c0_g1_i3               78.81%    passed     81.85%
+  30  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN23233_c0_g1_i5               82.30%    passed     77.43%
+  31  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3325_c0_g2_i9                85.19%    passed     47.44%
+  32  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3446_c0_g1_i2                84.98%    passed     85.20%
+  33  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3493_c0_g1_i2                83.13%    passed     78.51%
+  34  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN4_c0_g1_i1                   82.72%    passed     22.75%
+  35  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1               81.07%    passed     55.13%
+  36  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN51_c0_g1_i1                  73.46%    failed      1.84%
+  37  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN524_c0_g1_i1                 83.13%    passed     20.54%
+  38  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN5829_c0_g1_i1                84.77%    passed     76.93%
+  39  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c0_g1_i11                82.72%    passed     86.76%
+  40  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c1_g1_i10                82.72%    passed     79.52%
+  41  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN762_c4_g1_i1                 81.89%    passed     40.14%
+  42  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN85_c0_g2_i1                  85.60%    passed     19.46%
+  43  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN9510_c0_g1_i1                78.19%    failed      1.07%
+  44  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN100466_c0_g1_i1              80.66%    passed     14.13%
+  45  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1033_c0_g3_i1                85.60%    passed     19.46%
+  46  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1131_c0_g1_i2                82.92%    passed     86.14%
+  47  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i1                 82.30%    passed     50.68%
+  48  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1514_c0_g1_i2                83.13%    passed     51.27%
+  49  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1648_c0_g2_i1                77.37%    passed     59.01%
+  50  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1650_c0_g1_i2                72.43%    passed     25.91%
+  51  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN17470_c0_g1_i1               75.10%    passed     23.33%
+  52  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN19035_c0_g1_i1               81.07%    passed     55.13%
+  53  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2094_c0_g1_i11               83.13%    passed     20.54%
+  54  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2208_c0_g1_i1                77.16%    passed     81.27%
+  55  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2315_c0_g1_i2                84.77%    passed     40.85%
+  56  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN247_c0_g3_i1                 85.60%    passed     99.43%
+  57  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1                80.86%    passed     80.32%
+  58  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN294_c0_g2_i3                 84.77%    passed     27.08%
+  59  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN295_c0_g3_i4                 85.19%    passed     47.44%
+  60  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g1_i1                76.95%    passed     87.44%
+  61  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g2_i3                75.10%    passed     61.00%
+  62  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3492_c0_g1_i6                81.48%    passed     69.36%
+  63  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN393_c1_g2_i6                 82.10%    passed     68.10%
+  64  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN40_c0_g1_i2                  73.46%    failed      1.84%
+  65  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4283_c2_g2_i1                84.77%    passed     76.93%
+  66  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g1_i1                 82.72%    passed     58.54%
+  67  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g2_i3                 81.28%    passed     29.12%
+  68  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN43385_c0_g1_i1               83.74%    passed     84.25%
+  69  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4622_c0_g1_i3                82.72%    passed     74.63%
+  70  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5434_c0_g1_i5                82.30%    passed     23.85%
+  71  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5506_c0_g1_i5                82.10%    passed     75.83%
+  72  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN583_c0_g1_i1                 82.72%    passed     22.75%
+  73  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN7720_c0_g1_i1                77.78%    passed     89.37%
+  74  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g1_i1                 83.13%    passed     54.39%
+  75  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g2_i1                 82.92%    passed     99.13%
+  76  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN822_c0_g2_i1                 83.13%    passed     75.75%
+  77  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1006_c0_g1_i4                             85.60%    passed     50.91%
+  78  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1030_c0_g1_i1                             82.10%    passed     75.26%
+  79  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN105018_c0_g1_i1                           74.28%    passed     61.73%
+  80  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1055_c0_g1_i1                             81.89%    passed     87.26%
+  81  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN108225_c0_g1_i1                           83.74%    passed     77.94%
+  82  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN116899_c0_g1_i1                           82.92%    passed     66.84%
+  83  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN118342_c0_g1_i1                           82.72%    passed     10.57%
+  84  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN14167_c0_g1_i1                            78.60%    passed     74.67%
+  85  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1548_c0_g1_i1                             83.13%    passed     72.15%
+  86  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN16312_c0_g1_i1                            83.13%    passed     95.89%
+  87  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g1_i1                               80.45%    passed     81.04%
+  88  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g2_i2                               80.25%    passed     73.94%
+  89  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2182_c0_g1_i1                             81.07%    passed     55.13%
+  90  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2218_c0_g1_i1                             80.25%    passed     30.63%
+  91  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN26760_c0_g1_i1                            59.47%    failed      0.98%
+  92  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g1_i1                            76.95%    failed      2.30%
+  93  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g2_i1                            78.81%    passed     37.06%
+  94  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2814_c0_g1_i1                             77.57%    passed     63.43%
+  95  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN29999_c0_g1_i1                            81.69%    passed     57.91%
+  96  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3212_c0_g1_i1                             81.07%    passed     71.04%
+  97  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3260_c0_g1_i5                             78.19%    failed      1.82%
+  98  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN33470_c0_g1_i1                            83.95%    passed     66.28%
+  99  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN4659_c0_g1_i1                             81.28%    passed     93.45%
+ 100  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN467_c0_g1_i1                              81.48%    passed     54.37%
+ 101  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN480_c1_g1_i2                              86.63%    passed     31.76%
+ 102  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN483_c0_g1_i1                              83.54%    passed     54.07%
+ 103  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5358_c0_g1_i1                             74.69%    passed     44.13%
+ 104  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5409_c0_g1_i1                             74.69%    passed     92.92%
+ 105  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN54298_c0_g1_i1                            83.95%    passed     50.02%
+ 106  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN62606_c0_g1_i1                            83.13%    passed     64.83%
+ 107  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN66103_c0_g1_i1                            84.36%    passed     87.23%
+ 108  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN6721_c0_g1_i1                             72.43%    failed      0.00%
+ 109  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN71906_c0_g1_i1                            77.98%    passed     61.83%
+ 110  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN73648_c0_g1_i1                            82.30%    passed     55.65%
+ 111  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i2                               84.57%    passed     67.26%
+ 112  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1                               85.19%    passed     31.10%
+ 113  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c1_g1_i1                               83.95%    passed     65.64%
+ 114  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN7803_c0_g2_i1                             82.51%    passed     34.47%
+ 115  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN794_c0_g1_i2                              82.72%    passed     70.20%
+ 116  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN82896_c0_g1_i1                            84.98%    passed     22.94%
+ 117  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN8463_c0_g1_i1                             70.78%    passed     51.49%
+ 118  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g1_i1                              81.48%    passed     97.30%
+ 119  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g2_i1                              84.98%    passed     75.71%
+ 120  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c0_g1_i1                               81.28%    passed     18.47%
+ 121  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c1_g1_i1                               84.77%    passed     75.67%
+ 122  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN90643_c0_g1_i1                            77.78%    passed     85.73%
+ 123  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN91754_c0_g1_i1                            84.36%    passed     96.32%
+ 124  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN94115_c0_g1_i1                            81.48%    passed     34.95%
+ 125  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN9745_c0_g1_i1                             84.77%    passed     28.79%
+ 126  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN199_c0_g1_i8                  84.77%    passed     85.33%
+ 127  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN213_c0_g1_i1                  73.66%    passed     43.99%
+ 128  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i5                  82.72%    passed     83.80%
+ 129  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2                  74.69%    failed      2.29%
+ 130  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2324_c0_g2_i2                 81.28%    passed     64.07%
+ 131  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2484_c2_g1_i3                 82.72%    passed     80.35%
+ 132  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3117_c0_g1_i5                 78.19%    passed     48.13%
+ 133  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN33_c0_g3_i1                   85.60%    passed     24.48%
+ 134  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3639_c1_g1_i10                76.13%    passed     92.74%
+ 135  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2                 76.54%    passed     70.08%
+ 136  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN41279_c0_g1_i1                81.07%    passed     55.13%
+ 137  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN4528_c0_g1_i1                 82.10%    passed     21.57%
+ 138  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1                74.69%    passed     38.21%
+ 139  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN47759_c0_g1_i1                83.74%    passed     35.85%
+ 140  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN51478_c0_g1_i1                83.13%    passed     41.34%
+ 141  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2                  80.86%    passed     49.77%
+ 142  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN52099_c0_g1_i1                82.92%    passed     98.01%
+ 143  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN62702_c0_g1_i1                82.72%    failed      4.54%
+ 144  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN69_c0_g1_i1                   84.77%    passed     96.26%
+ 145  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2                 85.19%    passed     61.83%
+ 146  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7902_c0_g1_i1                 81.48%    passed     53.74%
+ 147  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN86_c0_g1_i1                   83.74%    passed     59.63%
+ 148  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1_c0_g1_i2                    82.72%    passed     83.80%
+ 149  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN162_c0_g1_i6                  82.92%    passed     69.77%
+ 150  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN16252_c0_g1_i2                82.30%    passed     70.86%
+ 151  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1728_c0_g1_i8                 83.13%    passed     88.48%
+ 152  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1867_c1_g1_i5                 82.72%    passed     80.35%
+ 153  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1984_c1_g1_i2                 73.66%    passed     43.99%
+ 154  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1                 85.60%    passed     24.48%
+ 155  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2573_c0_g2_i2                 73.46%    passed     86.70%
+ 156  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2658_c0_g2_i1                 84.77%    passed     81.44%
+ 157  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2                 82.92%    passed     60.83%
+ 158  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g2_i2                 82.92%    passed     60.83%
+ 159  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2900_c0_g1_i1                 78.19%    failed      1.07%
+ 160  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3141_c0_g1_i2                 83.74%    passed     54.46%
+ 161  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3178_c0_g1_i1                 81.07%    passed     55.13%
+ 162  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN344_c0_g1_i2                  80.04%    passed     23.20%
+ 163  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3604_c0_g2_i3                 76.13%    passed     92.74%
+ 164  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN38776_c0_g1_i1                74.69%    passed     38.21%
+ 165  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1                 80.86%    passed     49.77%
+ 166  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN65_c3_g1_i1                   82.72%    passed     92.34%
+ 167  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN674_c0_g6_i1                  82.10%    passed     59.08%
+ 168  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN8186_c0_g2_i1                 76.54%    passed     70.08%
+ 169  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i1                  74.69%    failed      2.29%
+ 170  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN90_c0_g1_i3                   85.19%    passed     61.83%
+ 171  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN979_c0_g2_i5                  80.04%    passed     52.77%
+ 172  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN11350_c0_g1_i1                83.13%    passed     89.36%
+ 173  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN12512_c0_g1_i4                82.72%    failed      4.54%
+ 174  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN173_c0_g1_i5                  85.19%    passed     61.83%
+ 175  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2225_c0_g1_i2                 82.72%    passed     10.20%
+ 176  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2459_c0_g2_i1                 83.74%    passed     54.46%
+ 177  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN288_c0_g1_i2                  83.74%    passed     62.35%
+ 178  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN31951_c0_g1_i1                70.16%    passed     61.74%
+ 179  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN3723_c0_g1_i2                 78.19%    passed     48.13%
+ 180  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN43818_c0_g1_i1                74.69%    passed     38.21%
+ 181  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN503_c3_g1_i3                  82.30%    passed     74.52%
+ 182  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN553_c0_g1_i5                  82.72%    passed     78.64%
+ 183  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN5802_c1_g3_i4                 77.37%    passed     68.36%
+ 184  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN657_c0_g1_i2                  83.13%    passed     57.93%
+ 185  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN7094_c0_g3_i1                 82.92%    passed     60.83%
+ 186  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g1_i1                  85.60%    passed     24.48%
+ 187  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g3_i1                  85.60%    passed     24.48%
+ 188  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN826_c0_g1_i2                  74.69%    failed      2.29%
+ 189  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN8383_c0_g3_i2                 81.07%    passed     55.13%
+ 190  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN996_c0_g1_i3                  76.54%    passed     70.08%
+ 191  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1067_c0_g1_i2          87.24%    passed     76.47%
+ 192  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN129_c1_g2_i3           82.51%    passed     71.25%
+ 193  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1390_c0_g1_i4          72.43%    passed     52.28%
+ 194  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN177_c0_g1_i1           76.54%    passed     70.08%
+ 195  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1           80.86%    passed     49.77%
+ 196  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN19192_c0_g3_i1         83.54%    passed     94.08%
+ 197  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1977_c0_g1_i3          76.13%    passed     88.43%
+ 198  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2151_c0_g1_i1          81.07%    passed     55.13%
+ 199  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2159_c0_g1_i2          83.13%    passed     13.23%
+ 200  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1          83.74%    passed     69.95%
+ 201  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g2_i5           82.51%    passed     65.39%
+ 202  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g3_i2           83.33%    passed     79.72%
+ 203  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3165_c0_g1_i1          83.13%    passed      7.01%
+ 204  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g1_i11          82.10%    passed     70.88%
+ 205  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g3_i1           82.10%    passed     95.30%
+ 206  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3603_c0_g1_i1          85.60%    passed     50.66%
+ 207  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1          82.10%    passed     52.49%
+ 208  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN54771_c0_g1_i1         74.69%    passed     49.13%
+ 209  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7          82.72%    passed     11.37%
+ 210  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN676_c0_g1_i6           81.69%    passed     78.20%
+ 211  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN70049_c0_g1_i1         78.19%    failed      1.47%
+ 212  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN73_c0_g1_i1            84.77%    passed     71.26%
+ 213  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN1308_c0_g1_i2               77.37%    passed     68.36%
+ 214  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN135_c0_g1_i1                76.54%    passed     70.08%
+ 215  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN136_c1_g2_i10               82.30%    passed     63.93%
+ 216  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN14_c1_g1_i3                 85.60%    passed     26.25%
+ 217  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2044_c0_g1_i6               76.95%    passed     94.42%
+ 218  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2047_c0_g1_i4               84.77%    passed     75.80%
+ 219  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN210_c0_g3_i1                82.51%    passed     71.25%
+ 220  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN219_c1_g1_i1                82.10%    passed     70.88%
+ 221  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN239_c1_g4_i2                83.13%    passed     79.65%
+ 222  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN33850_c0_g1_i1              75.10%    passed     68.12%
+ 223  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i2                 83.13%    passed     84.34%
+ 224  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37429_c0_g1_i1              74.69%    passed     49.13%
+ 225  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN492_c0_g1_i3                83.13%    passed     83.45%
+ 226  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN5487_c0_g1_i3               74.07%    passed     73.49%
+ 227  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN706_c0_g2_i1                82.72%    passed     66.60%
+ 228  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN7683_c0_g1_i2               82.10%    passed     52.49%
+ 229  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN84528_c0_g1_i1              81.07%    passed     55.13%
+ 230  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8641_c0_g1_i1               82.72%    passed     11.37%
+ 231  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8752_c0_g1_i1               85.60%    passed     50.66%
+ 232  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN881_c0_g2_i1                83.74%    passed     56.05%
+ 233  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN91590_c0_g1_i1              83.74%    passed     69.95%
+ 234  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1200_c0_g1_i2               76.13%    passed     89.47%
+ 235  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1204_c0_g2_i2               83.13%    passed     83.45%
+ 236  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1689_c0_g2_i1               83.74%    passed     69.95%
+ 237  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1                80.86%    passed     49.77%
+ 238  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1972_c2_g1_i1               82.92%    passed     87.06%
+ 239  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i4                82.10%    passed     95.16%
+ 240  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN232_c0_g1_i3                81.69%    passed     78.20%
+ 241  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3320_c0_g1_i2               82.10%    passed     52.49%
+ 242  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN333_c0_g1_i1                82.30%    passed     63.93%
+ 243  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3380_c0_g1_i1               81.07%    passed     55.13%
+ 244  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN4978_c0_g1_i1               82.72%    passed     11.37%
+ 245  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN514_c0_g1_i2                82.72%    passed     79.57%
+ 246  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN562_c0_g2_i6                83.13%    passed      7.01%
+ 247  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN673_c0_g1_i5                82.10%    passed     70.88%
+ 248  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN6752_c0_g1_i2               84.77%    passed     75.80%
+ 249  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN68366_c0_g1_i1              83.13%    passed     13.23%
+ 250  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN687_c0_g1_i2                84.77%    passed     79.17%
+ 251  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN7859_c0_g1_i1               76.95%    passed     96.02%
+ 252  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2                 76.54%    passed     70.08%
+ 253  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN85921_c0_g1_i1              74.69%    passed     50.55%
+ 254  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN972_c0_g1_i3                85.60%    passed     26.25%
+ 255  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN10025_c0_g1_i1   85.60%    passed     99.43%
+ 256  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1070_c0_g2_i1    82.92%    passed     98.92%
+ 257  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1093_c0_g1_i2    74.69%    passed     29.94%
+ 258  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i4     82.10%    passed     65.74%
+ 259  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5     80.86%    passed     46.14%
+ 260  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN19586_c0_g1_i2   83.33%    passed     40.24%
+ 261  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g1_i1    83.13%    passed     81.13%
+ 262  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g3_i2    83.13%    passed     73.12%
+ 263  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN266_c0_g1_i2     82.51%    passed     66.42%
+ 264  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i1     82.72%    failed      1.62%
+ 265  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3177_c0_g1_i1    74.69%    passed     25.03%
+ 266  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3418_c0_g1_i1    81.28%    passed     63.31%
+ 267  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN46_c0_g2_i1      84.16%    passed     74.96%
+ 268  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4622_c0_g2_i1    76.54%    passed     57.13%
+ 269  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4696_c0_g1_i1    81.69%    passed     49.75%
+ 270  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN52542_c0_g1_i1   81.07%    passed     55.13%
+ 271  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN541_c0_g1_i8     83.54%    passed     97.61%
+ 272  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g1_i13     83.13%    passed     55.00%
+ 273  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g3_i1      83.13%    passed     48.98%
+ 274  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN575_c0_g1_i1     78.40%    failed      2.13%
+ 275  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN637_c0_g1_i1     81.28%    passed     81.68%
+ 276  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN739_c1_g3_i1     85.60%    passed     42.34%
+ 277  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN849_c0_g1_i2     82.30%    passed     79.71%
+ 278  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN8593_c2_g1_i3    82.92%    passed     43.20%
+ 279  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN97_c0_g1_i2      74.90%    passed      5.45%
+ 280  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN10187_c0_g1_i3              75.51%    failed      0.50%
+ 281  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN135_c0_g2_i3                84.98%    passed     63.20%
+ 282  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g1_i2               82.92%    passed     99.13%
+ 283  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g3_i2               83.33%    passed     34.69%
+ 284  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1855_c1_g1_i1               85.60%    passed     16.41%
+ 285  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN190_c0_g1_i1                76.54%    passed     62.63%
+ 286  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN203_c0_g2_i1                82.92%    passed     77.66%
+ 287  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN22203_c0_g2_i1              83.33%    passed     40.49%
+ 288  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2318_c0_g1_i1               85.39%    passed     47.59%
+ 289  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1               80.86%    passed     64.71%
+ 290  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g1_i1               81.69%    passed     23.19%
+ 291  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g2_i1               81.69%    passed     23.19%
+ 292  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN282_c0_g1_i2                74.90%    passed     18.13%
+ 293  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN286_c0_g1_i2                81.69%    passed     50.57%
+ 294  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g1_i4                83.13%    passed     73.18%
+ 295  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g2_i1                83.13%    passed     47.12%
+ 296  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN386_c0_g1_i10               84.57%    passed     90.73%
+ 297  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN39_c0_g1_i4                 82.10%    passed     87.47%
+ 298  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN409_c0_g1_i1                82.72%    passed      7.45%
+ 299  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN48961_c0_g1_i1              74.90%    passed     12.01%
+ 300  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN4935_c0_g2_i5               81.07%    passed     11.94%
+ 301  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN56695_c0_g1_i1              76.34%    passed     66.64%
+ 302  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN5951_c0_g1_i7               84.77%    passed     99.10%
+ 303  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN59819_c0_g1_i1              81.28%    passed     68.74%
+ 304  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN6024_c0_g1_i10              76.75%    passed     38.75%
+ 305  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN625_c0_g1_i2                74.90%    passed     45.39%
+ 306  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN7652_c0_g1_i1               84.57%    passed     85.23%
+ 307  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN791_c0_g1_i1                74.69%    passed     40.41%
+ 308  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN103_c0_g1_i2              73.46%    passed      9.32%
+ 309  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN10333_c0_g1_i1            81.69%    passed     83.29%
+ 310  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN110_c0_g3_i1              82.72%    passed     18.40%
+ 311  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN1341_c0_g1_i3             83.74%    passed     75.02%
+ 312  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2019_c0_g1_i1             82.72%    passed      9.78%
+ 313  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2183_c0_g1_i1             77.57%    passed     81.97%
+ 314  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN24514_c0_g1_i1            83.54%    passed     39.06%
+ 315  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2539_c0_g1_i1             76.54%    passed     42.18%
+ 316  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN258_c0_g2_i1              83.13%    passed     98.31%
+ 317  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2659_c0_g1_i1             85.60%    passed     92.78%
+ 318  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1             80.86%    passed     50.70%
+ 319  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2829_c0_g1_i1             81.07%    passed     55.13%
+ 320  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g3_i1             83.13%    passed     97.29%
+ 321  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g5_i1             83.13%    passed     97.29%
+ 322  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN33889_c0_g1_i1            78.19%    failed      0.36%
+ 323  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g2_i1              82.92%    passed     96.05%
+ 324  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g3_i1              82.92%    passed     98.87%
+ 325  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN39488_c0_g1_i1            74.90%    passed     32.75%
+ 326  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN451_c1_g2_i2              82.92%    passed     99.51%
+ 327  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN4756_c0_g2_i4             83.74%    passed     35.85%
+ 328  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN47848_c0_g1_i1            74.69%    passed     53.25%
+ 329  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN56729_c0_g1_i1            84.77%    failed      0.27%
+ 330  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN100_c0_g1_i4      85.60%    passed     17.02%
+ 331  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN108_c0_g1_i1      82.10%    passed     75.83%
+ 332  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c0_g1_i6      76.34%    passed     52.64%
+ 333  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c1_g1_i1      83.13%    passed     67.71%
+ 334  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1389_c0_g1_i1     77.16%    passed     81.27%
+ 335  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN140_c0_g1_i7      79.42%    passed     39.97%
+ 336  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN14050_c0_g1_i8    86.21%    passed     13.28%
+ 337  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1973_c1_g1_i1     74.90%    passed     22.77%
+ 338  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2070_c0_g1_i1     81.28%    passed     58.47%
+ 339  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2381_c0_g2_i1     86.21%    passed     27.20%
+ 340  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2419_c0_g1_i1     73.46%    passed     19.87%
+ 341  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1     85.39%    passed     80.03%
+ 342  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g1_i1     85.19%    passed     57.08%
+ 343  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g4_i2     83.95%    passed     67.25%
+ 344  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2956_c0_g1_i1     84.36%    passed     33.99%
+ 345  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3043_c0_g1_i2     78.60%    passed     96.97%
+ 346  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3909_c0_g4_i2     85.19%    passed     27.35%
+ 347  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2      80.86%    passed     41.38%
+ 348  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN45742_c0_g1_i1    74.90%    passed      7.90%
+ 349  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN48166_c0_g1_i1    81.07%    passed     55.13%
+ 350  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN5_c1_g1_i2        81.28%    passed     68.75%
+ 351  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN53421_c0_g1_i1    77.78%    passed     89.37%
+ 352  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN589_c0_g1_i1      81.28%    passed     75.05%
+ 353  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN702_c2_g1_i3      79.22%    passed     97.09%
+ 354  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7065_c0_g1_i1     85.60%    passed     44.62%
+ 355  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g1_i1       84.57%    passed     55.77%
+ 356  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i1       85.39%    passed     90.66%
+ 357  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i2       85.19%    passed     50.88%
+ 358  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7870_c0_g1_i1     82.72%    passed     42.39%
+ 359  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2       76.13%    passed     56.26%
+ 360  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN9317_c0_g1_i1     83.13%    passed     67.06%
+ 361  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1017_c0_g1_i12    84.77%    passed     23.62%
+ 362  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1025_c0_g1_i1     84.77%    passed     39.81%
+ 363  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1033_c0_g1_i1     82.92%    passed     98.18%
+ 364  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN104_c0_g1_i1      82.72%    passed     67.54%
+ 365  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN11007_c0_g1_i4    83.33%    passed     29.77%
+ 366  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN130_c0_g2_i7      83.33%    passed     83.68%
+ 367  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1552_c0_g1_i1     74.90%    passed      7.90%
+ 368  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1566_c0_g1_i1     84.36%    passed     17.50%
+ 369  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i2      82.10%    passed     75.83%
+ 370  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN16733_c1_g1_i5    85.39%    passed     80.58%
+ 371  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1890_c0_g1_i1     81.28%    passed     42.67%
+ 372  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i10     80.25%    passed     68.74%
+ 373  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN2354_c0_g1_i1     81.28%    passed     57.67%
+ 374  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i11     76.34%    passed     42.70%
+ 375  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN312_c0_g1_i4      83.13%    passed     64.90%
+ 376  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN32211_c0_g1_i1    82.92%    passed     69.27%
+ 377  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN42_c0_g2_i1       73.46%    passed     15.21%
+ 378  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN454_c1_g1_i1      85.39%    passed     78.29%
+ 379  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN49_c0_g1_i4       80.86%    passed     60.28%
+ 380  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN55_c0_g1_i3       75.10%    passed     61.00%
+ 381  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN62328_c0_g1_i1    77.78%    passed     90.33%
+ 382  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN63_c0_g1_i1       74.90%    passed     22.77%
+ 383  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i1       83.95%    passed     56.74%
+ 384  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN79_c0_g1_i1       75.31%    passed     82.72%
+ 385  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN8708_c0_g2_i1     86.21%    passed      9.70%
+ 386  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN978_c0_g1_i1      85.19%    passed     70.85%
+ 387  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN15499_c0_g1_i2    83.13%    passed     46.40%
+ 388  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN160_c0_g1_i2      85.60%    passed     17.02%
+ 389  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1613_c0_g1_i1     84.77%    passed     40.85%
+ 390  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN16755_c0_g1_i1    85.39%    passed     78.10%
+ 391  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1713_c0_g1_i11    84.57%    passed     69.21%
+ 392  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1721_c0_g1_i1     77.78%    passed     94.04%
+ 393  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10     80.86%    passed     64.71%
+ 394  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN228_c0_g1_i1      81.28%    passed     41.11%
+ 395  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2303_c0_g1_i1     82.92%    passed     69.49%
+ 396  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN233_c0_g2_i4      82.51%    passed     45.52%
+ 397  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2781_c0_g1_i3     75.10%    passed     77.88%
+ 398  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN28_c0_g1_i4       81.28%    passed     76.51%
+ 399  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN284_c0_g1_i1      74.90%    passed      7.29%
+ 400  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g1_i1      83.33%    passed     69.89%
+ 401  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g2_i2      83.54%    passed     85.11%
+ 402  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN33_c0_g1_i2       73.46%    passed     15.21%
+ 403  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i3       82.51%    passed     91.22%
+ 404  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g2_i3       82.72%    passed     59.82%
+ 405  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN402_c0_g1_i3      83.54%    passed     96.03%
+ 406  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4345_c0_g1_i1     84.36%    passed     94.49%
+ 407  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN49_c1_g1_i1       82.10%    passed     66.56%
+ 408  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4997_c0_g1_i2     78.40%    passed     74.90%
+ 409  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN53334_c0_g1_i1    84.36%    passed     21.09%
+ 410  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN55272_c0_g1_i1    74.90%    passed     22.77%
+ 411  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN5909_c0_g1_i5     85.19%    passed     88.69%
+ 412  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN6176_c1_g1_i2     83.13%    passed     52.64%
+ 413  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN64_c0_g1_i1       82.92%    passed     99.90%
+ 414  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN67_c0_g1_i1       84.57%    passed     58.15%
+ 415  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN7050_c0_g1_i2     85.80%    passed     42.96%
+ 416  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1       75.72%    failed      3.84%
+ 417  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN8416_c0_g1_i1     83.13%    passed     69.82%
+ 418  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i10     83.13%    passed     65.81%
+ 419  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN92_c0_g2_i1       81.28%    passed     58.98%
+ 420  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1026_c0_g1_i1                      74.90%    passed     14.82%
+ 421  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1044_c0_g1_i1                      82.72%    passed      8.23%
+ 422  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1132_c0_g1_i1                      74.90%    passed     39.09%
+ 423  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1135_c1_g2_i1                      82.51%    passed     85.57%
+ 424  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i11                      83.13%    passed     83.79%
+ 425  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1257_c0_g1_i2                      81.28%    passed     57.67%
+ 426  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1434_c0_g2_i1                      75.72%    failed      2.85%
+ 427  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN147_c0_g1_i12                      83.13%    passed     68.14%
+ 428  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN152_c0_g1_i3                       83.95%    passed     51.46%
+ 429  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g1_i1                      82.10%    passed     85.89%
+ 430  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g2_i1                      82.30%    passed     90.13%
+ 431  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1843_c0_g1_i1                      86.21%    passed     22.04%
+ 432  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2023_c1_g1_i1                      83.13%    passed     35.96%
+ 433  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN212_c0_g1_i3                       76.13%    passed     73.45%
+ 434  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i1                       81.28%    passed     58.47%
+ 435  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1                        80.86%    passed     80.32%
+ 436  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2743_c0_g2_i1                      84.36%    passed     17.50%
+ 437  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g1_i1                       83.74%    passed     70.14%
+ 438  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g4_i1                       83.95%    passed     85.84%
+ 439  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g1_i6                        83.33%    passed     93.53%
+ 440  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g3_i1                        82.92%    passed     99.13%
+ 441  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN4456_c0_g1_i1                      85.39%    passed     62.55%
+ 442  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN455_c0_g1_i1                       77.16%    passed     74.96%
+ 443  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN566_c0_g1_i11                      76.34%    passed     42.70%
+ 444  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c0_g2_i4                         85.39%    passed     86.85%
+ 445  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g1_i4                         83.95%    passed     74.65%
+ 446  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g2_i1                         86.21%    passed      8.86%
+ 447  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN610_c0_g1_i11                      85.60%    passed     99.76%
+ 448  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN696_c0_g3_i2                       84.77%    passed     39.81%
+ 449  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i11                       83.54%    passed     78.45%
+ 450  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN727_c0_g4_i1                       83.13%    passed     90.85%
+ 451  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN79_c0_g3_i1                        82.92%    passed     99.89%
+ 452  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN899_c0_g1_i11                      73.46%    passed     26.17%
+ 453  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN93_c1_g1_i2                        82.51%    passed     83.86%
+ 454  Mu-ctenitoxin-Pn1a                                                                            76.95%    passed     75.88%
+ 455  Delta-ctenitoxin-Pn2a                                                                         83.13%    passed     96.14%
+ 456  Omega-ctenitoxin-Pn4a                                                                         81.48%    passed     87.03%
+ 457  GAMMA-ctenitoxin-Pn1a                                                                         83.33%    passed     46.94%
+WARNING: 457 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                         81.24%  21 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g2_i1 is identical to Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1648_c0_g2_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN10221_c0_g4_i4 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1650_c0_g1_i2 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1960_c0_g1_i3 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN295_c0_g3_i4 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3325_c0_g2_i9 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN583_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN4_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN19035_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN40_c0_g1_i2 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN51_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2094_c0_g1_i11 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN524_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4283_c2_g2_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN5829_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1033_c0_g3_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN85_c0_g2_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2900_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN9510_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1389_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2208_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1613_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2315_c0_g1_i2 but kept for subsequent analysis
+NOTE: Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN10025_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN247_c0_g3_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN55_c0_g1_i3 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g2_i3 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN108_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5506_c0_g1_i5 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN53421_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN7720_c0_g1_i1 but kept for subsequent analysis
+NOTE: Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g1_i2 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g2_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1984_c1_g1_i2 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN213_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1_c0_g1_i2 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i5 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1867_c1_g1_i5 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2484_c2_g1_i3 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN3723_c0_g1_i2 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3117_c0_g1_i5 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN33_c0_g3_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3604_c0_g2_i3 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3639_c1_g1_i10 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN8186_c0_g2_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN38776_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1 but kept for subsequent analysis
+NOTE: Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN4756_c0_g2_i4 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN47759_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN12512_c0_g1_i4 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN62702_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN90_c0_g1_i3 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g2_i2 is identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2459_c0_g2_i1 is identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3141_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN210_c0_g3_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN129_c1_g2_i3 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN68366_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2159_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN91590_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN562_c0_g2_i6 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3165_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN219_c1_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g1_i11 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8752_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3603_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN7683_c0_g1_i2 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37429_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN54771_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8641_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN232_c0_g1_i3 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN676_c0_g1_i6 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN333_c0_g1_i1 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN136_c1_g2_i10 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN972_c0_g1_i3 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN14_c1_g1_i3 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN6752_c0_g1_i2 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2047_c0_g1_i4 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1204_c0_g2_i2 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN492_c0_g1_i3 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10 is identical to Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1 but kept for subsequent analysis
+NOTE: Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g2_i1 is identical to Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g1_i1 but kept for subsequent analysis
+NOTE: Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g5_i1 is identical to Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g3_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN160_c0_g1_i2 is identical to Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN100_c0_g1_i4 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN63_c0_g1_i1 is identical to Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1973_c1_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i1 is identical to Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2070_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1552_c0_g1_i1 is identical to Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN45742_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN696_c0_g3_i2 is identical to Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1025_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2743_c0_g2_i1 is identical to Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1566_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1257_c0_g1_i2 is identical to Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN2354_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN33_c0_g1_i2 is identical to Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN42_c0_g2_i1 but kept for subsequent analysis
+NOTE: 29 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2182_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN41279_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3178_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN8383_c0_g3_i2 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2151_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN84528_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3380_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN52542_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2829_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN48166_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i2 (identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5506_c0_g1_i5) is ignored but added at the end
+NOTE: Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g3_i1 (identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g2_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN826_c0_g1_i2 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g1_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN33_c0_g3_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g3_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN33_c0_g3_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN996_c0_g1_i3 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN177_c0_g1_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN135_c0_g1_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN43818_c0_g1_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN173_c0_g1_i5 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN7094_c0_g3_i1 (identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1689_c0_g2_i1 (identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN673_c0_g1_i5 (identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g1_i11) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3320_c0_g1_i2 (identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN4978_c0_g1_i1 (identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7) is ignored but added at the end
+NOTE: Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN55272_c0_g1_i1 (identical to Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1973_c1_g1_i1) is ignored but added at the end
+Alignment was printed to nonrev_aa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to nonrev_aa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.188 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 800329)...
+
+NOTE: 31 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+6 trees examined
+Threads: 1 / Time: 16.392 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -90131
+Threads: 2 / Time: 13.120 sec / Speedup: 1.249 / Efficiency: 62% / LogL: -90131
+Threads: 3 / Time: 11.508 sec / Speedup: 1.424 / Efficiency: 47% / LogL: -90131
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -41434.258
+2. Current log-likelihood: -33057.721
+3. Current log-likelihood: -32668.838
+4. Current log-likelihood: -32583.601
+5. Current log-likelihood: -32511.476
+6. Current log-likelihood: -32496.559
+7. Current log-likelihood: -32493.957
+8. Current log-likelihood: -32492.933
+9. Current log-likelihood: -32492.486
+10. Current log-likelihood: -32490.755
+11. Current log-likelihood: -32489.912
+12. Current log-likelihood: -32489.231
+13. Current log-likelihood: -32488.652
+14. Current log-likelihood: -32488.108
+15. Current log-likelihood: -32487.599
+16. Current log-likelihood: -32487.117
+17. Current log-likelihood: -32486.663
+18. Current log-likelihood: -32486.230
+19. Current log-likelihood: -32485.820
+20. Current log-likelihood: -32485.427
+21. Current log-likelihood: -32485.051
+22. Current log-likelihood: -32484.691
+23. Current log-likelihood: -32484.345
+24. Current log-likelihood: -32484.013
+25. Current log-likelihood: -32483.692
+26. Current log-likelihood: -32483.383
+27. Current log-likelihood: -32483.085
+28. Current log-likelihood: -32482.796
+29. Current log-likelihood: -32482.518
+30. Current log-likelihood: -32482.248
+31. Current log-likelihood: -32481.986
+32. Current log-likelihood: -32481.732
+33. Current log-likelihood: -32481.488
+34. Current log-likelihood: -32481.249
+35. Current log-likelihood: -32481.015
+36. Current log-likelihood: -32480.789
+37. Current log-likelihood: -32480.392
+38. Current log-likelihood: -32479.978
+39. Current log-likelihood: -32479.545
+40. Current log-likelihood: -32479.427
+41. Current log-likelihood: -32479.165
+42. Current log-likelihood: -32479.057
+43. Current log-likelihood: -32478.805
+44. Current log-likelihood: -32478.703
+45. Current log-likelihood: -32478.458
+46. Current log-likelihood: -32478.274
+47. Current log-likelihood: -32478.108
+48. Current log-likelihood: -32477.947
+49. Current log-likelihood: -32477.790
+50. Current log-likelihood: -32477.635
+51. Current log-likelihood: -32477.483
+52. Current log-likelihood: -32477.336
+53. Current log-likelihood: -32477.191
+54. Current log-likelihood: -32477.006
+55. Current log-likelihood: -32476.786
+56. Current log-likelihood: -32476.537
+57. Current log-likelihood: -32476.352
+58. Current log-likelihood: -32476.085
+59. Current log-likelihood: -32475.775
+60. Current log-likelihood: -32475.294
+61. Current log-likelihood: -32473.783
+62. Current log-likelihood: -32473.563
+Optimal log-likelihood: -32473.484
+Parameters optimization took 62 rounds (1077.950 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 4.47901 secs using 200% CPU
+Computing ML distances took 4.481648 sec (of wall-clock time) 8.959722 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00297963 secs using 180.3% CPU
+Computing RapidNJ tree took 0.155868 sec (of wall-clock time) 0.109381 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -32714.027
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 18.029 second
+Computing log-likelihood of 98 initial trees ... 35.608 seconds
+Current best score: -32473.484
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -32276.192
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -32227.099
+Iteration 10 / LogL: -32260.097 / Time: 0h:30m:43s
+Iteration 20 / LogL: -32270.549 / Time: 0h:32m:35s
+Finish initializing candidate tree set (20)
+Current best tree score: -32227.099 / CPU time: 830.341
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -32274.252 / Time: 0h:34m:19s (1h:29m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -32216.599
+Iteration 40 / LogL: -32220.181 / Time: 0h:38m:1s (1h:36m:30s left)
+Iteration 50 / LogL: -32239.342 / Time: 0h:39m:40s (1h:12m:2s left)
+Log-likelihood cutoff on original alignment: -32321.058
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -32199.361
+Iteration 60 / LogL: -32199.361 / Time: 0h:45m:23s (1h:16m:56s left)
+Iteration 70 / LogL: -32228.866 / Time: 0h:46m:49s (1h:1m:4s left)
+Iteration 80 / LogL: -32203.141 / Time: 0h:48m:6s (0h:48m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 87: -32189.238
+Iteration 90 / LogL: -32192.570 / Time: 0h:52m:46s (0h:57m:30s left)
+Iteration 100 / LogL: -32191.569 / Time: 0h:54m:5s (0h:47m:31s left)
+Log-likelihood cutoff on original alignment: -32304.898
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.925
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 106: -32185.423
+Iteration 110 / LogL: -32189.430 / Time: 0h:56m:51s (0h:50m:4s left)
+Iteration 120 / LogL: -32202.370 / Time: 0h:58m:24s (0h:42m:12s left)
+Iteration 130 / LogL: -32226.208 / Time: 0h:59m:39s (0h:35m:8s left)
+Iteration 140 / LogL: -32225.005 / Time: 1h:0m:58s (0h:28m:56s left)
+Iteration 150 / LogL: -32196.092 / Time: 1h:2m:19s (0h:23m:25s left)
+Log-likelihood cutoff on original alignment: -32289.145
+Iteration 160 / LogL: -32201.410 / Time: 1h:3m:41s (0h:18m:25s left)
+Iteration 170 / LogL: -32193.080 / Time: 1h:5m:3s (0h:13m:51s left)
+Iteration 180 / LogL: -32243.491 / Time: 1h:6m:22s (0h:9m:38s left)
+Iteration 190 / LogL: -32282.942 / Time: 1h:7m:46s (0h:5m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 197: -32182.186
+Iteration 200 / LogL: -32206.825 / Time: 1h:10m:43s (0h:34m:28s left)
+Log-likelihood cutoff on original alignment: -32289.145
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 210 / LogL: -32315.754 / Time: 1h:12m:2s (0h:31m:1s left)
+Iteration 220 / LogL: -32232.604 / Time: 1h:13m:18s (0h:26m:46s left)
+Iteration 230 / LogL: -32236.715 / Time: 1h:14m:31s (0h:22m:46s left)
+Iteration 240 / LogL: -32186.925 / Time: 1h:15m:46s (0h:19m:1s left)
+Iteration 250 / LogL: -32188.820 / Time: 1h:17m:4s (0h:15m:28s left)
+Log-likelihood cutoff on original alignment: -32289.145
+Iteration 260 / LogL: -32221.893 / Time: 1h:18m:26s (0h:12m:6s left)
+Iteration 270 / LogL: -32225.142 / Time: 1h:19m:47s (0h:8m:53s left)
+Iteration 280 / LogL: -32270.968 / Time: 1h:21m:3s (0h:5m:48s left)
+Iteration 290 / LogL: -32224.260 / Time: 1h:22m:16s (0h:2m:50s left)
+TREE SEARCH COMPLETED AFTER 298 ITERATIONS / Time: 1h:23m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -32182.186
+2. Current log-likelihood: -32181.960
+3. Current log-likelihood: -32181.919
+4. Current log-likelihood: -32181.898
+5. Current log-likelihood: -32181.875
+6. Current log-likelihood: -32181.796
+7. Current log-likelihood: -32181.710
+8. Current log-likelihood: -32181.683
+9. Current log-likelihood: -32181.658
+10. Current log-likelihood: -32181.647
+11. Current log-likelihood: -32181.634
+Optimal log-likelihood: -32181.623
+Parameters optimization took 11 rounds (137.679 sec)
+BEST SCORE FOUND : -32181.623
+Creating bootstrap support values...
+Split supports printed to NEXUS file nonrev_aa.splits.nex
+Total tree length: 96.992
+
+Total number of iterations: 298
+CPU time used for tree search: 7692.096 sec (2h:8m:12s)
+Wall-clock time used for tree search: 3868.436 sec (1h:4m:28s)
+Total CPU time used: 10213.955 sec (2h:50m:13s)
+Total wall-clock time used: 5133.347 sec (1h:25m:33s)
+Computing rootstrap supports...
+Annotated tree (best viewed in FigTree) written to nonrev_aa.rootstrap.nex
+
+Computing bootstrap consensus tree...
+Reading input file nonrev_aa.splits.nex...
+428 taxa and 2013 splits.
+Consensus tree written to nonrev_aa.contree
+Reading input trees file nonrev_aa.contree
+Log-likelihood of consensus tree: -32182.304
+
+Analysis results written to: 
+  IQ-TREE report:                nonrev_aa.iqtree
+  Maximum-likelihood tree:       nonrev_aa.treefile
+  Likelihood distances:          nonrev_aa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          nonrev_aa.splits.nex
+  Consensus tree:                nonrev_aa.contree
+  ML tree with rootstrap:        nonrev_aa.rootstrap.nex
+  Screen log file:               nonrev_aa.log
+
+Date and Time: Fri Jun 28 12:44:33 2024

@@ -89,8 +89,50 @@ fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGe
 
 ### Phylogeny inference using IQTREE2
 
+#### Unrooted tree
+
 ```
 iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.phy -T AUTO -B 1000 -m MFP
 ```
 
+#### Tree rooted using non-reversible model
 
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.phy -B 1000  --model-joint NONREV -T AUTO --prefix nonrev_aa
+```
+
+#### Rootstrapping to explore support for root position
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.phy --model-joint NONREV --root-test -zb 1000 -au -te nonrev_aa.treefile --prefix nonrev_aa_test
+```
+
+## Create phylogeny of CDS sequences
+
+### Multiple sequence alignment
+
+- Full peptides without GenBank sequences
+
+```
+ mafft ickFinderCDS.correctedCDS_Ctenids_FullPeptides.fasta > ickFinderCDS.correctedCDS_Ctenids_FullPeptides_MAFFT.aln.fasta
+```
+
+- Backtranslate CDS sequences onto Full peptide alignment
+
+```
+pal2nal.pl ickFinderCDS.correctedCDS_Ctenids_FullPeptides_MAFFT.aln.fasta ickFinderCDS.correctedCDS_Ctenids_CDS.fasta -output fasta > ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.fasta
+```
+
+- Convert FASTA to PHYLIP
+
+```
+fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy -r
+```
+
+### Phylogeny inference using IQTREE2
+
+#### Unrooted tree
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy -T AUTO -B 1000 -st CODON1 --modelomatic
+```
