@@ -1,0 +1,985 @@
+IQ-TREE 2.3.4 COVID-edition built Jun 18 2024
+
+Input file name: ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy
+User tree file name: nonrev_dna.treefile
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 90386
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 453 sequences with 1548 nucleotide sites
+Number of constant sites: 628 (= 40.5685% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 628 (= 40.5685% of all sites)
+Number of parsimony informative sites: 729
+Number of distinct site patterns: 1034
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: UNREST+FO
+
+Rate parameter R:
+
+  A-C: 1.9595
+  A-G: 3.2505
+  A-T: 1.5303
+  C-A: 2.7101
+  C-G: 2.0027
+  C-T: 4.1682
+  G-A: 3.3376
+  G-C: 1.3666
+  G-T: 1.3908
+  T-A: 1.7134
+  T-C: 2.8720
+  T-G: 1.0000
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.2741
+  pi(C) = 0.1904
+  pi(G) = 0.2548
+  pi(T) = 0.2807
+
+Rate matrix Q:
+
+  A    -1.012    0.2942    0.4881    0.2298
+  C     0.407    -1.334    0.3007    0.6259
+  G    0.5012    0.2052   -0.9152    0.2088
+  T    0.2573    0.4313    0.1502   -0.8387
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -50784.1147 (s.e. 2188.6388)
+Unconstrained log-likelihood (without tree): -9898.9909
+Number of free parameters (#branches + #model parameters): 877
+Akaike information criterion (AIC) score: 103322.2295
+Corrected Akaike information criterion (AICc) score: 105620.7548
+Bayesian information criterion (BIC) score: 108009.5481
+
+Total tree length (sum of branch lengths): 56.2822
+Sum of internal branch lengths: 29.8785 (53.0870% of tree length)
+
+WARNING: 35 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+                                           +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g1_i1
+                                      +----| (73)
+                                      |    +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g2_i1
+                                +-----| (49)
+                                |     |           +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN632_c0_g1_i4
+                                |     |        +--| (100)
+                                |     |        |  |                 +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c0_g1_i11
+                                |     |        |  |              +--| (100)
+                                |     |        |  |              |  +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4622_c0_g1_i3
+                                |     |        |  |           +--| (99)
+                                |     |        |  |           |  |  +--Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i2
+                                |     |        |  |           |  +--| (100)
+                                |     |        |  |           |     +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN258_c0_g2_i1
+                                |     |        |  |        +--| (99)
+                                |     |        |  |        |  +--Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN239_c1_g4_i2
+                                |     |        |  |     +--| (99)
+                                |     |        |  |     |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN451_c1_g2_i2
+                                |     |        |  |  +--| (98)
+                                |     |        |  |  |  |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN65_c3_g1_i1
+                                |     |        |  |  |  +--| (99)
+                                |     |        |  |  |     +--Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN514_c0_g1_i2
+                                |     |        |  +--| (50)
+                                |     |        |     |     +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c1_g1_i10
+                                |     |        |     |  +--| (99)
+                                |     |        |     |  |  |        +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i5
+                                |     |        |     |  |  |     +--| (100)
+                                |     |        |     |  |  |     |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1_c0_g1_i2
+                                |     |        |     |  |  |  +--| (100)
+                                |     |        |     |  |  |  |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g3_i2
+                                |     |        |     |  |  +--| (100)
+                                |     |        |     |  |     |  +--Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g2_i5
+                                |     |        |     |  |     +--| (100)
+                                |     |        |     |  |        +--Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN706_c0_g2_i1
+                                |     |        |     +--| (100)
+                                |     |        |        |              +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN19586_c0_g1_i2
+                                |     |        |        |           +--| (69)
+                                |     |        |        |           |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7065_c0_g1_i1
+                                |     |        |        |        +--| (69)
+                                |     |        |        |        |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN11007_c0_g1_i4
+                                |     |        |        |     +--| (99)
+                                |     |        |        |     |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN22203_c0_g2_i1
+                                |     |        |        |  +--| (100)
+                                |     |        |        |  |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN233_c0_g2_i4
+                                |     |        |        |  |  +--| (100)
+                                |     |        |        |  |     +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN93_c1_g1_i2
+                                |     |        |        +--| (100)
+                                |     |        |           |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN9317_c0_g1_i1
+                                |     |        |           +--| (100)
+                                |     |        |              |        +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN15499_c0_g1_i2
+                                |     |        |              |     +**| (91)
+                                |     |        |              |     |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN6176_c1_g1_i2
+                                |     |        |              |  +**| (92)
+                                |     |        |              |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN8416_c0_g1_i1
+                                |     |        |              +--| (91)
+                                |     |        |                 +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN147_c0_g1_i12
+                                |     |     +--| (95)
+                                |     |     |  +-----Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN39_c0_g1_i4
+                                |     |  +--| (94)
+                                |     |  |  |              +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN822_c0_g2_i1
+                                |     |  |  |           +--| (100)
+                                |     |  |  |           |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c1_g1_i1
+                                |     |  |  |        +**| (47)
+                                |     |  |  |        |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i10
+                                |     |  |  |     +--| (100)
+                                |     |  |  |     |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i11
+                                |     |  |  |  +--| (58)
+                                |     |  |  |  |  |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c0_g1_i6
+                                |     |  |  |  |  +--| (99)
+                                |     |  |  |  |     |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i11
+                                |     |  |  |  |     +--| (100)
+                                |     |  |  |  |        +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN566_c0_g1_i11
+                                |     |  |  +--| (99)
+                                |     |  |     |     +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN344_c0_g1_i2
+                                |     |  |     |  +--| (100)
+                                |     |  |     |  |  +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN657_c0_g1_i2
+                                |     |  |     +--| (100)
+                                |     |  |        |  +**Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g1_i1
+                                |     |  |        +--| (100)
+                                |     |  |           +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g3_i2
+                                |     +--| (89)
+                                |        |                 +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN21582_c0_g1_i3
+                                |        |              +--| (94)
+                                |        |              |  |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1
+                                |        |              |  +--| (100)
+                                |        |              |     +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN7683_c0_g1_i2
+                                |        |           +--| (99)
+                                |        |           |  |  +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i1
+                                |        |           |  +--| (100)
+                                |        |           |     +--Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7902_c0_g1_i1
+                                |        |        +--| (99)
+                                |        |        |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3043_c0_g1_i2
+                                |        |     +--| (96)
+                                |        |     |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4696_c0_g1_i1
+                                |        |  +--| (100)
+                                |        |  |  |  +**Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g1_i1
+                                |        |  |  +--| (100)
+                                |        |  |     +**Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g2_i1
+                                |        +--| (94)
+                                |           +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN794_c0_g1_i2
+                             +--| (22)
+                             |  |                            +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74005_c0_g1_i1
+                             |  |                         +--| (96)
+                             |  |                         |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i1
+                             |  |                      +--| (82)
+                             |  |                      |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN409_c0_g1_i1
+                             |  |                   +--| (81)
+                             |  |                   |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2019_c0_g1_i1
+                             |  |                +--| (91)
+                             |  |                |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1044_c0_g1_i1
+                             |  |             +--| (92)
+                             |  |             |  |     +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN4_c0_g1_i1
+                             |  |             |  |  +--| (100)
+                             |  |             |  |  |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN583_c0_g1_i1
+                             |  |             |  +--| (99)
+                             |  |             |     |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7
+                             |  |             |     +--| (100)
+                             |  |             |        +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8641_c0_g1_i1
+                             |  +-------------| (100)
+                             |                +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2218_c0_g1_i1
+                          +--| (20)
+                          |  |                               +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1578_c0_g1_i1
+                          |  |                            +--| (100)
+                          |  |                            |  |     +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1
+                          |  |                            |  |  +--| (100)
+                          |  |                            |  |  |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN38776_c0_g1_i1
+                          |  |                            |  +--| (100)
+                          |  |                            |     |     +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN54771_c0_g1_i1
+                          |  |                            |     |  +--| (100)
+                          |  |                            |     |  |  +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37429_c0_g1_i1
+                          |  |                            |     +--| (100)
+                          |  |                            |        +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN85921_c0_g1_i1
+                          |  |                         +--| (100)
+                          |  |                         |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN47848_c0_g1_i1
+                          |  |                      +--| (32)
+                          |  |                      |  |     +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3177_c0_g1_i1
+                          |  |                      |  |  +--| (100)
+                          |  |                      |  |  |  +---Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN6024_c0_g1_i10
+                          |  |                      |  +--| (100)
+                          |  |                      |     +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN791_c0_g1_i1
+                          |  |                   +--| (32)
+                          |  |                   |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1093_c0_g1_i2
+                          |  |                +--| (97)
+                          |  |                |  |  +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN17470_c0_g1_i1
+                          |  |                |  +--| (100)
+                          |  |                |     |        +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1973_c1_g1_i1
+                          |  |                |     |     +**| (99)
+                          |  |                |     |     |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN63_c0_g1_i1
+                          |  |                |     |  +--| (98)
+                          |  |                |     |  |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1132_c0_g1_i1
+                          |  |                |     +--| (98)
+                          |  |                |        +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN55272_c0_g1_i1
+                          |  |             +--| (100)
+                          |  |             |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5358_c0_g1_i1
+                          |  |      +------| (98)
+                          |  |      |      |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN48961_c0_g1_i1
+                          |  |      |      +--| (96)
+                          |  |      |         |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN39488_c0_g1_i1
+                          |  |      |         +--| (100)
+                          |  |      |            |     +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN45742_c0_g1_i1
+                          |  |      |            |  +--| (100)
+                          |  |      |            |  |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1026_c0_g1_i1
+                          |  |      |            +--| (100)
+                          |  |      |               |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1552_c0_g1_i1
+                          |  |      |               +--| (100)
+                          |  |      |                  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN284_c0_g1_i1
+                          |  +------| (99)
+                          |         +-----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN14167_c0_g1_i1
+                       +--| (1)
+                       |  |                             +---Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i2
+                       |  |                          +--| (100)
+                       |  |                          |  +---Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN1381_c0_g1_i3
+                       |  |                       +--| (38)
+                       |  |                       |  |     +-----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN483_c0_g1_i1
+                       |  |                       |  |  +--| (50)
+                       |  |                       |  |  |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN9745_c0_g1_i1
+                       |  |                       |  +--| (42)
+                       |  |                       |     |  +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i2
+                       |  |                       |     +--| (99)
+                       |  |                       |        +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1
+                       |  |                    +--| (35)
+                       |  |                    |  |                       +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3446_c0_g1_i2
+                       |  |                    |  |                    +--| (100)
+                       |  |                    |  |                    |  |  +--Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN69_c0_g1_i1
+                       |  |                    |  |                    |  +--| (100)
+                       |  |                    |  |                    |     |  +--Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN73_c0_g1_i1
+                       |  |                    |  |                    |     +--| (100)
+                       |  |                    |  |                    |        +--Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN687_c0_g1_i2
+                       |  |                    |  |                 +--| (92)
+                       |  |                    |  |                 |  |   +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN978_c0_g1_i1
+                       |  |                    |  |                 |  +---| (100)
+                       |  |                    |  |                 |      +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1135_c1_g2_i1
+                       |  |                    |  |              +--| (98)
+                       |  |                    |  |              |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN541_c0_g1_i8
+                       |  |                    |  |           +--| (98)
+                       |  |                    |  |           |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN135_c0_g2_i3
+                       |  |                    |  |        +--| (41)
+                       |  |                    |  |        |  |      +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN386_c0_g1_i10
+                       |  |                    |  |        |  |  +---| (100)
+                       |  |                    |  |        |  |  |   |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN5951_c0_g1_i7
+                       |  |                    |  |        |  |  |   +--| (97)
+                       |  |                    |  |        |  |  |      +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN7652_c0_g1_i1
+                       |  |                    |  |        |  +--| (73)
+                       |  |                    |  |        |     |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i2
+                       |  |                    |  |        |     +--| (100)
+                       |  |                    |  |        |        |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN454_c1_g1_i1
+                       |  |                    |  |        |        +--| (100)
+                       |  |                    |  |        |           +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c0_g2_i4
+                       |  |                    |  |     +--| (30)
+                       |  |                    |  |     |  |     +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1
+                       |  |                    |  |     |  |  +--| (100)
+                       |  |                    |  |     |  |  |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN4456_c0_g1_i1
+                       |  |                    |  |     |  +--| (99)
+                       |  |                    |  |     |     +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i1
+                       |  |                    |  |  +--| (95)
+                       |  |                    |  |  |  |     +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN294_c0_g2_i3
+                       |  |                    |  |  |  |  +--| (66)
+                       |  |                    |  |  |  |  |  |       +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN14050_c0_g1_i8
+                       |  |                    |  |  |  |  |  |  +----| (100)
+                       |  |                    |  |  |  |  |  |  |    |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN8708_c0_g2_i1
+                       |  |                    |  |  |  |  |  |  |    +--| (56)
+                       |  |                    |  |  |  |  |  |  |       +**Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g2_i1
+                       |  |                    |  |  |  |  |  +--| (86)
+                       |  |                    |  |  |  |  |     +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g1_i1
+                       |  |                    |  |  |  +--| (55)
+                       |  |                    |  |  |     |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3909_c0_g4_i2
+                       |  |                    |  |  |     +--| (99)
+                       |  |                    |  |  |        |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1713_c0_g1_i11
+                       |  |                    |  |  |        +--| (100)
+                       |  |                    |  |  |           +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN67_c0_g1_i1
+                       |  |                    |  +--| (72)
+                       |  |                    |     +----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c1_g1_i1
+                       |  |                 +--| (49)
+                       |  |                 |  |     +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g1_i1
+                       |  |                 |  |  +--| (42)
+                       |  |                 |  |  |  +-----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g2_i1
+                       |  |                 |  +--| (41)
+                       |  |                 |     +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c1_g1_i1
+                       |  |              +--| (92)
+                       |  |              |  |              +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3325_c0_g2_i9
+                       |  |              |  |           +--| (100)
+                       |  |              |  |           |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN295_c0_g3_i4
+                       |  |              |  |        +--| (100)
+                       |  |              |  |        |  |  +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2
+                       |  |              |  |        |  +--| (100)
+                       |  |              |  |        |     +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN90_c0_g1_i3
+                       |  |              |  |     +--| (100)
+                       |  |              |  |     |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2318_c0_g1_i1
+                       |  |              |  |  +--| (56)
+                       |  |              |  |  |  |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g1_i1
+                       |  |              |  |  |  +--| (55)
+                       |  |              |  |  |     |        +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g4_i2
+                       |  |              |  |  |     |     +--| (100)
+                       |  |              |  |  |     |     |  +**Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g1_i4
+                       |  |              |  |  |     +-----| (100)
+                       |  |              |  |  |           +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i1
+                       |  |              |  +--| (57)
+                       |  |              |     +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN82896_c0_g1_i1
+                       |  |           +--| (92)
+                       |  |           |  +------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1030_c0_g1_i1
+                       |  |     +-----| (97)
+                       |  |     |     |                    +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN292_c0_g1_i1
+                       |  |     |     |                 +--| (95)
+                       |  |     |     |                 |  |        +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1131_c0_g1_i2
+                       |  |     |     |                 |  |     +--| (100)
+                       |  |     |     |                 |  |     |  |     +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3117_c0_g1_i5
+                       |  |     |     |                 |  |     |  |  +--| (100)
+                       |  |     |     |                 |  |     |  |  |  +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN3723_c0_g1_i2
+                       |  |     |     |                 |  |     |  +--| (100)
+                       |  |     |     |                 |  |     |     +--Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN674_c0_g6_i1
+                       |  |     |     |                 |  |  +--| (86)
+                       |  |     |     |                 |  |  |  |           +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN43385_c0_g1_i1
+                       |  |     |     |                 |  |  |  |        +--| (99)
+                       |  |     |     |                 |  |  |  |        |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i3
+                       |  |     |     |                 |  |  |  |        |  +**| (95)
+                       |  |     |     |                 |  |  |  |        |     +**Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g1_i1
+                       |  |     |     |                 |  |  |  |     +--| (7)
+                       |  |     |     |                 |  |  |  |     |  +-----------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN29999_c0_g1_i1
+                       |  |     |     |                 |  |  |  |  +--| (17)
+                       |  |     |     |                 |  |  |  |  |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g4_i1
+                       |  |     |     |                 |  |  |  +--| (87)
+                       |  |     |     |                 |  |  |     |     +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7870_c0_g1_i1
+                       |  |     |     |                 |  |  |     |  +--| (100)
+                       |  |     |     |                 |  |  |     |  |  +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g2_i3
+                       |  |     |     |                 |  |  |     +--| (100)
+                       |  |     |     |                 |  |  |        +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN104_c0_g1_i1
+                       |  |     |     |                 |  +--| (87)
+                       |  |     |     |                 |     +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN110_c0_g3_i1
+                       |  |     |     |              +--| (95)
+                       |  |     |     |              |  +----Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN4935_c0_g2_i5
+                       |  |     |     |           +--| (64)
+                       |  |     |     |           |  |   +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN354_c0_g2_i1
+                       |  |     |     |           |  +---| (100)
+                       |  |     |     |           |      |     +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN676_c0_g1_i6
+                       |  |     |     |           |      |  +--| (100)
+                       |  |     |     |           |      |  |  +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN232_c0_g1_i3
+                       |  |     |     |           |      +--| (100)
+                       |  |     |     |           |         +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN10333_c0_g1_i1
+                       |  |     |     |        +--| (70)
+                       |  |     |     |        |  |              +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN393_c1_g2_i6
+                       |  |     |     |        |  |           +--| (100)
+                       |  |     |     |        |  |           |  |  +--Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN4528_c0_g1_i1
+                       |  |     |     |        |  |           |  +--| (100)
+                       |  |     |     |        |  |           |     +--Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2225_c0_g1_i2
+                       |  |     |     |        |  |        +--| (99)
+                       |  |     |     |        |  |        |  |     +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN637_c0_g1_i1
+                       |  |     |     |        |  |        |  |  +--| (94)
+                       |  |     |     |        |  |        |  |  |  |        +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN589_c0_g1_i1
+                       |  |     |     |        |  |        |  |  |  |     +**| (61)
+                       |  |     |     |        |  |        |  |  |  |     |  +**Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1257_c0_g1_i2
+                       |  |     |     |        |  |        |  |  |  |  +**| (96)
+                       |  |     |     |        |  |        |  |  |  |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN92_c0_g2_i1
+                       |  |     |     |        |  |        |  |  |  +--| (100)
+                       |  |     |     |        |  |        |  |  |     +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN2354_c0_g1_i1
+                       |  |     |     |        |  |        |  +--| (93)
+                       |  |     |     |        |  |        |     +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN59819_c0_g1_i1
+                       |  |     |     |        |  |     +--| (100)
+                       |  |     |     |        |  |     |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3212_c0_g1_i1
+                       |  |     |     |        |  |  +--| (99)
+                       |  |     |     |        |  |  |  +----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1055_c0_g1_i1
+                       |  |     |     |        |  +--| (58)
+                       |  |     |     |        |     +---------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN118342_c0_g1_i1
+                       |  |     |     |     +--| (62)
+                       |  |     |     |     |  |  +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8673_c0_g1_i1
+                       |  |     |     |     |  +--| (100)
+                       |  |     |     |     |     |        +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g2_i3
+                       |  |     |     |     |     |     +--| (100)
+                       |  |     |     |     |     |     |  |  +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2324_c0_g2_i2
+                       |  |     |     |     |     |     |  +--| (100)
+                       |  |     |     |     |     |     |     +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN979_c0_g2_i5
+                       |  |     |     |     |     |  +--| (90)
+                       |  |     |     |     |     |  |  |     +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2070_c0_g1_i1
+                       |  |     |     |     |     |  |  |  +--| (100)
+                       |  |     |     |     |     |  |  |  |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i1
+                       |  |     |     |     |     |  |  +--| (98)
+                       |  |     |     |     |     |  |     |     +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1890_c0_g1_i1
+                       |  |     |     |     |     |  |     |  +**| (74)
+                       |  |     |     |     |     |  |     |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN7050_c0_g1_i2
+                       |  |     |     |     |     |  |     +--| (55)
+                       |  |     |     |     |     |  |        +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN228_c0_g1_i1
+                       |  |     |     |     |     +--| (100)
+                       |  |     |     |     |        |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3418_c0_g1_i1
+                       |  |     |     |     |        +--| (100)
+                       |  |     |     |     |           +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN286_c0_g1_i2
+                       |  |     |     |  +--| (61)
+                       |  |     |     |  |  |  +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1548_c0_g1_i1
+                       |  |     |     |  |  +--| (88)
+                       |  |     |     |  |     +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c0_g1_i1
+                       |  |     |     +--| (91)
+                       |  |     |        |         +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN47759_c0_g1_i1
+                       |  |     |        |      +--| (100)
+                       |  |     |        |      |  +**Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN4756_c0_g2_i4
+                       |  |     |        |   +--| (54)
+                       |  |     |        |   |  |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN32211_c0_g1_i1
+                       |  |     |        |   |  +--| (100)
+                       |  |     |        |   |     +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2303_c0_g1_i1
+                       |  |     |        +---| (100)
+                       |  |     |            +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN8593_c2_g1_i3
+                       |  |  +--| (64)
+                       |  |  |  |                      +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN4280_c0_g1_i1
+                       |  |  |  |                   +--| (100)
+                       |  |  |  |                   |  |  +--Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN19192_c0_g3_i1
+                       |  |  |  |                   |  +--| (100)
+                       |  |  |  |                   |     |     +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN702_c2_g1_i3
+                       |  |  |  |                   |     |  +--| (100)
+                       |  |  |  |                   |     |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN402_c0_g1_i3
+                       |  |  |  |                   |     +--| (100)
+                       |  |  |  |                   |        +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i11
+                       |  |  |  |                +--| (25)
+                       |  |  |  |                |  |                       +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1514_c0_g1_i2
+                       |  |  |  |                |  |                    +--| (100)
+                       |  |  |  |                |  |                    |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2023_c1_g1_i1
+                       |  |  |  |                |  |                 +--| (100)
+                       |  |  |  |                |  |                 |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN16755_c0_g1_i1
+                       |  |  |  |                |  |              +--| (42)
+                       |  |  |  |                |  |              |  |  +--Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN51478_c0_g1_i1
+                       |  |  |  |                |  |              |  +--| (100)
+                       |  |  |  |                |  |              |     |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2159_c0_g1_i2
+                       |  |  |  |                |  |              |     +--| (100)
+                       |  |  |  |                |  |              |        +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN68366_c0_g1_i1
+                       |  |  |  |                |  |           +--| (41)
+                       |  |  |  |                |  |           |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g2_i1
+                       |  |  |  |                |  |        +--| (99)
+                       |  |  |  |                |  |        |  |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g1_i13
+                       |  |  |  |                |  |        |  +--| (64)
+                       |  |  |  |                |  |        |     +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g1_i4
+                       |  |  |  |                |  |     +--| (99)
+                       |  |  |  |                |  |     |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g3_i1
+                       |  |  |  |                |  |  +--| (33)
+                       |  |  |  |                |  |  |  +----------------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN73648_c0_g1_i1
+                       |  |  |  |                |  +--| (33)
+                       |  |  |  |                |     +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN62606_c0_g1_i1
+                       |  |  |  |           +----| (68)
+                       |  |  |  |           |    |   +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN116899_c0_g1_i1
+                       |  |  |  |           |    +---| (100)
+                       |  |  |  |           |        |     +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3603_c0_g1_i1
+                       |  |  |  |           |        +-----| (100)
+                       |  |  |  |           |              +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8752_c0_g1_i1
+                       |  |  |  |        +--| (69)
+                       |  |  |  |        |  |      +**Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g1_i1
+                       |  |  |  |        |  |   +--| (100)
+                       |  |  |  |        |  |   |  +**Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g2_i1
+                       |  |  |  |        |  +---| (99)
+                       |  |  |  |        |      |              +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN66103_c0_g1_i1
+                       |  |  |  |        |      |           +--| (55)
+                       |  |  |  |        |      |           |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN91754_c0_g1_i1
+                       |  |  |  |        |      |        +--| (36)
+                       |  |  |  |        |      |        |  |     +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2956_c0_g1_i1
+                       |  |  |  |        |      |        |  |  +**| (97)
+                       |  |  |  |        |      |        |  |  |  +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN53334_c0_g1_i1
+                       |  |  |  |        |      |        |  +--| (100)
+                       |  |  |  |        |      |        |     |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1566_c0_g1_i1
+                       |  |  |  |        |      |        |     +--| (100)
+                       |  |  |  |        |      |        |        +**Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2743_c0_g2_i1
+                       |  |  |  |        |      |     +--| (36)
+                       |  |  |  |        |      |     |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4345_c0_g1_i1
+                       |  |  |  |        |      |  +**| (17)
+                       |  |  |  |        |      |  |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN46_c0_g2_i1
+                       |  |  |  |        |      +--| (44)
+                       |  |  |  |        |         |           +--Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN86_c0_g1_i1
+                       |  |  |  |        |         |        +--| (100)
+                       |  |  |  |        |         |        |  +--Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN162_c0_g1_i6
+                       |  |  |  |        |         |     +--| (92)
+                       |  |  |  |        |         |     |  +--Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN288_c0_g1_i2
+                       |  |  |  |        |         |  +--| (89)
+                       |  |  |  |        |         |  |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN24514_c0_g1_i1
+                       |  |  |  |        |         +--| (91)
+                       |  |  |  |        |            |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1
+                       |  |  |  |        |            +--| (100)
+                       |  |  |  |        |               +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN91590_c0_g1_i1
+                       |  |  |  |     +--| (54)
+                       |  |  |  |     |  |        +----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN108225_c0_g1_i1
+                       |  |  |  |     |  +--------| (100)
+                       |  |  |  |     |           +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN33470_c0_g1_i1
+                       |  |  |  |  +--| (56)
+                       |  |  |  |  |  |               +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN9510_c0_g1_i1
+                       |  |  |  |  |  |            +--| (86)
+                       |  |  |  |  |  |            |  |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2900_c0_g1_i1
+                       |  |  |  |  |  |            |  +--| (79)
+                       |  |  |  |  |  |            |     +--Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN70049_c0_g1_i1
+                       |  |  |  |  |  |         +**| (27)
+                       |  |  |  |  |  |         |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN33889_c0_g1_i1
+                       |  |  |  |  |  +---------| (100)
+                       |  |  |  |  |            +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3260_c0_g1_i5
+                       |  |  |  +--| (50)
+                       |  |  |     |                 +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN51_c0_g1_i1
+                       |  |  |     |              +--| (100)
+                       |  |  |     |              |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN40_c0_g1_i2
+                       |  |  |     |           +--| (98)
+                       |  |  |     |           |  |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN103_c0_g1_i2
+                       |  |  |     |           |  +**| (84)
+                       |  |  |     |           |     |     +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2419_c0_g1_i1
+                       |  |  |     |           |     |  +--| (99)
+                       |  |  |     |           |     |  |  |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN42_c0_g2_i1
+                       |  |  |     |           |     |  |  +--| (100)
+                       |  |  |     |           |     |  |     +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN33_c0_g1_i2
+                       |  |  |     |           |     +--| (100)
+                       |  |  |     |           |        +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN899_c0_g1_i11
+                       |  |  |     +-----------| (100)
+                       |  |  |                 |        +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2
+                       |  |  |                 |     +--| (100)
+                       |  |  |                 |     |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i1
+                       |  |  |                 |  +--| (57)
+                       |  |  |                 |  |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN97_c0_g1_i2
+                       |  |  |                 +--| (100)
+                       |  |  |                    +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN282_c0_g1_i2
+                       |  +--| (22)
+                       |     |                                  +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN524_c0_g1_i1
+                       |     |                               +--| (100)
+                       |     |                               |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2094_c0_g1_i11
+                       |     |                            +--| (100)
+                       |     |                            |  +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN562_c0_g2_i6
+                       |     |                   +--------| (100)
+                       |     |                   |        +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3165_c0_g1_i1
+                       |     |                +--| (37)
+                       |     |                |  |  +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2381_c0_g2_i1
+                       |     |                |  +--| (100)
+                       |     |                |     +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1843_c0_g1_i1
+                       |     |             +--| (100)
+                       |     |             |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1006_c0_g1_i4
+                       |     |          +--| (95)
+                       |     |          |  +---Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN56729_c0_g1_i1
+                       |     |  +-------| (92)
+                       |     |  |       +----Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN199_c0_g1_i8
+                       |     +--| (22)
+                       |        |                          +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN247_c0_g3_i1
+                       |        |                       +**| (91)
+                       |        |                       |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN610_c0_g1_i11
+                       |        |                    +--| (100)
+                       |        |                    |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN10025_c0_g1_i1
+                       |        |                 +--| (65)
+                       |        |                 |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2659_c0_g1_i1
+                       |        |              +--| (43)
+                       |        |              |  |  +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2484_c2_g1_i3
+                       |        |              |  +**| (83)
+                       |        |              |     +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1867_c1_g1_i5
+                       |        +--------------| (100)
+                       |                       +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN553_c0_g1_i5
+                    +--| (14)
+                    |  |                 +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN23352_c0_g1_i2
+                    |  |              +--| (95)
+                    |  |              |  +--Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN5487_c0_g1_i3
+                    |  |     +--------| (100)
+                    |  |     |        +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2781_c0_g1_i3
+                    |  |  +--| (100)
+                    |  |  |  |              +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN5443_c0_g1_i2
+                    |  |  |  |           +--| (100)
+                    |  |  |  |           |  |     +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN10187_c0_g1_i3
+                    |  |  |  |           |  |  +--| (100)
+                    |  |  |  |           |  |  |  +**Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN625_c0_g1_i2
+                    |  |  |  |           |  +--| (100)
+                    |  |  |  |           |     |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2
+                    |  |  |  |           |     +--| (100)
+                    |  |  |  |           |        +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN212_c0_g1_i3
+                    |  |  |  |        +--| (78)
+                    |  |  |  |        |  |        +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g2_i3
+                    |  |  |  |        |  |     +--| (100)
+                    |  |  |  |        |  |     |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN55_c0_g1_i3
+                    |  |  |  |        |  |  +--| (100)
+                    |  |  |  |        |  |  |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN79_c0_g1_i1
+                    |  |  |  |        |  +--| (99)
+                    |  |  |  |        |     +--Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2573_c0_g2_i2
+                    |  |  |  |     +--| (91)
+                    |  |  |  |     |  +----Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g1_i1
+                    |  |  |  |  +--| (91)
+                    |  |  |  |  |  |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5409_c0_g1_i1
+                    |  |  |  |  |  +--| (97)
+                    |  |  |  |  |     +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN56695_c0_g1_i1
+                    |  |  |  +--| (99)
+                    |  |  |     |   +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1
+                    |  |  |     +---| (100)
+                    |  |  |         +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1434_c0_g2_i1
+                    |  +--| (78)
+                    |     |                  +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2398_c0_g1_i1
+                    |     |           +------| (100)
+                    |     |           |      |        +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1711_c1_g1_i1
+                    |     |           |      |     +--| (100)
+                    |     |           |      |     |  |  +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2044_c0_g1_i6
+                    |     |           |      |     |  +--| (100)
+                    |     |           |      |     |     +--Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN7859_c0_g1_i1
+                    |     |           |      |  +--| (92)
+                    |     |           |      |  |  |        +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN7720_c0_g1_i1
+                    |     |           |      |  |  |     +--| (79)
+                    |     |           |      |  |  |     |  +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN53421_c0_g1_i1
+                    |     |           |      |  |  |  +--| (99)
+                    |     |           |      |  |  |  |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN62328_c0_g1_i1
+                    |     |           |      |  |  +--| (100)
+                    |     |           |      |  |     +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1721_c0_g1_i1
+                    |     |           |      +--| (91)
+                    |     |           |         +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2183_c0_g1_i1
+                    |     |        +--| (74)
+                    |     |        |  |           +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1
+                    |     |        |  |        +--| (100)
+                    |     |        |  |        |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1
+                    |     |        |  |     +--| (90)
+                    |     |        |  |     |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2
+                    |     |        |  |  +--| (96)
+                    |     |        |  |  |  |                 +----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN94115_c0_g1_i1
+                    |     |        |  |  |  |              +--| (41)
+                    |     |        |  |  |  |              |  +**Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1
+                    |     |        |  |  |  |           +--| (41)
+                    |     |        |  |  |  |           |  |     +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2
+                    |     |        |  |  |  |           |  |  +--| (100)
+                    |     |        |  |  |  |           |  |  |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1
+                    |     |        |  |  |  |           |  +--| (100)
+                    |     |        |  |  |  |           |     |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1
+                    |     |        |  |  |  |           |     +**| (99)
+                    |     |        |  |  |  |           |        +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1
+                    |     |        |  |  |  |        +--| (97)
+                    |     |        |  |  |  |        |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5
+                    |     |        |  |  |  |     +--| (97)
+                    |     |        |  |  |  |     |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN49_c0_g1_i4
+                    |     |        |  |  |  |  +--| (89)
+                    |     |        |  |  |  |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10
+                    |     |        |  |  |  +--| (95)
+                    |     |        |  |  |     +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1
+                    |     |        |  +--| (95)
+                    |     |        |     |   +---------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN26760_c0_g1_i1
+                    |     |        |     +---| (97)
+                    |     |        |         |     +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g1_i1
+                    |     |        |         |  +--| (100)
+                    |     |        |         |  |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g2_i1
+                    |     |        |         +--| (100)
+                    |     |        |            +------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN8463_c0_g1_i1
+                    |     |     +--| (22)
+                    |     |     |  |        +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN42167_c0_g1_i1
+                    |     |     |  +--------| (100)
+                    |     |     |           |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN4659_c0_g1_i1
+                    |     |     |           +--| (100)
+                    |     |     |              |     +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN62702_c0_g1_i1
+                    |     |     |              |  +--| (100)
+                    |     |     |              |  |  +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN12512_c0_g1_i4
+                    |     |     |              +--| (100)
+                    |     |     |                 +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN266_c0_g1_i2
+                    |     |  +--| (51)
+                    |     |  |  |                +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN85_c0_g2_i1
+                    |     |  |  |             +--| (99)
+                    |     |  |  |             |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1033_c0_g3_i1
+                    |     |  |  |          +--| (16)
+                    |     |  |  |          |  |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN739_c1_g3_i1
+                    |     |  |  |          |  +--| (93)
+                    |     |  |  |          |     |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1855_c1_g1_i1
+                    |     |  |  |          |     +--| (100)
+                    |     |  |  |          |        |  +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN100_c0_g1_i4
+                    |     |  |  |          |        +--| (100)
+                    |     |  |  |          |           |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1017_c0_g1_i12
+                    |     |  |  |          |           +--| (100)
+                    |     |  |  |          |              +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN160_c0_g1_i2
+                    |     |  |  |  +-------| (100)
+                    |     |  |  |  |       |     +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN33_c0_g3_i1
+                    |     |  |  |  |       |  +--| (98)
+                    |     |  |  |  |       |  |  |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1
+                    |     |  |  |  |       |  |  +--| (100)
+                    |     |  |  |  |       |  |     +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g1_i1
+                    |     |  |  |  |       +**| (93)
+                    |     |  |  |  |          |  +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN14_c1_g1_i3
+                    |     |  |  |  |          +**| (87)
+                    |     |  |  |  |             +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN972_c0_g1_i3
+                    |     |  |  +--| (14)
+                    |     |  |     |                 +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2208_c0_g1_i1
+                    |     |  |     |              +--| (66)
+                    |     |  |     |              |  +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1389_c0_g1_i1
+                    |     |  |     |           +--| (66)
+                    |     |  |     |           |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN455_c0_g1_i1
+                    |     |  |     |      +----| (99)
+                    |     |  |     |      |    |        +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2
+                    |     |  |     |      |    |     +--| (100)
+                    |     |  |     |      |    |     |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN8186_c0_g2_i1
+                    |     |  |     |      |    |  +--| (74)
+                    |     |  |     |      |    |  |  |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4622_c0_g2_i1
+                    |     |  |     |      |    |  |  +--| (81)
+                    |     |  |     |      |    |  |     +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN190_c0_g1_i1
+                    |     |  |     |      |    +--| (74)
+                    |     |  |     |      |       +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2539_c0_g1_i1
+                    |     |  |     |  +---| (99)
+                    |     |  |     |  |   +----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN71906_c0_g1_i1
+                    |     |  |     +--| (95)
+                    |     |  |        +-------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN105018_c0_g1_i1
+                    |     +--| (25)
+                    |        |              +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN10221_c0_g4_i4
+                    |        |           +--| (100)
+                    |        |           |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1648_c0_g2_i1
+                    |        |        +--| (100)
+                    |        |        |  |        +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3639_c1_g1_i10
+                    |        |        |  |     +**| (99)
+                    |        |        |  |     |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3604_c0_g2_i3
+                    |        |        |  |  +**| (94)
+                    |        |        |  |  |  |     +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1977_c0_g1_i3
+                    |        |        |  |  |  |  +**| (99)
+                    |        |        |  |  |  |  |  +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN1308_c0_g1_i2
+                    |        |        |  |  |  +--| (100)
+                    |        |        |  |  |     +--Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1200_c0_g1_i2
+                    |        |        |  +--| (96)
+                    |        |        |     +--Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN5802_c1_g3_i4
+                    |        |    +---| (100)
+                    |        |    |   +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2814_c0_g1_i1
+                    |        +----| (100)
+                    |             |           +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1960_c0_g1_i3
+                    |             |        +--| (100)
+                    |             |        |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1650_c0_g1_i2
+                    |             |  +-----| (100)
+                    |             |  |     |  +--Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN31951_c0_g1_i1
+                    |             |  |     +--| (100)
+                    |             |  |        |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1390_c0_g1_i4
+                    |             |  |        +--| (100)
+                    |             |  |           +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN33850_c0_g1_i1
+                    |             +--| (100)
+                    |                +----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN90643_c0_g1_i1
+                 +--| (14)
+                 |  |                       +----Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2114_c0_g1_i1
+                 |  |                    +--| (100)
+                 |  |                    |  +--Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN16252_c0_g1_i2
+                 |  |                 +--| (100)
+                 |  |                 |  |           +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN762_c4_g1_i1
+                 |  |                 |  |        +--| (100)
+                 |  |                 |  |        |  +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5434_c0_g1_i5
+                 |  |                 |  |     +--| (100)
+                 |  |                 |  |     |  |  +--Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g3_i1
+                 |  |                 |  |     |  +--| (100)
+                 |  |                 |  |     |     +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i4
+                 |  |                 |  |  +--| (100)
+                 |  |                 |  |  |  |  +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3492_c0_g1_i6
+                 |  |                 |  |  |  +--| (100)
+                 |  |                 |  |  |     |  +--Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN5_c1_g1_i2
+                 |  |                 |  |  |     +--| (100)
+                 |  |                 |  |  |        +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN28_c0_g1_i4
+                 |  |                 |  +--| (83)
+                 |  |                 |     |     +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g1_i11
+                 |  |                 |     |  +--| (100)
+                 |  |                 |     |  |  +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN673_c0_g1_i5
+                 |  |                 |     +--| (100)
+                 |  |                 |        +--Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN219_c1_g1_i1
+                 |  |              +--| (99)
+                 |  |              |  |  +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74842_c0_g1_i1
+                 |  |              |  +--| (99)
+                 |  |              |     |           +--Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN52099_c0_g1_i1
+                 |  |              |     |        +--| (100)
+                 |  |              |     |        |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g2_i1
+                 |  |              |     |     +--| (89)
+                 |  |              |     |     |  |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN64_c0_g1_i1
+                 |  |              |     |     |  +--| (100)
+                 |  |              |     |     |     +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN79_c0_g3_i1
+                 |  |              |     |  +--| (89)
+                 |  |              |     |  |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g3_i1
+                 |  |              |     +--| (100)
+                 |  |              |        |     +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2
+                 |  |              |        |  +--| (100)
+                 |  |              |        |  |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g2_i2
+                 |  |              |        +--| (99)
+                 |  |              |           +--Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1972_c2_g1_i1
+                 |  |           +--| (51)
+                 |  |           |  |     +---Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN65230_c0_g1_i1
+                 |  |           |  |  +--| (99)
+                 |  |           |  |  |  |        +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3493_c0_g1_i2
+                 |  |           |  |  |  |     +--| (100)
+                 |  |           |  |  |  |     |  |     +--Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1728_c0_g1_i8
+                 |  |           |  |  |  |     |  |  +--| (100)
+                 |  |           |  |  |  |     |  |  |  +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN11350_c0_g1_i1
+                 |  |           |  |  |  |     |  +--| (100)
+                 |  |           |  |  |  |     |     |  +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN492_c0_g1_i3
+                 |  |           |  |  |  |     |     +--| (100)
+                 |  |           |  |  |  |     |        +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1204_c0_g2_i2
+                 |  |           |  |  |  |  +--| (88)
+                 |  |           |  |  |  |  |  |  +**Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g3_i1
+                 |  |           |  |  |  |  |  +--| (100)
+                 |  |           |  |  |  |  |     +**Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g5_i1
+                 |  |           |  |  |  +--| (88)
+                 |  |           |  |  |     +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i4
+                 |  |           |  +--| (94)
+                 |  |           |     +----Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN203_c0_g2_i1
+                 |  |        +--| (65)
+                 |  |        |  |               +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8386_c0_g1_i1
+                 |  |        |  |            +--| (97)
+                 |  |        |  |            |  |                 +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g1_i1
+                 |  |        |  |            |  |              +--| (99)
+                 |  |        |  |            |  |              |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i10
+                 |  |        |  |            |  |           +--| (100)
+                 |  |        |  |            |  |           |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN312_c0_g1_i4
+                 |  |        |  |            |  |        +--| (98)
+                 |  |        |  |            |  |        |  |           +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g2_i1
+                 |  |        |  |            |  |        |  |        +--| (94)
+                 |  |        |  |            |  |        |  |        |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g3_i1
+                 |  |        |  |            |  |        |  |     +--| (94)
+                 |  |        |  |            |  |        |  |     |  |  +**Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g1_i2
+                 |  |        |  |            |  |        |  |     |  +**| (93)
+                 |  |        |  |            |  |        |  |     |     +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1033_c0_g1_i1
+                 |  |        |  |            |  |        |  |  +**| (92)
+                 |  |        |  |            |  |        |  |  |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1070_c0_g2_i1
+                 |  |        |  |            |  |        |  +--| (100)
+                 |  |        |  |            |  |        |     +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN5909_c0_g1_i5
+                 |  |        |  |            |  |     +**| (54)
+                 |  |        |  |            |  |     |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN727_c0_g4_i1
+                 |  |        |  |            |  |  +--| (53)
+                 |  |        |  |            |  |  |  |        +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN130_c0_g2_i7
+                 |  |        |  |            |  |  |  |     +--| (100)
+                 |  |        |  |            |  |  |  |     |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g1_i1
+                 |  |        |  |            |  |  |  |  +--| (100)
+                 |  |        |  |            |  |  |  |  |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g1_i6
+                 |  |        |  |            |  |  |  +--| (100)
+                 |  |        |  |            |  |  |     +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g2_i2
+                 |  |        |  |            |  +--| (56)
+                 |  |        |  |            |     |           +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3141_c0_g1_i2
+                 |  |        |  |            |     |        +**| (100)
+                 |  |        |  |            |     |        |  +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2459_c0_g2_i1
+                 |  |        |  |            |     |     +--| (100)
+                 |  |        |  |            |     |     |  +--Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN881_c0_g2_i1
+                 |  |        |  |            |     |  +--| (100)
+                 |  |        |  |            |     |  |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN1341_c0_g1_i3
+                 |  |        |  |            |     +--| (100)
+                 |  |        |  |            |        +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g3_i2
+                 |  |        |  |        +---| (100)
+                 |  |        |  |        |   +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN54298_c0_g1_i1
+                 |  |        |  |     +--| (58)
+                 |  |        |  |     |  +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN467_c0_g1_i1
+                 |  |        |  |  +--| (88)
+                 |  |        |  |  |  |        +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN23233_c0_g1_i5
+                 |  |        |  |  |  |     +--| (100)
+                 |  |        |  |  |  |     |  |        +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN213_c0_g1_i1
+                 |  |        |  |  |  |     |  |     +**| (100)
+                 |  |        |  |  |  |     |  |     |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1984_c1_g1_i2
+                 |  |        |  |  |  |     |  |  +--| (100)
+                 |  |        |  |  |  |     |  |  |  +**Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN503_c3_g1_i3
+                 |  |        |  |  |  |     |  +--| (100)
+                 |  |        |  |  |  |     |     |  +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN136_c1_g2_i10
+                 |  |        |  |  |  |     |     +--| (100)
+                 |  |        |  |  |  |     |        +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN333_c0_g1_i1
+                 |  |        |  |  |  |  +--| (85)
+                 |  |        |  |  |  |  |  |           +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5506_c0_g1_i5
+                 |  |        |  |  |  |  |  |        +--| (95)
+                 |  |        |  |  |  |  |  |        |  |     +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN108_c0_g1_i1
+                 |  |        |  |  |  |  |  |        |  |  +**| (100)
+                 |  |        |  |  |  |  |  |        |  |  |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i2
+                 |  |        |  |  |  |  |  |        |  +**| (80)
+                 |  |        |  |  |  |  |  |        |     |  +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN16733_c1_g1_i5
+                 |  |        |  |  |  |  |  |        |     +**| (80)
+                 |  |        |  |  |  |  |  |        |        +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN49_c1_g1_i1
+                 |  |        |  |  |  |  |  |     +--| (99)
+                 |  |        |  |  |  |  |  |     |  +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g1_i1
+                 |  |        |  |  |  |  |  |  +--| (63)
+                 |  |        |  |  |  |  |  |  |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN7803_c0_g2_i1
+                 |  |        |  |  |  |  |  +--| (65)
+                 |  |        |  |  |  |  |     |  +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN849_c0_g1_i2
+                 |  |        |  |  |  |  |     +--| (81)
+                 |  |        |  |  |  |  |        +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g2_i1
+                 |  |        |  |  |  +--| (79)
+                 |  |        |  |  |     +------Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN152_c0_g1_i3
+                 |  |        |  +--| (7)
+                 |  |        |     |           +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c0_g1_i1
+                 |  |        |     |        +--| (100)
+                 |  |        |     |        |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g1_i1
+                 |  |        |     |     +--| (100)
+                 |  |        |     |     |  +--Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c1_g1_i1
+                 |  |        |     |  +--| (100)
+                 |  |        |     |  |  |  +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN129_c1_g2_i3
+                 |  |        |     |  |  +--| (100)
+                 |  |        |     |  |     +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN210_c0_g3_i1
+                 |  |        |     +--| (76)
+                 |  |        |        |     +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g1_i1
+                 |  |        |        +-----| (99)
+                 |  |        |              +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g2_i2
+                 |  |  +-----| (98)
+                 |  |  |     +---Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN16312_c0_g1_i1
+                 |  +--| (21)
+                 |     +--------------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN6721_c0_g1_i1
+      +----------| (29)
+      |          |                   +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN37697_c0_g1_i1
+      |          |                +--| (71)
+      |          |                |  |  +**Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2047_c0_g1_i4
+      |          |                |  +--| (99)
+      |          |                |     +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN6752_c0_g1_i2
+      |          |             +--| (69)
+      |          |             |  +--Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2658_c0_g2_i1
+      |          |  +----------| (98)
+      |          |  |          |     +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN5829_c0_g1_i1
+      |          |  |          |  +**| (88)
+      |          |  |          |  |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4283_c2_g2_i1
+      |          |  |          +**| (40)
+      |          |  |             |     +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2315_c0_g1_i2
+      |          |  |             |  +--| (100)
+      |          |  |             |  |  +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1613_c0_g1_i1
+      |          |  |             +--| (99)
+      |          |  |                |     +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN140_c0_g1_i7
+      |          |  |                |  +**| (98)
+      |          |  |                |  |  +**Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1025_c0_g1_i1
+      |          |  |                +**| (96)
+      |          |  |                   +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN696_c0_g3_i2
+      |          +--| (57)
+      |             |       +----Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN480_c1_g1_i2
+      |             |  +----| (100)
+      |             |  |    +---Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1067_c0_g1_i2
+      |             +--| (72)
+      |                +----------Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN575_c0_g1_i1
++-----| (21)
+|     |     +--Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN830_c0_g1_i1
+|     +-----| (99)
+|           |        +**Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1
+|           |     +--| (98)
+|           |     |  +**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN19035_c0_g1_i1
+|           |  +**| (53)
+|           |  |  |  +--Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2182_c0_g1_i1
+|           |  |  +--| (99)
+|           |  |     |  +**Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN48166_c0_g1_i1
+|           |  |     +**| (77)
+|           |  |        +**Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4997_c0_g1_i2
+|           +**| (50)
+|              +**Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN52542_c0_g1_i1
+|
++**Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN100466_c0_g1_i1
+|
++**__root__
+
+Tree in newick format:
+
+((((((((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g1_i1:0.0873157085,Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g2_i1:0.1127699880)73:0.2411429008,((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN632_c0_g1_i4:0.1876173376,((((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c0_g1_i11:0.0000024548,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4622_c0_g1_i3:0.0248707421)100:0.0623678730,(Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i2:0.0836273937,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN258_c0_g2_i1:0.1236588394)100:0.0859302806)99:0.0254769114,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN239_c1_g4_i2:0.0488374665)99:0.0062322107,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN451_c1_g2_i2:0.0343798822)99:0.0678153477,(Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN65_c3_g1_i1:0.0000025139,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN514_c0_g1_i2:0.0244327636)99:0.0375732919)98:0.0394166928,((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c1_g1_i10:0.0430627063,(((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i5:0.0000029404,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1_c0_g1_i2:0.0000029397)100:0.0041396267,Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g3_i2:0.0000029926)100:0.0128051414,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g2_i5:0.0284944672,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN706_c0_g2_i1:0.0040273902)100:0.0772254441)100:0.0949910951)99:0.0487751430,(((((Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN19586_c0_g1_i2:0.0105457410,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7065_c0_g1_i1:0.0587633710)69:0.0040195223,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN11007_c0_g1_i4:0.0324140929)69:0.0067402204,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN22203_c0_g2_i1:0.0078227390)99:0.0551230844,(Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN233_c0_g2_i4:0.0113889683,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN93_c1_g1_i2:0.0333065103)100:0.0697367440)100:0.0541441702,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN9317_c0_g1_i1:0.0178175739,(((Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN15499_c0_g1_i2:0.0292386690,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN6176_c1_g1_i2:0.0423684709)91:0.0000010000,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN8416_c0_g1_i1:0.0165649610)92:0.0000027487,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN147_c0_g1_i12:0.0040855470)91:0.0117766066)100:0.0911068535)100:0.0606303992)100:0.1195290258)50:0.0278751014)100:0.0611193579,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN39_c0_g1_i4:0.2898242188)95:0.0311400547,(((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN822_c0_g2_i1:0.0000021326,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c1_g1_i1:0.0124072177)100:0.0082176478,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i10:0.0116516600)47:0.0000028867,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i11:0.0123775212)100:0.1229114296,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c0_g1_i6:0.0120504466,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i11:0.0058144756,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN566_c0_g1_i11:0.0028516100)100:0.0084386667)99:0.1476204199)58:0.0493150852,((Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN344_c0_g1_i2:0.0000010000,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN657_c0_g1_i2:0.0000010000)100:0.1003462528,(Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g1_i1:0.0000010000,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g3_i2:0.0041360340)100:0.0604874171)100:0.1258634835)99:0.0534271925)94:0.0564011900,((((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN21582_c0_g1_i3:0.0157143980,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1:0.0000010000,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN7683_c0_g1_i2:0.0000010000)100:0.0079957657)94:0.0313696725,(Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i1:0.0393532994,Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7902_c0_g1_i1:0.1621044521)100:0.1101876830)99:0.0517363362,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3043_c0_g1_i2:0.1535114646)99:0.0584605382,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4696_c0_g1_i1:0.0730206596)96:0.0271698698,(Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g1_i1:0.0000010000,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g2_i1:0.0000010000)100:0.0938379248)100:0.0910787745,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN794_c0_g1_i2:0.2205928103)94:0.1011592485)89:0.0529554772)49:0.3149318269,((((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74005_c0_g1_i1:0.0891723571,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i1:0.0218881954)96:0.0038661475,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN409_c0_g1_i1:0.0416390981)82:0.0107302317,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2019_c0_g1_i1:0.0491299835)81:0.0049377047,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1044_c0_g1_i1:0.0440769299)91:0.0066523635,((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN4_c0_g1_i1:0.0000026698,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN583_c0_g1_i1:0.0000024813)100:0.0078450750,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7:0.0000020090,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8641_c0_g1_i1:0.0000021360)100:0.0040118796)99:0.0126071994)92:0.0666214783,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2218_c0_g1_i1:0.0523127700)100:0.6963736623)22:0.1055682619,((((((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1578_c0_g1_i1:0.0229542504,((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1:0.0000023968,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN38776_c0_g1_i1:0.0000023449)100:0.0081265061,((Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN54771_c0_g1_i1:0.0000023165,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37429_c0_g1_i1:0.0000022452)100:0.0053921130,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN85921_c0_g1_i1:0.0000026886)100:0.0136651412)100:0.0154160844)100:0.0109368417,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN47848_c0_g1_i1:0.0377809684)100:0.0235559317,((Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3177_c0_g1_i1:0.0058350943,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN6024_c0_g1_i10:0.2131138574)100:0.0021608057,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN791_c0_g1_i1:0.0054933501)100:0.0631240830)32:0.0059007008,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1093_c0_g1_i2:0.0569687191)32:0.0075182113,(Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN17470_c0_g1_i1:0.0079109573,(((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1973_c1_g1_i1:0.0000010000,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN63_c0_g1_i1:0.0000010000)99:0.0000010000,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1132_c0_g1_i1:0.0081653780)98:0.0027140396,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN55272_c0_g1_i1:0.0000022277)98:0.0140398914)100:0.0939627754)97:0.0210539628,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5358_c0_g1_i1:0.1587354718)100:0.0322628956,(Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN48961_c0_g1_i1:0.0459220212,(Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN39488_c0_g1_i1:0.0404983401,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN45742_c0_g1_i1:0.0000010000,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1026_c0_g1_i1:0.0027016425)100:0.0026837732,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1552_c0_g1_i1:0.0000022424,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN284_c0_g1_i1:0.0027067539)100:0.0027300606)100:0.0407460791)100:0.0202995428)96:0.0634519775)98:0.3311685832,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN14167_c0_g1_i1:0.3171133800)99:0.3312958677)20:0.0966864858,(((((((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i2:0.2075206612,Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN1381_c0_g1_i3:0.2042967320)100:0.1556760438,((Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN483_c0_g1_i1:0.3008528240,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN9745_c0_g1_i1:0.1227316535)50:0.0696495064,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i2:0.2076741863,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1:0.1785831547)99:0.1151409205)42:0.0151253040)38:0.0140114826,((((((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3446_c0_g1_i2:0.0369134498,(Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN69_c0_g1_i1:0.0103296130,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN73_c0_g1_i1:0.0201098295,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN687_c0_g1_i2:0.0273185841)100:0.0179558862)100:0.0314568333)100:0.0484998586,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN978_c0_g1_i1:0.0038428905,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1135_c1_g2_i1:0.0109877589)100:0.1889580450)92:0.0162090500,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN541_c0_g1_i8:0.1076822478)98:0.0519506455,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN135_c0_g2_i3:0.0858415575)98:0.0707883294,((Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN386_c0_g1_i10:0.0851684863,(Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN5951_c0_g1_i7:0.0931816636,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN7652_c0_g1_i1:0.0368863630)97:0.0200532257)100:0.2200625799,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i2:0.0302215103,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN454_c1_g1_i1:0.0102695607,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c0_g2_i4:0.0135051135)100:0.0150996414)100:0.1049390437)73:0.0499521268)41:0.0158962807,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1:0.0328260036,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN4456_c0_g1_i1:0.0330254598)100:0.0274613424,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i1:0.0196108938)99:0.1334986251)30:0.0076399741,((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN294_c0_g2_i3:0.1757505872,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN14050_c0_g1_i8:0.0180768373,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN8708_c0_g2_i1:0.0149094512,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g2_i1:0.0000022782)56:0.0131477932)100:0.2465654974,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g1_i1:0.1661869266)86:0.0593655237)66:0.0391333642,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3909_c0_g4_i2:0.1406643868,(Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1713_c0_g1_i11:0.0322198175,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN67_c0_g1_i1:0.0000021164)100:0.1239242176)99:0.0476941868)55:0.0185712882)95:0.0935832114,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c1_g1_i1:0.2568810086)72:0.0401882161)35:0.0261460157,((Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g1_i1:0.1874495327,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g2_i1:0.2923025997)42:0.0762195546,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c1_g1_i1:0.1900603840)41:0.0355879497)49:0.0568635991,(((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3325_c0_g2_i9:0.0000021193,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN295_c0_g3_i4:0.0000010000)100:0.0143922934,(Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2:0.0000022700,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN90_c0_g1_i3:0.0000021996)100:0.0135385551)100:0.0178555347,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2318_c0_g1_i1:0.0667193857)100:0.0215312185,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g1_i1:0.0163016271,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g4_i2:0.0042700652,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g1_i4:0.0000022835)100:0.0344031968,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i1:0.0004154274)100:0.3078389153)55:0.0242733706)56:0.0879989430,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN82896_c0_g1_i1:0.0930542444)57:0.0670826444)92:0.1361450841,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1030_c0_g1_i1:0.3561308741)92:0.1009987991,(((((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN292_c0_g1_i1:0.1261297622,(((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1131_c0_g1_i2:0.1162701879,((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3117_c0_g1_i5:0.0000010000,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN3723_c0_g1_i2:0.0000010000)100:0.0230331791,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN674_c0_g6_i1:0.0483237581)100:0.0502814983)100:0.0508702359,((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN43385_c0_g1_i1:0.0085945073,(Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i3:0.0189643720,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g1_i1:0.0000010000)95:0.0000010000)99:0.0874064562,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN29999_c0_g1_i1:0.5748888540)7:0.0116655368,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g4_i1:0.1260690903)17:0.0192400221,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7870_c0_g1_i1:0.0292737030,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g2_i3:0.0000010000)100:0.0176694642,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN104_c0_g1_i1:0.0029221364)100:0.1581263091)87:0.1182571495)86:0.0310053428,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN110_c0_g3_i1:0.0710353917)87:0.0620945513)95:0.0795176764,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN4935_c0_g2_i5:0.2410167420)95:0.0589478969,(Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN354_c0_g2_i1:0.1609587638,((Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN676_c0_g1_i6:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN232_c0_g1_i3:0.0000010000)100:0.0467787348,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN10333_c0_g1_i1:0.0608043410)100:0.0324210547)100:0.2052278837)64:0.0329917277,(((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN393_c1_g2_i6:0.0502544683,(Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN4528_c0_g1_i1:0.0348899222,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2225_c0_g1_i2:0.0491330297)100:0.0370873049)100:0.0571022620,((Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN637_c0_g1_i1:0.0231642927,(((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN589_c0_g1_i1:0.0037228378,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1257_c0_g1_i2:0.0000010000)61:0.0000023766,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN92_c0_g2_i1:0.0074618522)96:0.0000028170,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN2354_c0_g1_i1:0.0037078092)100:0.0496840474)94:0.0084289920,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN59819_c0_g1_i1:0.0415633815)93:0.0090383247)99:0.0924069988,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3212_c0_g1_i1:0.1814339648)100:0.0796317541,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1055_c0_g1_i1:0.2723277817)99:0.0536752095,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN118342_c0_g1_i1:0.4761174429)58:0.0460869582)70:0.0855797900,(Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8673_c0_g1_i1:0.1618969985,(((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g2_i3:0.0200346194,(Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2324_c0_g2_i2:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN979_c0_g2_i5:0.0000010000)100:0.0099485593)100:0.0457835388,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2070_c0_g1_i1:0.0036789256,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i1:0.0036809909)100:0.0037064328,((Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1890_c0_g1_i1:0.0073937079,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN7050_c0_g1_i2:0.0300275964)74:0.0000019746,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN228_c0_g1_i1:0.0000010000)55:0.0036857856)98:0.0183955940)90:0.0185541670,(Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3418_c0_g1_i1:0.0551640246,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN286_c0_g1_i2:0.0709935689)100:0.0043600051)100:0.0860275684)100:0.0523222587)62:0.0278158370,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1548_c0_g1_i1:0.2237335992,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c0_g1_i1:0.1363013893)88:0.0346496330)61:0.0022540304,(((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN47759_c0_g1_i1:0.0000010000,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN4756_c0_g2_i4:0.0000010000)100:0.1585266948,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN32211_c0_g1_i1:0.0040204087,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2303_c0_g1_i1:0.0000010000)100:0.0947323268)54:0.0199587158,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN8593_c2_g1_i3:0.1054829995)100:0.2142519969)91:0.1427090131)97:0.3163321762,(((((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN4280_c0_g1_i1:0.1030054792,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN19192_c0_g3_i1:0.0368397879,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN702_c2_g1_i3:0.0086194614,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN402_c0_g1_i3:0.0213379951)100:0.0147361653,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i11:0.0295378923)100:0.0510789037)100:0.0749418851)100:0.1147898547,((((((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1514_c0_g1_i2:0.0042961676,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2023_c1_g1_i1:0.0040495267)100:0.0031575773,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN16755_c0_g1_i1:0.0568306192)100:0.0561063814,(Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN51478_c0_g1_i1:0.0122783728,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2159_c0_g1_i2:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN68366_c0_g1_i1:0.0000010000)100:0.0345248141)100:0.0424486580)42:0.0075160214,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g2_i1:0.1002995243)41:0.0085879451,(Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g1_i13:0.0607986570,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g1_i4:0.0873984901)64:0.0145611793)99:0.0184742528,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g3_i1:0.0519635138)99:0.0544418093,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN73648_c0_g1_i1:0.8441170344)33:0.0522859655,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN62606_c0_g1_i1:0.1617525168)33:0.1066322665)25:0.0766301688,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN116899_c0_g1_i1:0.0653189869,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3603_c0_g1_i1:0.0000022550,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8752_c0_g1_i1:0.0000027238)100:0.2838003178)100:0.1937286777)68:0.2441485874,((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g1_i1:0.0000010000,Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g2_i1:0.0000010000)100:0.0898786892,(((((Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN66103_c0_g1_i1:0.2140095258,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN91754_c0_g1_i1:0.1528955668)55:0.0455173299,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2956_c0_g1_i1:0.0044143020,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN53334_c0_g1_i1:0.0000010000)97:0.0000023065,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1566_c0_g1_i1:0.0000010000,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2743_c0_g2_i1:0.0000010000)100:0.0088710914)100:0.0551166447)36:0.0115004404,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4345_c0_g1_i1:0.1362765845)36:0.0136563127,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN46_c0_g2_i1:0.0705023473)17:0.0000024477,((((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN86_c0_g1_i1:0.0091393034,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN162_c0_g1_i6:0.0167105879)100:0.0122336333,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN288_c0_g1_i2:0.0314933083)92:0.0072611189,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN24514_c0_g1_i1:0.1374976231)89:0.0171855953,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1:0.0000010000,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN91590_c0_g1_i1:0.0000010000)100:0.0335616571)91:0.0597612017)44:0.0906660856)99:0.1914423284)69:0.0905251105,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN108225_c0_g1_i1:0.2454444161,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN33470_c0_g1_i1:0.2228762528)100:0.4716544391)54:0.0738475429,(((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN9510_c0_g1_i1:0.0062447893,(Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2900_c0_g1_i1:0.0000022981,Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN70049_c0_g1_i1:0.0061773521)79:0.0061336877)86:0.0036471304,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN33889_c0_g1_i1:0.0185095130)27:0.0000020652,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3260_c0_g1_i5:0.0607163263)100:0.4802811149)56:0.0780312090,(((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN51_c0_g1_i1:0.0000026126,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN40_c0_g1_i2:0.0000025525)100:0.0194646948,(Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN103_c0_g1_i2:0.0190979009,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2419_c0_g1_i1:0.0000020301,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN42_c0_g2_i1:0.0000024446,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN33_c0_g1_i2:0.0000010000)100:0.0051383787)99:0.0049403746,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN899_c0_g1_i11:0.0027842455)100:0.0702822312)84:0.0005193764)98:0.1862771778,(((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i1:0.0000010000)100:0.0402196223,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN97_c0_g1_i2:0.0240801458)57:0.0041957535,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN282_c0_g1_i2:0.0529210100)100:0.1854408374)100:0.5727632799)50:0.1071376411)64:0.0687601299,((((((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN524_c0_g1_i1:0.0000010000,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2094_c0_g1_i11:0.0000020913)100:0.0338416646,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN562_c0_g2_i6:0.0000025348)100:0.0039726355,Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3165_c0_g1_i1:0.0000021340)100:0.4269094007,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2381_c0_g2_i1:0.0000419536,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1843_c0_g1_i1:0.0146288101)100:0.1640982089)37:0.0271585307,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1006_c0_g1_i4:0.1490879862)100:0.1165601371,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN56729_c0_g1_i1:0.1893256096)95:0.0719838748,Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN199_c0_g1_i8:0.2818412208)92:0.3825533431,(((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN247_c0_g3_i1:0.0000010000,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN610_c0_g1_i11:0.0047860263)91:0.0000023261,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN10025_c0_g1_i1:0.0047820329)100:0.0871123360,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2659_c0_g1_i1:0.0800298610)65:0.0230039070,(Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2484_c2_g1_i3:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1867_c1_g1_i5:0.0000010000)83:0.0000029200)43:0.0039629763,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN553_c0_g1_i5:0.0000029228)100:0.7222419426)22:0.1124004417)22:0.0736588181)1:0.0166453953,((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN23352_c0_g1_i2:0.1577288727,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN5487_c0_g1_i3:0.0820009856)95:0.0272427242,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2781_c0_g1_i3:0.0541329945)100:0.4430632636,(((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN5443_c0_g1_i2:0.1741124890,((Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN10187_c0_g1_i3:0.0237294309,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN625_c0_g1_i2:0.0000022732)100:0.0841847502,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2:0.0497173168,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN212_c0_g1_i3:0.0298682003)100:0.1499439300)100:0.0432577659)100:0.0382658710,(((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g2_i3:0.0101282120,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN55_c0_g1_i3:0.0065545634)100:0.0734127585,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN79_c0_g1_i1:0.0745111060)100:0.0631185800,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2573_c0_g2_i2:0.1192815201)99:0.0385976377)78:0.0283622798,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g1_i1:0.2630286155)91:0.0283523888,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5409_c0_g1_i1:0.1713564396,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN56695_c0_g1_i1:0.1631833709)97:0.0405236518)91:0.0517079005,(Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1:0.0000020796,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1434_c0_g2_i1:0.0083923834)100:0.2040049882)99:0.1758528653)100:0.1798987375,(((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2398_c0_g1_i1:0.0714708651,(((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1711_c1_g1_i1:0.0164796677,(Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2044_c0_g1_i6:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN7859_c0_g1_i1:0.0029899362)100:0.0313809205)100:0.0116569625,(((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN7720_c0_g1_i1:0.0030910424,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN53421_c0_g1_i1:0.0000024896)79:0.0030911336,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN62328_c0_g1_i1:0.0000025089)99:0.0129670398,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1721_c0_g1_i1:0.0026304059)100:0.0823638309)92:0.0135571066,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2183_c0_g1_i1:0.0742214641)91:0.0470510568)100:0.3600469164,((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1:0.0042058089,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1:0.0104300958)100:0.0800165787,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2:0.1076511501)90:0.0291363676,((((((Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN94115_c0_g1_i1:0.2766789516,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1:0.0000021058)41:0.0130760348,((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2:0.0000026063,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1:0.0000024957)100:0.0036204516,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1:0.0000022202,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1:0.0000027238)99:0.0000027899)100:0.0283788694)41:0.0095382917,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5:0.0409861353)97:0.0301959829,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN49_c0_g1_i4:0.0149998342)97:0.0071832901,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10:0.0072092748)89:0.0034422283,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1:0.0038884455)95:0.0744361405)96:0.1439229650,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN26760_c0_g1_i1:0.4791312018,((Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g1_i1:0.1214494334,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g2_i1:0.1310647199)100:0.1134775158,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN8463_c0_g1_i1:0.3554907394)100:0.1657592377)97:0.2164418886)95:0.1566942879)74:0.0899662009,(Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN42167_c0_g1_i1:0.1116805491,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN4659_c0_g1_i1:0.1590469885,((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN62702_c0_g1_i1:0.0000010000,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN12512_c0_g1_i4:0.0000010000)100:0.1176379977,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN266_c0_g1_i2:0.0587533093)100:0.1096115940)100:0.1820408354)100:0.4355569301)22:0.0687760627,((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN85_c0_g2_i1:0.0000010000,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1033_c0_g3_i1:0.0000010000)99:0.0077261522,(Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN739_c1_g3_i1:0.0249268138,(Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1855_c1_g1_i1:0.0206825195,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN100_c0_g1_i4:0.0000010000,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1017_c0_g1_i12:0.0000010000,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN160_c0_g1_i2:0.0000010000)100:0.0047891267)100:0.0199270714)100:0.0179042041)93:0.0142945596)16:0.0067997862,((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN33_c0_g3_i1:0.0000025141,(Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1:0.0000029483,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g1_i1:0.0000010000)100:0.0048164601)98:0.0048245562,(Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN14_c1_g1_i3:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN972_c0_g1_i3:0.0000010000)87:0.0000010000)93:0.0000028113)100:0.4038704269,(((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2208_c0_g1_i1:0.0030037506,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1389_c0_g1_i1:0.0000022725)66:0.0078249083,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN455_c0_g1_i1:0.0073026996)66:0.0314211972,(((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN8186_c0_g2_i1:0.0000022510)100:0.0360043132,(Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4622_c0_g2_i1:0.0349055202,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN190_c0_g1_i1:0.0406593615)81:0.0044213304)74:0.0094656137,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2539_c0_g1_i1:0.0519479470)74:0.0473677303)99:0.2391211121,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN71906_c0_g1_i1:0.2687317455)99:0.1944162117,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN105018_c0_g1_i1:0.3848228626)95:0.1436963112)14:0.0816488763)51:0.0685572653,((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN10221_c0_g4_i4:0.0000027356,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1648_c0_g2_i1:0.0000022016)100:0.0098187857,(((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3639_c1_g1_i10:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3604_c0_g2_i3:0.0000010000)99:0.0000024070,((Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1977_c0_g1_i3:0.0000010000,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN1308_c0_g1_i2:0.0000010000)99:0.0000020974,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1200_c0_g1_i2:0.0028837665)100:0.0057633748)94:0.0000029266,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN5802_c1_g3_i4:0.0030286162)96:0.0056549390)100:0.0887055599,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2814_c0_g1_i1:0.0567143669)100:0.1996742467,(((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1960_c0_g1_i3:0.0000010000,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1650_c0_g1_i2:0.0000010000)100:0.0256941064,(Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN31951_c0_g1_i1:0.0205602257,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1390_c0_g1_i4:0.0000010000,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN33850_c0_g1_i1:0.0000010000)100:0.0049524896)100:0.0050253276)100:0.3026412438,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN90643_c0_g1_i1:0.2418277639)100:0.1882945369)100:0.2418692428)25:0.0440359563)78:0.1662722016)14:0.0922445730,(((((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2114_c0_g1_i1:0.2436608125,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN16252_c0_g1_i2:0.1205269297)100:0.0683308492,((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN762_c4_g1_i1:0.0000024234,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5434_c0_g1_i5:0.0452786190)100:0.0499171930,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g3_i1:0.0117438641,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i4:0.0000029561)100:0.0658448582)100:0.0366232168,(Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3492_c0_g1_i6:0.1763412701,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN5_c1_g1_i2:0.0112327645,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN28_c0_g1_i4:0.0077938810)100:0.0248730566)100:0.1316807065)100:0.0345167128,((Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g1_i11:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN673_c0_g1_i5:0.0000010000)100:0.0039045877,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN219_c1_g1_i1:0.0078284035)100:0.0958277065)83:0.0254278940)100:0.1294238087,(Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74842_c0_g1_i1:0.1818066154,((((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN52099_c0_g1_i1:0.0161452162,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g2_i1:0.0043326585)100:0.0494601921,(Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN64_c0_g1_i1:0.0039578213,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN79_c0_g3_i1:0.0041375448)100:0.0627801856)89:0.0130697930,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g3_i1:0.0780299035)89:0.0224266985,((Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g2_i2:0.0000010000)100:0.0210158549,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1972_c2_g1_i1:0.0206925840)99:0.0378916754)100:0.0781472641)99:0.0833787202)99:0.0341161716,((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN65230_c0_g1_i1:0.2217205254,(((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3493_c0_g1_i2:0.0201780775,((Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1728_c0_g1_i8:0.0165281900,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN11350_c0_g1_i1:0.0000023253)100:0.0166203347,(Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN492_c0_g1_i3:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1204_c0_g2_i2:0.0000010000)100:0.0041554620)100:0.0047793452)100:0.0376115386,(Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g3_i1:0.0000010000,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g5_i1:0.0000010000)100:0.0766228313)88:0.0336845736,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i4:0.1600125887)88:0.0519988984)99:0.0904927339,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN203_c0_g2_i1:0.2692683559)94:0.0906509501)51:0.0141694306,(((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8386_c0_g1_i1:0.1314979591,((((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g1_i1:0.0000010000,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i10:0.0082070627)99:0.0085121797,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN312_c0_g1_i4:0.0037969496)100:0.1297710088,((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g2_i1:0.0040441227,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g3_i1:0.0040351507)94:0.0040490785,(Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g1_i2:0.0000010000,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1033_c0_g1_i1:0.0247480329)93:0.0000029544)94:0.0121953773,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1070_c0_g2_i1:0.0081334454)92:0.0000027606,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN5909_c0_g1_i5:0.0382240416)100:0.0574767881)98:0.0572667174,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN727_c0_g4_i1:0.0364289047)54:0.0000021082,(((Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN130_c0_g2_i7:0.0043028359,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g1_i1:0.0038468031)100:0.0256352337,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g1_i6:0.0076390344)100:0.0922430006,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g2_i2:0.1275000054)100:0.0851884852)53:0.0042386623,((((Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3141_c0_g1_i2:0.0000010000,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2459_c0_g2_i1:0.0000010000)100:0.0000010000,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN881_c0_g2_i1:0.0126473417)100:0.0203317238,Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN1341_c0_g1_i3:0.0569332430)100:0.0186927036,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g3_i2:0.0706155385)100:0.0248670887)56:0.0240977139)97:0.0920853833,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN54298_c0_g1_i1:0.1960884406)100:0.2084841170,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN467_c0_g1_i1:0.2308420102)58:0.0313769616,(((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN23233_c0_g1_i5:0.0187760542,(((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN213_c0_g1_i1:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1984_c1_g1_i2:0.0000010000)100:0.0000010000,Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN503_c3_g1_i3:0.0000010000)100:0.0200355632,(Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN136_c1_g2_i10:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN333_c0_g1_i1:0.0000010000)100:0.0078676942)100:0.0094163022)100:0.0274157400,((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5506_c0_g1_i5:0.0038261758,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN108_c0_g1_i1:0.0000010000,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i2:0.0000010000)100:0.0000010000,(Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN16733_c1_g1_i5:0.0239002445,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN49_c1_g1_i1:0.0038243477)80:0.0000010000)80:0.0000026436)95:0.0128540413,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g1_i1:0.0185785015)99:0.0363844100,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN7803_c0_g2_i1:0.1541175644)63:0.0146081471,(Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN849_c0_g1_i2:0.0718963617,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g2_i1:0.1505294521)81:0.0128194240)65:0.0242155297)85:0.0484258803,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN152_c0_g1_i3:0.3312752609)79:0.0521712463)88:0.0655633891,((((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c0_g1_i1:0.0222001862,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g1_i1:0.0000010000)100:0.0079109476,Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c1_g1_i1:0.0635958281)100:0.0353849662,(Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN129_c1_g2_i3:0.0000010000,Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN210_c0_g3_i1:0.0000010000)100:0.0322292422)100:0.1238152904,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g1_i1:0.1291898029,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g2_i2:0.1459763614)99:0.2853296092)76:0.1459249905)7:0.0188678532)65:0.0953868942,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN16312_c0_g1_i1:0.2159319781)98:0.2923224557,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN6721_c0_g1_i1:0.7544898928)21:0.1540657260)14:0.0684610423,((((Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN37697_c0_g1_i1:0.1064494871,(Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2047_c0_g1_i4:0.0000010000,Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN6752_c0_g1_i2:0.0000010000)99:0.0045712721)71:0.0044762472,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2658_c0_g2_i1:0.0045178773)69:0.0045410267,((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN5829_c0_g1_i1:0.0000010000,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4283_c2_g2_i1:0.0000010000)88:0.0000027623,((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2315_c0_g1_i2:0.0000010000,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1613_c0_g1_i1:0.0000010000)100:0.0044818863,((Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN140_c0_g1_i7:0.0000010000,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1025_c0_g1_i1:0.0000010000)98:0.0000029441,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN696_c0_g3_i2:0.0044733569)96:0.0000020107)99:0.1031984346)40:0.0000023229)98:0.5390461083,((Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN480_c1_g1_i2:0.2403033651,Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1067_c0_g1_i2:0.1943898601)100:0.2702056246,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN575_c0_g1_i1:0.5403825744)72:0.1581709228)57:0.0810914242)29:0.5543953227,(Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN830_c0_g1_i1:0.0091569638,(((Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1:0.0000027141,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN19035_c0_g1_i1:0.0000023138)98:0.0035120366,(Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2182_c0_g1_i1:0.0070378506,(Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN48166_c0_g1_i1:0.0000010000,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4997_c0_g1_i2:0.0000022950)77:0.0000020724)99:0.0134331357)53:0.0000027590,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN52542_c0_g1_i1:0.0000010000)50:0.0000021570)99:0.3015974515)21:0.2838151523,Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN100466_c0_g1_i1:0.0000021242):0.0000010000;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t nonrev_dna_test.treefile -m "UNREST{1.95947,3.25052,1.53035,2.7101,2.00271,4.1682,3.33763,1.36657,1.3908,1.71339,2.87197,1}+FO{0.274088,0.190445,0.254799,0.280668}" --length 1548
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul  1 14:03:14 2024
+Total CPU time used: 604.108916 seconds (0h:10m:4s)
+Total wall-clock time used: 614.1508982 seconds (0h:10m:14s)
+

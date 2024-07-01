@@ -136,3 +136,15 @@ fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.fasta -o ic
 ```
 iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy -T AUTO -B 1000 -st CODON1 --modelomatic
 ```
+
+#### Tree rooted using non-reversible model
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy -B 1000 --model-joint UNREST -T AUTO --prefix nonrev_dna
+```
+
+#### Rootstrapping to explore support for root position
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy --model-joint UNREST --root-test -zb 1000 -au -te nonrev_dna.treefile --prefix nonrev_dna_test
+```

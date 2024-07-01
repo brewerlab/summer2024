@@ -1,0 +1,2324 @@
+IQ-TREE multicore version 2.3.4 COVID-edition for Linux x86 64-bit built Jun 18 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DellXPS2022 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy --model-joint UNREST --root-test -zb 1000 -au -te nonrev_dna.treefile --prefix nonrev_dna_test
+Seed:    90386 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul  1 13:53:00 2024
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 453 sequences with 1548 columns, 1034 distinct patterns
+729 parsimony-informative, 191 singleton sites, 628 constant sites
+                                                                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00163507 secs using 90.76% CPU
+   1  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g1_i1                           82.95%    passed     76.45%
+   2  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN113_c0_g2_i1                           83.53%    passed     93.69%
+   3  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i2                           83.72%    passed     55.73%
+   4  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN1381_c0_g1_i3                          84.50%    passed     33.60%
+   5  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2114_c0_g1_i1                          82.95%    passed     14.48%
+   6  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN23352_c0_g1_i2                         78.10%    passed     74.83%
+   7  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN2398_c0_g1_i1                          78.68%    passed     92.08%
+   8  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN292_c0_g1_i1                           83.72%    passed     16.58%
+   9  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN354_c0_g2_i1                           82.75%    passed     20.16%
+  10  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN37697_c0_g1_i1                         85.66%    passed     66.32%
+  11  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN42167_c0_g1_i1                         83.14%    passed     77.81%
+  12  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN4280_c0_g1_i1                          84.50%    passed     39.50%
+  13  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN5443_c0_g1_i2                          76.36%    passed      7.91%
+  14  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g1_i1                         84.50%    failed      3.26%
+  15  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g2_i1                         84.50%    failed      3.26%
+  16  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN632_c0_g1_i4                           83.91%    passed     11.10%
+  17  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN65230_c0_g1_i1                         83.91%    passed     29.52%
+  18  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74005_c0_g1_i1                         83.33%    passed     31.27%
+  19  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN74842_c0_g1_i1                         83.91%    passed     33.01%
+  20  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN830_c0_g1_i1                           80.62%    failed      2.20%
+  21  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8386_c0_g1_i1                          84.11%    passed     97.20%
+  22  Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN8673_c0_g1_i1                          81.98%    passed     23.37%
+  23  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN10221_c0_g4_i4               78.68%    passed     97.41%
+  24  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c0_g1_i1               85.08%    passed     21.07%
+  25  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN13774_c1_g1_i1               83.72%    passed      7.70%
+  26  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1578_c0_g1_i1                76.16%    passed     92.98%
+  27  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1711_c1_g1_i1                78.88%    passed     63.61%
+  28  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1960_c0_g1_i3                74.03%    passed     84.74%
+  29  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN21582_c0_g1_i3               80.04%    passed     66.83%
+  30  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN23233_c0_g1_i5               83.33%    passed     11.01%
+  31  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3325_c0_g2_i9                86.05%    passed     98.14%
+  32  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3446_c0_g1_i2                85.85%    passed     14.97%
+  33  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3493_c0_g1_i2                84.11%    passed     69.40%
+  34  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN4_c0_g1_i1                   83.72%    passed     71.61%
+  35  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1               82.17%    passed      6.99%
+  36  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN51_c0_g1_i1                  75.00%    passed     33.45%
+  37  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN524_c0_g1_i1                 84.11%    passed     21.92%
+  38  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN5829_c0_g1_i1                85.66%    passed     92.92%
+  39  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c0_g1_i11                83.72%    passed     17.91%
+  40  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN701_c1_g1_i10                83.72%    passed     51.99%
+  41  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN762_c4_g1_i1                 82.95%    passed     19.29%
+  42  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN85_c0_g2_i1                  86.43%    passed     18.66%
+  43  Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN9510_c0_g1_i1                79.46%    failed      1.76%
+  44  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN100466_c0_g1_i1              81.78%    passed     13.85%
+  45  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1033_c0_g3_i1                86.43%    passed     18.66%
+  46  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1131_c0_g1_i2                83.91%    passed     16.07%
+  47  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i1                 83.33%    passed     57.00%
+  48  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1514_c0_g1_i2                84.11%    failed      4.60%
+  49  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1648_c0_g2_i1                78.68%    passed     97.41%
+  50  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1650_c0_g1_i2                74.03%    passed     84.74%
+  51  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN17470_c0_g1_i1               76.55%    passed     73.11%
+  52  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN19035_c0_g1_i1               82.17%    passed      6.99%
+  53  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2094_c0_g1_i11               84.11%    passed     21.92%
+  54  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2208_c0_g1_i1                78.49%    passed     92.24%
+  55  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2315_c0_g1_i2                85.66%    passed     96.29%
+  56  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN247_c0_g3_i1                 86.43%    passed     67.12%
+  57  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1                81.98%    passed     24.87%
+  58  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN294_c0_g2_i3                 85.66%    passed     43.86%
+  59  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN295_c0_g3_i4                 86.05%    passed     98.14%
+  60  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g1_i1                78.29%    passed     30.78%
+  61  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3195_c0_g2_i3                76.55%    passed     22.08%
+  62  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN3492_c0_g1_i6                82.56%    passed     31.72%
+  63  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN393_c1_g2_i6                 83.14%    passed     64.39%
+  64  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN40_c0_g1_i2                  75.00%    passed     33.45%
+  65  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4283_c2_g2_i1                85.66%    passed     92.92%
+  66  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g1_i1                 83.72%    passed     42.70%
+  67  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN430_c0_g2_i3                 82.36%    passed     38.66%
+  68  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN43385_c0_g1_i1               84.69%    passed     19.42%
+  69  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4622_c0_g1_i3                83.72%    passed      6.87%
+  70  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5434_c0_g1_i5                83.33%    failed      2.97%
+  71  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN5506_c0_g1_i5                83.14%    passed     94.14%
+  72  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN583_c0_g1_i1                 83.72%    passed     71.61%
+  73  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN7720_c0_g1_i1                79.07%    passed     52.26%
+  74  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g1_i1                 84.11%    passed     60.78%
+  75  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN812_c0_g2_i1                 83.91%    passed     26.80%
+  76  Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN822_c0_g2_i1                 84.11%    passed     68.64%
+  77  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1006_c0_g1_i4                             86.43%    passed     47.30%
+  78  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1030_c0_g1_i1                             83.14%    passed     15.89%
+  79  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN105018_c0_g1_i1                           75.78%    passed     24.98%
+  80  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1055_c0_g1_i1                             82.95%    passed     60.62%
+  81  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN108225_c0_g1_i1                           84.69%    passed     82.94%
+  82  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN116899_c0_g1_i1                           83.91%    passed     69.59%
+  83  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN118342_c0_g1_i1                           83.72%    passed     87.78%
+  84  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN14167_c0_g1_i1                            79.84%    passed     95.48%
+  85  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN1548_c0_g1_i1                             84.11%    passed     89.41%
+  86  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN16312_c0_g1_i1                            84.11%    passed     31.32%
+  87  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g1_i1                               81.59%    passed     86.09%
+  88  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN21_c0_g2_i2                               81.40%    passed     61.06%
+  89  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2182_c0_g1_i1                             82.17%    failed      4.37%
+  90  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2218_c0_g1_i1                             81.40%    passed     90.13%
+  91  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN26760_c0_g1_i1                            61.82%    failed      1.06%
+  92  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g1_i1                            78.29%    passed     13.83%
+  93  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g2_i1                            80.04%    failed      1.45%
+  94  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN2814_c0_g1_i1                             78.88%    passed     83.04%
+  95  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN29999_c0_g1_i1                            82.75%    passed      9.00%
+  96  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3212_c0_g1_i1                             82.17%    passed     54.78%
+  97  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN3260_c0_g1_i5                             79.46%    failed      0.15%
+  98  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN33470_c0_g1_i1                            84.88%    passed     48.13%
+  99  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN4659_c0_g1_i1                             82.36%    passed     65.54%
+ 100  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN467_c0_g1_i1                              82.56%    passed     48.40%
+ 101  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN480_c1_g1_i2                              87.40%    passed     83.56%
+ 102  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN483_c0_g1_i1                              84.50%    passed     28.44%
+ 103  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5358_c0_g1_i1                             76.16%    passed     80.25%
+ 104  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN5409_c0_g1_i1                             76.16%    passed     58.90%
+ 105  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN54298_c0_g1_i1                            84.88%    passed     84.44%
+ 106  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN62606_c0_g1_i1                            84.11%    passed     38.12%
+ 107  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN66103_c0_g1_i1                            85.27%    passed     54.34%
+ 108  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN6721_c0_g1_i1                             74.03%    failed      2.93%
+ 109  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN71906_c0_g1_i1                            79.26%    passed     41.03%
+ 110  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN73648_c0_g1_i1                            83.33%    passed     34.11%
+ 111  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i2                               85.47%    passed     61.21%
+ 112  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1                               86.05%    passed     58.09%
+ 113  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN76_c1_g1_i1                               84.88%    passed     44.89%
+ 114  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN7803_c0_g2_i1                             83.53%    passed     37.77%
+ 115  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN794_c0_g1_i2                              83.72%    passed     28.42%
+ 116  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN82896_c0_g1_i1                            85.85%    passed     56.64%
+ 117  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN8463_c0_g1_i1                             72.48%    passed      7.06%
+ 118  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g1_i1                              82.56%    passed     98.96%
+ 119  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN877_c0_g2_i1                              85.85%    passed     87.25%
+ 120  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c0_g1_i1                               82.36%    passed     36.00%
+ 121  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN88_c1_g1_i1                               85.66%    passed     40.77%
+ 122  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN90643_c0_g1_i1                            79.07%    passed     90.96%
+ 123  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN91754_c0_g1_i1                            85.27%    passed     17.54%
+ 124  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN94115_c0_g1_i1                            82.56%    passed     43.05%
+ 125  Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN9745_c0_g1_i1                             85.66%    passed     42.60%
+ 126  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN199_c0_g1_i8                  85.66%    passed     45.68%
+ 127  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN213_c0_g1_i1                  75.19%    passed     16.65%
+ 128  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i5                  83.72%    passed     80.15%
+ 129  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2                  76.16%    passed     14.30%
+ 130  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2324_c0_g2_i2                 82.36%    passed     36.79%
+ 131  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2484_c2_g1_i3                 83.72%    passed     69.78%
+ 132  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3117_c0_g1_i5                 79.46%    failed      0.15%
+ 133  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN33_c0_g3_i1                   86.43%    passed      9.10%
+ 134  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3639_c1_g1_i10                77.52%    passed     95.58%
+ 135  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2                 77.91%    passed     95.79%
+ 136  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN41279_c0_g1_i1                82.17%    passed      6.99%
+ 137  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN4528_c0_g1_i1                 83.14%    passed     40.70%
+ 138  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1                76.16%    passed     97.06%
+ 139  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN47759_c0_g1_i1                84.69%    passed     13.80%
+ 140  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN51478_c0_g1_i1                84.11%    passed     20.60%
+ 141  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2                  81.98%    passed     64.27%
+ 142  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN52099_c0_g1_i1                83.91%    passed     58.94%
+ 143  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN62702_c0_g1_i1                83.72%    passed     27.06%
+ 144  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN69_c0_g1_i1                   85.66%    passed     43.16%
+ 145  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2                 86.05%    passed     95.00%
+ 146  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7902_c0_g1_i1                 82.56%    passed     16.14%
+ 147  Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN86_c0_g1_i1                   84.69%    passed     45.26%
+ 148  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1_c0_g1_i2                    83.72%    passed     80.15%
+ 149  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN162_c0_g1_i6                  83.91%    passed     67.48%
+ 150  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN16252_c0_g1_i2                83.33%    passed     26.59%
+ 151  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1728_c0_g1_i8                 84.11%    passed     84.84%
+ 152  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1867_c1_g1_i5                 83.72%    passed     69.78%
+ 153  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1984_c1_g1_i2                 75.19%    passed     16.65%
+ 154  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1                 86.43%    passed     12.00%
+ 155  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2573_c0_g2_i2                 75.00%    passed     16.27%
+ 156  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2658_c0_g2_i1                 85.66%    passed     94.80%
+ 157  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2                 83.91%    passed     92.79%
+ 158  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g2_i2                 83.91%    passed     92.79%
+ 159  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2900_c0_g1_i1                 79.46%    failed      0.88%
+ 160  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3141_c0_g1_i2                 84.69%    passed     59.32%
+ 161  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3178_c0_g1_i1                 82.17%    passed      6.99%
+ 162  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN344_c0_g1_i2                  81.20%    passed     86.23%
+ 163  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3604_c0_g2_i3                 77.52%    passed     95.58%
+ 164  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN38776_c0_g1_i1                76.16%    passed     97.06%
+ 165  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1                 81.98%    passed     64.27%
+ 166  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN65_c3_g1_i1                   83.72%    passed     50.37%
+ 167  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN674_c0_g6_i1                  83.14%    failed      0.71%
+ 168  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN8186_c0_g2_i1                 77.91%    passed     95.79%
+ 169  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i1                  76.16%    passed     14.30%
+ 170  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN90_c0_g1_i3                   86.05%    passed     95.00%
+ 171  Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN979_c0_g2_i5                  81.20%    passed     13.16%
+ 172  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN11350_c0_g1_i1                84.11%    passed     61.61%
+ 173  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN12512_c0_g1_i4                83.72%    passed     27.06%
+ 174  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN173_c0_g1_i5                  86.05%    passed     95.00%
+ 175  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2225_c0_g1_i2                 83.72%    passed     50.91%
+ 176  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2459_c0_g2_i1                 84.69%    passed     59.32%
+ 177  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN288_c0_g1_i2                  84.69%    passed     34.23%
+ 178  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN31951_c0_g1_i1                71.90%    passed     71.15%
+ 179  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN3723_c0_g1_i2                 79.46%    failed      0.15%
+ 180  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN43818_c0_g1_i1                76.16%    passed     97.06%
+ 181  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN503_c3_g1_i3                  83.33%    passed      8.46%
+ 182  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN553_c0_g1_i5                  83.72%    passed     66.39%
+ 183  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN5802_c1_g3_i4                 78.68%    passed     95.70%
+ 184  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN657_c0_g1_i2                  84.11%    passed     99.75%
+ 185  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN7094_c0_g3_i1                 83.91%    passed     92.79%
+ 186  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g1_i1                  86.43%    passed     12.00%
+ 187  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g3_i1                  86.43%    passed     12.00%
+ 188  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN826_c0_g1_i2                  76.16%    passed     14.30%
+ 189  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN8383_c0_g3_i2                 82.17%    passed      6.99%
+ 190  Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN996_c0_g1_i3                  77.91%    passed     95.79%
+ 191  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1067_c0_g1_i2          87.98%    passed     49.84%
+ 192  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN129_c1_g2_i3           83.53%    passed     28.57%
+ 193  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1390_c0_g1_i4          74.03%    passed     62.96%
+ 194  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN177_c0_g1_i1           77.91%    passed     95.79%
+ 195  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1           81.98%    passed     54.61%
+ 196  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN19192_c0_g3_i1         84.50%    passed     60.26%
+ 197  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN1977_c0_g1_i3          77.52%    passed     89.72%
+ 198  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2151_c0_g1_i1          82.17%    passed      6.99%
+ 199  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2159_c0_g1_i2          84.11%    failed      4.98%
+ 200  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1          84.69%    passed     47.34%
+ 201  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g2_i5           83.53%    passed     68.97%
+ 202  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN301_c0_g3_i2           84.30%    passed     75.44%
+ 203  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3165_c0_g1_i1          84.11%    passed     27.89%
+ 204  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g1_i11          83.14%    passed      6.79%
+ 205  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g3_i1           83.14%    passed     20.90%
+ 206  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3603_c0_g1_i1          86.43%    passed     85.59%
+ 207  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1          83.14%    passed     59.74%
+ 208  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN54771_c0_g1_i1         76.16%    passed     96.13%
+ 209  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7          83.72%    passed     73.72%
+ 210  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN676_c0_g1_i6           82.75%    passed     77.59%
+ 211  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN70049_c0_g1_i1         79.46%    failed      1.78%
+ 212  Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN73_c0_g1_i1            85.66%    passed     30.31%
+ 213  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN1308_c0_g1_i2               78.68%    passed     92.62%
+ 214  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN135_c0_g1_i1                77.91%    passed     95.79%
+ 215  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN136_c1_g2_i10               83.33%    passed     14.97%
+ 216  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN14_c1_g1_i3                 86.43%    passed     13.05%
+ 217  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2044_c0_g1_i6               78.29%    passed     74.86%
+ 218  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2047_c0_g1_i4               85.66%    passed     95.54%
+ 219  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN210_c0_g3_i1                83.53%    passed     28.57%
+ 220  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN219_c1_g1_i1                83.14%    passed      6.88%
+ 221  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN239_c1_g4_i2                84.11%    passed     38.19%
+ 222  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN33850_c0_g1_i1              76.55%    passed     74.75%
+ 223  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i2                 84.11%    passed     22.15%
+ 224  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37429_c0_g1_i1              76.16%    passed     96.13%
+ 225  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN492_c0_g1_i3                84.11%    passed     64.76%
+ 226  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN5487_c0_g1_i3               75.58%    passed     73.72%
+ 227  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN706_c0_g2_i1                83.72%    passed     90.72%
+ 228  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN7683_c0_g1_i2               83.14%    passed     59.74%
+ 229  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN84528_c0_g1_i1              82.17%    passed      6.99%
+ 230  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8641_c0_g1_i1               83.72%    passed     73.72%
+ 231  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8752_c0_g1_i1               86.43%    passed     85.59%
+ 232  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN881_c0_g2_i1                84.69%    passed     71.86%
+ 233  Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN91590_c0_g1_i1              84.69%    passed     47.34%
+ 234  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1200_c0_g1_i2               77.52%    passed     87.47%
+ 235  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1204_c0_g2_i2               84.11%    passed     64.76%
+ 236  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1689_c0_g2_i1               84.69%    passed     47.34%
+ 237  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1                81.98%    passed     54.61%
+ 238  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1972_c2_g1_i1               83.91%    passed     81.81%
+ 239  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i4                83.14%    passed     17.54%
+ 240  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN232_c0_g1_i3                82.75%    passed     77.59%
+ 241  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3320_c0_g1_i2               83.14%    passed     59.74%
+ 242  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN333_c0_g1_i1                83.33%    passed     14.97%
+ 243  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3380_c0_g1_i1               82.17%    passed      6.99%
+ 244  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN4978_c0_g1_i1               83.72%    passed     73.72%
+ 245  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN514_c0_g1_i2                83.72%    passed     39.12%
+ 246  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN562_c0_g2_i6                84.11%    passed     26.15%
+ 247  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN673_c0_g1_i5                83.14%    passed      6.79%
+ 248  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN6752_c0_g1_i2               85.66%    passed     95.54%
+ 249  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN68366_c0_g1_i1              84.11%    failed      4.98%
+ 250  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN687_c0_g1_i2                85.66%    passed     35.85%
+ 251  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN7859_c0_g1_i1               78.29%    passed     75.91%
+ 252  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2                 77.91%    passed     95.79%
+ 253  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN85921_c0_g1_i1              76.16%    passed     96.64%
+ 254  Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN972_c0_g1_i3                86.43%    passed     13.05%
+ 255  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN10025_c0_g1_i1   86.43%    passed     67.64%
+ 256  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1070_c0_g2_i1    83.91%    passed     14.11%
+ 257  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN1093_c0_g1_i2    76.16%    passed     94.10%
+ 258  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN134_c0_g1_i4     83.14%    passed     31.81%
+ 259  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5     81.98%    passed     53.79%
+ 260  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN19586_c0_g1_i2   84.30%    passed     66.79%
+ 261  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g1_i1    84.11%    passed     40.48%
+ 262  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN2123_c0_g3_i2    84.11%    passed     35.22%
+ 263  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN266_c0_g1_i2     83.53%    passed     17.66%
+ 264  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i1     83.72%    passed     40.70%
+ 265  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3177_c0_g1_i1    76.16%    passed     76.90%
+ 266  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN3418_c0_g1_i1    82.36%    passed     26.08%
+ 267  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN46_c0_g2_i1      85.08%    passed     30.68%
+ 268  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4622_c0_g2_i1    77.91%    passed     82.91%
+ 269  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN4696_c0_g1_i1    82.75%    passed     42.60%
+ 270  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN52542_c0_g1_i1   82.17%    failed      4.64%
+ 271  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN541_c0_g1_i8     84.50%    passed     20.72%
+ 272  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g1_i13     84.11%    passed     49.47%
+ 273  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN56_c0_g3_i1      84.11%    passed      5.22%
+ 274  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN575_c0_g1_i1     79.65%    passed     44.91%
+ 275  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN637_c0_g1_i1     82.36%    passed     62.76%
+ 276  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN739_c1_g3_i1     86.43%    passed      9.74%
+ 277  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN849_c0_g1_i2     83.33%    passed     57.51%
+ 278  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN8593_c2_g1_i3    83.91%    passed     15.87%
+ 279  Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN97_c0_g1_i2      76.36%    passed     10.09%
+ 280  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN10187_c0_g1_i3              76.94%    passed      6.85%
+ 281  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN135_c0_g2_i3                85.85%    passed     11.32%
+ 282  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g1_i2               83.91%    passed     19.08%
+ 283  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1589_c0_g3_i2               84.30%    passed     39.77%
+ 284  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN1855_c1_g1_i1               86.43%    passed      9.59%
+ 285  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN190_c0_g1_i1                77.91%    passed     85.64%
+ 286  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN203_c0_g2_i1                83.91%    passed     31.61%
+ 287  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN22203_c0_g2_i1              84.30%    passed     74.98%
+ 288  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2318_c0_g1_i1               86.24%    passed     44.98%
+ 289  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1               81.98%    passed     43.19%
+ 290  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g1_i1               82.75%    passed     74.97%
+ 291  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g2_i1               82.75%    passed     74.97%
+ 292  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN282_c0_g1_i2                76.36%    passed     30.54%
+ 293  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN286_c0_g1_i2                82.75%    passed     49.77%
+ 294  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g1_i4                84.11%    passed     17.48%
+ 295  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN332_c0_g2_i1                84.11%    passed     14.29%
+ 296  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN386_c0_g1_i10               85.47%    passed     26.92%
+ 297  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN39_c0_g1_i4                 83.14%    passed     19.94%
+ 298  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN409_c0_g1_i1                83.72%    passed     55.09%
+ 299  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN48961_c0_g1_i1              76.36%    passed     95.88%
+ 300  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN4935_c0_g2_i5               82.17%    passed     22.26%
+ 301  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN56695_c0_g1_i1              77.71%    passed     46.02%
+ 302  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN5951_c0_g1_i7               85.66%    passed     70.00%
+ 303  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN59819_c0_g1_i1              82.36%    passed     72.28%
+ 304  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN6024_c0_g1_i10              78.10%    passed     46.06%
+ 305  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN625_c0_g1_i2                76.36%    passed     27.66%
+ 306  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN7652_c0_g1_i1               85.47%    passed     60.38%
+ 307  Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN791_c0_g1_i1                76.16%    passed     72.22%
+ 308  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN103_c0_g1_i2              75.00%    passed     49.41%
+ 309  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN10333_c0_g1_i1            82.75%    passed     81.44%
+ 310  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN110_c0_g3_i1              83.72%    passed     15.10%
+ 311  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN1341_c0_g1_i3             84.69%    passed     76.01%
+ 312  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2019_c0_g1_i1             83.72%    passed     80.33%
+ 313  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2183_c0_g1_i1             78.88%    passed     72.04%
+ 314  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN24514_c0_g1_i1            84.50%    passed     54.96%
+ 315  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2539_c0_g1_i1             77.91%    passed     67.71%
+ 316  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN258_c0_g2_i1              84.11%    passed     20.99%
+ 317  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2659_c0_g1_i1             86.43%    passed     33.89%
+ 318  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1             81.98%    passed     58.67%
+ 319  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2829_c0_g1_i1             82.17%    passed      6.99%
+ 320  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g3_i1             84.11%    passed     81.77%
+ 321  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g5_i1             84.11%    passed     81.77%
+ 322  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN33889_c0_g1_i1            79.46%    failed      2.66%
+ 323  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g2_i1              83.91%    passed     76.18%
+ 324  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN347_c0_g3_i1              83.91%    passed     67.28%
+ 325  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN39488_c0_g1_i1            76.36%    passed     49.29%
+ 326  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN451_c1_g2_i2              83.91%    passed     33.94%
+ 327  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN4756_c0_g2_i4             84.69%    passed     13.80%
+ 328  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN47848_c0_g1_i1            76.16%    passed     98.63%
+ 329  Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN56729_c0_g1_i1            85.66%    passed     59.56%
+ 330  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN100_c0_g1_i4      86.43%    passed     11.08%
+ 331  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN108_c0_g1_i1      83.14%    passed     96.44%
+ 332  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c0_g1_i6      77.71%    passed     73.97%
+ 333  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN121_c1_g1_i1      84.11%    passed     54.65%
+ 334  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1389_c0_g1_i1     78.49%    passed     88.45%
+ 335  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN140_c0_g1_i7      80.62%    passed     36.17%
+ 336  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN14050_c0_g1_i8    87.02%    passed     28.99%
+ 337  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1973_c1_g1_i1     76.36%    passed     86.41%
+ 338  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2070_c0_g1_i1     82.36%    passed     49.93%
+ 339  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2381_c0_g2_i1     87.02%    passed     29.40%
+ 340  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2419_c0_g1_i1     75.00%    passed     52.66%
+ 341  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1     86.24%    passed     53.15%
+ 342  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g1_i1     86.05%    passed     95.26%
+ 343  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2925_c0_g4_i2     84.88%    passed     81.35%
+ 344  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN2956_c0_g1_i1     85.27%    passed      5.81%
+ 345  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3043_c0_g1_i2     79.84%    passed     62.93%
+ 346  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN3909_c0_g4_i2     86.05%    passed     91.03%
+ 347  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2      81.98%    passed     49.93%
+ 348  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN45742_c0_g1_i1    76.36%    passed     56.97%
+ 349  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN48166_c0_g1_i1    82.17%    passed      6.99%
+ 350  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN5_c1_g1_i2        82.36%    failed      1.28%
+ 351  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN53421_c0_g1_i1    79.07%    passed     60.40%
+ 352  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN589_c0_g1_i1      82.36%    passed     39.65%
+ 353  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN702_c2_g1_i3      80.43%    passed     54.36%
+ 354  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7065_c0_g1_i1     86.43%    passed     40.37%
+ 355  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g1_i1       85.47%    passed     72.61%
+ 356  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g2_i1       86.24%    passed     54.61%
+ 357  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i2       86.05%    passed     21.54%
+ 358  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN7870_c0_g1_i1     83.72%    failed      3.68%
+ 359  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2       77.52%    passed     55.38%
+ 360  Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN9317_c0_g1_i1     84.11%    passed     89.08%
+ 361  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1017_c0_g1_i12    85.66%    passed      6.40%
+ 362  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1025_c0_g1_i1     85.66%    passed     95.21%
+ 363  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1033_c0_g1_i1     83.91%    passed     16.55%
+ 364  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN104_c0_g1_i1      83.72%    failed      4.78%
+ 365  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN11007_c0_g1_i4    84.30%    passed     21.88%
+ 366  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN130_c0_g2_i7      84.30%    passed     83.08%
+ 367  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1552_c0_g1_i1     76.36%    passed     55.38%
+ 368  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1566_c0_g1_i1     85.27%    passed      6.80%
+ 369  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i2      83.14%    passed     96.44%
+ 370  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN16733_c1_g1_i5    86.24%    passed     62.34%
+ 371  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1890_c0_g1_i1     82.36%    passed     32.21%
+ 372  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i10     81.40%    passed     52.47%
+ 373  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN2354_c0_g1_i1     82.36%    passed     48.20%
+ 374  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN279_c0_g1_i11     77.71%    passed     70.28%
+ 375  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN312_c0_g1_i4      84.11%    passed     39.39%
+ 376  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN32211_c0_g1_i1    83.91%    passed     17.66%
+ 377  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN42_c0_g2_i1       75.00%    passed     47.55%
+ 378  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN454_c1_g1_i1      86.24%    passed     12.96%
+ 379  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN49_c0_g1_i4       81.98%    passed     56.71%
+ 380  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN55_c0_g1_i3       76.55%    passed     23.29%
+ 381  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN62328_c0_g1_i1    79.07%    passed     52.26%
+ 382  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN63_c0_g1_i1       76.36%    passed     86.41%
+ 383  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i1       84.88%    passed     96.42%
+ 384  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN79_c0_g1_i1       76.74%    passed     89.15%
+ 385  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN8708_c0_g2_i1     87.02%    passed     62.32%
+ 386  Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN978_c0_g1_i1      86.05%    passed     47.10%
+ 387  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN15499_c0_g1_i2    84.11%    passed     74.74%
+ 388  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN160_c0_g1_i2      86.43%    passed     13.57%
+ 389  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1613_c0_g1_i1     85.66%    passed     96.29%
+ 390  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN16755_c0_g1_i1    86.24%    passed     18.77%
+ 391  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1713_c0_g1_i11    85.47%    passed     28.50%
+ 392  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1721_c0_g1_i1     79.07%    passed     39.83%
+ 393  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10     81.98%    passed     44.44%
+ 394  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN228_c0_g1_i1      82.36%    passed     38.39%
+ 395  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2303_c0_g1_i1     83.91%    passed     19.49%
+ 396  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN233_c0_g2_i4      83.53%    passed     67.72%
+ 397  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN2781_c0_g1_i3     76.55%    passed     70.72%
+ 398  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN28_c0_g1_i4       82.36%    failed      1.35%
+ 399  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN284_c0_g1_i1      76.36%    passed     56.97%
+ 400  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g1_i1      84.30%    passed     89.84%
+ 401  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN316_c0_g2_i2      84.50%    passed     82.34%
+ 402  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN33_c0_g1_i2       75.00%    passed     47.55%
+ 403  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g1_i3       83.53%    passed     16.36%
+ 404  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN37_c0_g2_i3       83.72%    failed      2.58%
+ 405  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN402_c0_g1_i3      84.50%    passed     60.58%
+ 406  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4345_c0_g1_i1     85.27%    passed     28.03%
+ 407  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN49_c1_g1_i1       83.14%    passed     98.38%
+ 408  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN4997_c0_g1_i2     79.65%    passed      6.59%
+ 409  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN53334_c0_g1_i1    85.27%    failed      3.71%
+ 410  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN55272_c0_g1_i1    76.36%    passed     87.36%
+ 411  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN5909_c0_g1_i5     86.05%    passed     37.14%
+ 412  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN6176_c1_g1_i2     84.11%    passed     73.05%
+ 413  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN64_c0_g1_i1       83.91%    passed     61.98%
+ 414  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN67_c0_g1_i1       85.47%    passed     57.63%
+ 415  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN7050_c0_g1_i2     86.63%    passed     64.88%
+ 416  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN76_c0_g3_i1       77.13%    passed     27.67%
+ 417  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN8416_c0_g1_i1     84.11%    passed     71.60%
+ 418  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i10     84.11%    passed     55.56%
+ 419  Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN92_c0_g2_i1       82.36%    passed     29.66%
+ 420  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1026_c0_g1_i1                      76.36%    passed     60.74%
+ 421  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1044_c0_g1_i1                      83.72%    passed     46.23%
+ 422  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1132_c0_g1_i1                      76.36%    passed     95.85%
+ 423  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1135_c1_g2_i1                      83.53%    passed     78.44%
+ 424  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN114_c0_g1_i11                      84.11%    passed     61.99%
+ 425  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1257_c0_g1_i2                      82.36%    passed     39.29%
+ 426  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1434_c0_g2_i1                      77.13%    passed     22.29%
+ 427  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN147_c0_g1_i12                      84.11%    passed     81.76%
+ 428  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN152_c0_g1_i3                       84.88%    passed     15.07%
+ 429  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g1_i1                      83.14%    passed     92.44%
+ 430  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1524_c0_g2_i1                      83.33%    passed     18.95%
+ 431  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN1843_c0_g1_i1                      87.02%    passed     32.01%
+ 432  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2023_c1_g1_i1                      84.11%    passed      6.90%
+ 433  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN212_c0_g1_i3                       77.52%    passed     71.69%
+ 434  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN225_c0_g1_i1                       82.36%    passed     49.93%
+ 435  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1                        81.98%    passed     19.68%
+ 436  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2743_c0_g2_i1                      85.27%    passed      6.80%
+ 437  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g1_i1                       84.69%    passed     25.33%
+ 438  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN278_c0_g4_i1                       84.88%    passed     24.06%
+ 439  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g1_i6                        84.30%    passed     73.15%
+ 440  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN31_c0_g3_i1                        83.91%    passed     24.52%
+ 441  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN4456_c0_g1_i1                      86.24%    passed     47.28%
+ 442  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN455_c0_g1_i1                       78.49%    passed     69.98%
+ 443  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN566_c0_g1_i11                      77.71%    passed     65.25%
+ 444  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c0_g2_i4                         86.24%    passed     11.71%
+ 445  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g1_i4                         84.88%    passed     86.41%
+ 446  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN6_c1_g2_i1                         87.02%    passed     59.63%
+ 447  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN610_c0_g1_i11                      86.43%    passed     68.69%
+ 448  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN696_c0_g3_i2                       85.66%    passed     92.38%
+ 449  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN70_c0_g1_i11                       84.50%    passed     32.19%
+ 450  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN727_c0_g4_i1                       84.11%    passed     29.30%
+ 451  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN79_c0_g3_i1                        83.91%    passed     59.77%
+ 452  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN899_c0_g1_i11                      75.00%    passed     55.74%
+ 453  Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN93_c1_g1_i2                        83.53%    passed     78.54%
+WARNING: 453 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                         82.33%  26 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g2_i1 is identical to Anahita_punctulata_sra_clean_trinity_Trinity_TRINITY_DN57468_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1648_c0_g2_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN10221_c0_g4_i4 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1650_c0_g1_i2 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN1960_c0_g1_i3 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN295_c0_g3_i4 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN3325_c0_g2_i9 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN583_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN4_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN19035_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN40_c0_g1_i2 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN51_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2094_c0_g1_i11 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN524_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN4283_c2_g2_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN5829_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN1033_c0_g3_i1 is identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN85_c0_g2_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN1613_c0_g1_i1 is identical to Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2315_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1984_c1_g1_i2 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN213_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1_c0_g1_i2 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN214_c0_g1_i5 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN845_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN1867_c1_g1_i5 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN2484_c2_g1_i3 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN3723_c0_g1_i2 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3117_c0_g1_i5 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3604_c0_g2_i3 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3639_c1_g1_i10 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN8186_c0_g2_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN38776_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1 but kept for subsequent analysis
+NOTE: Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN4756_c0_g2_i4 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN47759_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN12512_c0_g1_i4 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN62702_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN90_c0_g1_i3 is identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g1_i1 is identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g2_i2 is identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN2459_c0_g2_i1 is identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3141_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN210_c0_g3_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN129_c1_g2_i3 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN68366_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2159_c0_g1_i2 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN91590_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN673_c0_g1_i5 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN328_c0_g1_i11 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8752_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN3603_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN7683_c0_g1_i2 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN37429_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN54771_c0_g1_i1 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN8641_c0_g1_i1 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN232_c0_g1_i3 is identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN676_c0_g1_i6 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN333_c0_g1_i1 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN136_c1_g2_i10 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN972_c0_g1_i3 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN14_c1_g1_i3 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN6752_c0_g1_i2 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN2047_c0_g1_i4 but kept for subsequent analysis
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1204_c0_g2_i2 is identical to Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN492_c0_g1_i3 but kept for subsequent analysis
+NOTE: Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g2_i1 is identical to Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2662_c0_g1_i1 but kept for subsequent analysis
+NOTE: Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g5_i1 is identical to Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2847_c0_g3_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i2 is identical to Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN108_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN63_c0_g1_i1 is identical to Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN1973_c1_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN2743_c0_g2_i1 is identical to Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN1566_c0_g1_i1 but kept for subsequent analysis
+NOTE: Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN33_c0_g1_i2 is identical to Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN42_c0_g2_i1 but kept for subsequent analysis
+NOTE: 19 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN41279_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN3178_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN8383_c0_g3_i2 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2151_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN84528_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3380_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2829_c0_g1_i1 (identical to Ctenus_captiosis_female_tjc00305_clean_trinity_Trinity_TRINITY_DN41773_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN826_c0_g1_i2 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN216_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN996_c0_g1_i3 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN177_c0_g1_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00091_clean_trinity_Trinity_TRINITY_DN135_c0_g1_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN84_c0_g1_i2 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN3675_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN43818_c0_g1_i1 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN46935_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN173_c0_g1_i5 (identical to Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN7173_c0_g3_i2) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN757_c0_g3_i1 (identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2446_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_exlineae_female_tjc00247_clean_trinity_Trinity_TRINITY_DN7094_c0_g3_i1 (identical to Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN2692_c0_g1_i2) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN1689_c0_g2_i1 (identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN2349_c0_g2_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN3320_c0_g1_i2 (identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5109_c0_g1_i1) is ignored but added at the end
+NOTE: Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN4978_c0_g1_i1 (identical to Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN5539_c1_g2_i7) is ignored but added at the end
+Alignment was printed to nonrev_dna_test.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to nonrev_dna_test.uniqueseq.phy
+Reading input tree file nonrev_dna.treefile ... rooted tree
+
+NOTE: 14 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -51512.084
+2. Current log-likelihood: -50798.490
+3. Current log-likelihood: -50784.195
+4. Current log-likelihood: -50784.119
+Optimal log-likelihood: -50784.115
+Substitution rates:
+  A-C: 1.95947  A-G: 3.25052  A-T: 1.53035  C-A: 2.71010  C-G: 2.00271  C-T: 4.16820
+  G-A: 3.33763  G-C: 1.36657  G-T: 1.39080  T-A: 1.71339  T-C: 2.87197  T-G: 1.00000
+Base frequencies:  A: 0.274  C: 0.190  G: 0.255  T: 0.281
+Parameters optimization took 4 rounds (2.770 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -50784.115
+Testing root positions...
+Better root: -50783.890
+UPDATE BEST SCORE: -50784.115
+Rooted trees with log-likelihoods printed to nonrev_dna_test.roottest.trees
+Reading trees in nonrev_dna_test.roottest.trees ...
+
+865 trees detected
+Note: 10.659 MB of RAM required!
+Creating 1000 bootstrap replicates...
+done
+Tree 1 / LogL: -50783.890
+Tree 2 / LogL: -50783.892
+Tree 3 / LogL: -50784.007
+Tree 4 / LogL: -50784.068
+Tree 5 / LogL: -50784.115
+Tree 6 / LogL: -50784.122
+Tree 7 / LogL: -50784.122
+Tree 8 / LogL: -50784.122
+Tree 9 / LogL: -50784.122
+Tree 10 / LogL: -50784.122
+Tree 11 / LogL: -50784.133
+Tree 12 / LogL: -50784.133
+Tree 13 / LogL: -50784.156
+Tree 14 / LogL: -50784.156
+Tree 15 / LogL: -50784.163
+Tree 16 / LogL: -50784.182
+Tree 17 / LogL: -50784.182
+Tree 18 / LogL: -50784.198
+Tree 19 / LogL: -50784.198
+Tree 20 / LogL: -50784.199
+Tree 21 / LogL: -50784.202
+Tree 22 / LogL: -50784.211
+Tree 23 / LogL: -50784.217
+Tree 24 / LogL: -50784.241
+Tree 25 / LogL: -50784.247
+Tree 26 / LogL: -50784.260
+Tree 27 / LogL: -50784.261
+Tree 28 / LogL: -50784.281
+Tree 29 / LogL: -50784.282
+Tree 30 / LogL: -50784.291
+Tree 31 / LogL: -50784.306
+Tree 32 / LogL: -50784.350
+Tree 33 / LogL: -50784.350
+Tree 34 / LogL: -50784.350
+Tree 35 / LogL: -50784.351
+Tree 36 / LogL: -50784.351
+Tree 37 / LogL: -50784.355
+Tree 38 / LogL: -50784.355
+Tree 39 / LogL: -50784.355
+Tree 40 / LogL: -50784.362
+Tree 41 / LogL: -50784.362
+Tree 42 / LogL: -50784.363
+Tree 43 / LogL: -50784.371
+Tree 44 / LogL: -50784.377
+Tree 45 / LogL: -50784.434
+Tree 46 / LogL: -50784.445
+Tree 47 / LogL: -50784.492
+Tree 48 / LogL: -50784.501
+Tree 49 / LogL: -50784.520
+Tree 50 / LogL: -50784.520
+Tree 51 / LogL: -50784.527
+Tree 52 / LogL: -50784.533
+Tree 53 / LogL: -50784.538
+Tree 54 / LogL: -50784.540
+Tree 55 / LogL: -50784.540
+Tree 56 / LogL: -50784.546
+Tree 57 / LogL: -50784.559
+Tree 58 / LogL: -50784.560
+Tree 59 / LogL: -50784.570
+Tree 60 / LogL: -50784.571
+Tree 61 / LogL: -50784.571
+Tree 62 / LogL: -50784.576
+Tree 63 / LogL: -50784.581
+Tree 64 / LogL: -50784.581
+Tree 65 / LogL: -50784.581
+Tree 66 / LogL: -50784.588
+Tree 67 / LogL: -50784.588
+Tree 68 / LogL: -50784.588
+Tree 69 / LogL: -50784.595
+Tree 70 / LogL: -50784.595
+Tree 71 / LogL: -50784.598
+Tree 72 / LogL: -50784.598
+Tree 73 / LogL: -50784.602
+Tree 74 / LogL: -50784.608
+Tree 75 / LogL: -50784.608
+Tree 76 / LogL: -50784.609
+Tree 77 / LogL: -50784.611
+Tree 78 / LogL: -50784.621
+Tree 79 / LogL: -50784.621
+Tree 80 / LogL: -50784.621
+Tree 81 / LogL: -50784.630
+Tree 82 / LogL: -50784.632
+Tree 83 / LogL: -50784.635
+Tree 84 / LogL: -50784.635
+Tree 85 / LogL: -50784.635
+Tree 86 / LogL: -50784.638
+Tree 87 / LogL: -50784.646
+Tree 88 / LogL: -50784.646
+Tree 89 / LogL: -50784.654
+Tree 90 / LogL: -50784.657
+Tree 91 / LogL: -50784.657
+Tree 92 / LogL: -50784.657
+Tree 93 / LogL: -50784.658
+Tree 94 / LogL: -50784.658
+Tree 95 / LogL: -50784.660
+Tree 96 / LogL: -50784.665
+Tree 97 / LogL: -50784.665
+Tree 98 / LogL: -50784.667
+Tree 99 / LogL: -50784.668
+Tree 100 / LogL: -50784.673
+Tree 101 / LogL: -50784.676
+Tree 102 / LogL: -50784.678
+Tree 103 / LogL: -50784.679
+Tree 104 / LogL: -50784.679
+Tree 105 / LogL: -50784.685
+Tree 106 / LogL: -50784.687
+Tree 107 / LogL: -50784.688
+Tree 108 / LogL: -50784.689
+Tree 109 / LogL: -50784.689
+Tree 110 / LogL: -50784.689
+Tree 111 / LogL: -50784.688
+Tree 112 / LogL: -50784.689
+Tree 113 / LogL: -50784.695
+Tree 114 / LogL: -50784.697
+Tree 115 / LogL: -50784.703
+Tree 116 / LogL: -50784.703
+Tree 117 / LogL: -50784.703
+Tree 118 / LogL: -50784.707
+Tree 119 / LogL: -50784.708
+Tree 120 / LogL: -50784.708
+Tree 121 / LogL: -50784.708
+Tree 122 / LogL: -50784.708
+Tree 123 / LogL: -50784.711
+Tree 124 / LogL: -50784.721
+Tree 125 / LogL: -50784.722
+Tree 126 / LogL: -50784.738
+Tree 127 / LogL: -50784.742
+Tree 128 / LogL: -50784.742
+Tree 129 / LogL: -50784.742
+Tree 130 / LogL: -50784.742
+Tree 131 / LogL: -50784.747
+Tree 132 / LogL: -50784.747
+Tree 133 / LogL: -50784.760
+Tree 134 / LogL: -50784.763
+Tree 135 / LogL: -50784.772
+Tree 136 / LogL: -50784.773
+Tree 137 / LogL: -50784.773
+Tree 138 / LogL: -50784.778
+Tree 139 / LogL: -50784.780
+Tree 140 / LogL: -50784.788
+Tree 141 / LogL: -50784.788
+Tree 142 / LogL: -50784.788
+Tree 143 / LogL: -50784.788
+Tree 144 / LogL: -50784.796
+Tree 145 / LogL: -50784.798
+Tree 146 / LogL: -50784.801
+Tree 147 / LogL: -50784.802
+Tree 148 / LogL: -50784.802
+Tree 149 / LogL: -50784.802
+Tree 150 / LogL: -50784.804
+Tree 151 / LogL: -50784.805
+Tree 152 / LogL: -50784.806
+Tree 153 / LogL: -50784.806
+Tree 154 / LogL: -50784.811
+Tree 155 / LogL: -50784.813
+Tree 156 / LogL: -50784.813
+Tree 157 / LogL: -50784.814
+Tree 158 / LogL: -50784.825
+Tree 159 / LogL: -50784.831
+Tree 160 / LogL: -50784.831
+Tree 161 / LogL: -50784.832
+Tree 162 / LogL: -50784.842
+Tree 163 / LogL: -50784.850
+Tree 164 / LogL: -50784.854
+Tree 165 / LogL: -50784.854
+Tree 166 / LogL: -50784.854
+Tree 167 / LogL: -50784.856
+Tree 168 / LogL: -50784.861
+Tree 169 / LogL: -50784.863
+Tree 170 / LogL: -50784.867
+Tree 171 / LogL: -50784.874
+Tree 172 / LogL: -50784.874
+Tree 173 / LogL: -50784.874
+Tree 174 / LogL: -50784.878
+Tree 175 / LogL: -50784.879
+Tree 176 / LogL: -50784.882
+Tree 177 / LogL: -50784.881
+Tree 178 / LogL: -50784.886
+Tree 179 / LogL: -50784.888
+Tree 180 / LogL: -50784.892
+Tree 181 / LogL: -50784.892
+Tree 182 / LogL: -50784.892
+Tree 183 / LogL: -50784.893
+Tree 184 / LogL: -50784.893
+Tree 185 / LogL: -50784.894
+Tree 186 / LogL: -50784.895
+Tree 187 / LogL: -50784.895
+Tree 188 / LogL: -50784.895
+Tree 189 / LogL: -50784.899
+Tree 190 / LogL: -50784.899
+Tree 191 / LogL: -50784.903
+Tree 192 / LogL: -50784.903
+Tree 193 / LogL: -50784.904
+Tree 194 / LogL: -50784.904
+Tree 195 / LogL: -50784.904
+Tree 196 / LogL: -50784.904
+Tree 197 / LogL: -50784.904
+Tree 198 / LogL: -50784.907
+Tree 199 / LogL: -50784.913
+Tree 200 / LogL: -50784.914
+Tree 201 / LogL: -50784.914
+Tree 202 / LogL: -50784.914
+Tree 203 / LogL: -50784.914
+Tree 204 / LogL: -50784.914
+Tree 205 / LogL: -50784.918
+Tree 206 / LogL: -50784.919
+Tree 207 / LogL: -50784.925
+Tree 208 / LogL: -50784.941
+Tree 209 / LogL: -50784.942
+Tree 210 / LogL: -50784.943
+Tree 211 / LogL: -50784.944
+Tree 212 / LogL: -50784.944
+Tree 213 / LogL: -50784.945
+Tree 214 / LogL: -50784.955
+Tree 215 / LogL: -50784.956
+Tree 216 / LogL: -50784.957
+Tree 217 / LogL: -50784.959
+Tree 218 / LogL: -50784.962
+Tree 219 / LogL: -50784.964
+Tree 220 / LogL: -50784.964
+Tree 221 / LogL: -50784.968
+Tree 222 / LogL: -50784.971
+Tree 223 / LogL: -50784.973
+Tree 224 / LogL: -50784.980
+Tree 225 / LogL: -50784.996
+Tree 226 / LogL: -50784.996
+Tree 227 / LogL: -50784.997
+Tree 228 / LogL: -50784.997
+Tree 229 / LogL: -50784.997
+Tree 230 / LogL: -50785.004
+Tree 231 / LogL: -50785.005
+Tree 232 / LogL: -50785.011
+Tree 233 / LogL: -50785.014
+Tree 234 / LogL: -50785.021
+Tree 235 / LogL: -50785.022
+Tree 236 / LogL: -50785.028
+Tree 237 / LogL: -50785.028
+Tree 238 / LogL: -50785.029
+Tree 239 / LogL: -50785.029
+Tree 240 / LogL: -50785.029
+Tree 241 / LogL: -50785.029
+Tree 242 / LogL: -50785.029
+Tree 243 / LogL: -50785.031
+Tree 244 / LogL: -50785.033
+Tree 245 / LogL: -50785.033
+Tree 246 / LogL: -50785.033
+Tree 247 / LogL: -50785.033
+Tree 248 / LogL: -50785.041
+Tree 249 / LogL: -50785.057
+Tree 250 / LogL: -50785.060
+Tree 251 / LogL: -50785.060
+Tree 252 / LogL: -50785.071
+Tree 253 / LogL: -50785.070
+Tree 254 / LogL: -50785.072
+Tree 255 / LogL: -50785.072
+Tree 256 / LogL: -50785.073
+Tree 257 / LogL: -50785.078
+Tree 258 / LogL: -50785.080
+Tree 259 / LogL: -50785.081
+Tree 260 / LogL: -50785.081
+Tree 261 / LogL: -50785.081
+Tree 262 / LogL: -50785.082
+Tree 263 / LogL: -50785.084
+Tree 264 / LogL: -50785.087
+Tree 265 / LogL: -50785.091
+Tree 266 / LogL: -50785.092
+Tree 267 / LogL: -50785.092
+Tree 268 / LogL: -50785.094
+Tree 269 / LogL: -50785.095
+Tree 270 / LogL: -50785.099
+Tree 271 / LogL: -50785.100
+Tree 272 / LogL: -50785.102
+Tree 273 / LogL: -50785.102
+Tree 274 / LogL: -50785.106
+Tree 275 / LogL: -50785.107
+Tree 276 / LogL: -50785.107
+Tree 277 / LogL: -50785.107
+Tree 278 / LogL: -50785.108
+Tree 279 / LogL: -50785.114
+Tree 280 / LogL: -50785.117
+Tree 281 / LogL: -50785.117
+Tree 282 / LogL: -50785.120
+Tree 283 / LogL: -50785.121
+Tree 284 / LogL: -50785.121
+Tree 285 / LogL: -50785.124
+Tree 286 / LogL: -50785.125
+Tree 287 / LogL: -50785.125
+Tree 288 / LogL: -50785.125
+Tree 289 / LogL: -50785.126
+Tree 290 / LogL: -50785.127
+Tree 291 / LogL: -50785.132
+Tree 292 / LogL: -50785.132
+Tree 293 / LogL: -50785.132
+Tree 294 / LogL: -50785.133
+Tree 295 / LogL: -50785.133
+Tree 296 / LogL: -50785.134
+Tree 297 / LogL: -50785.135
+Tree 298 / LogL: -50785.139
+Tree 299 / LogL: -50785.140
+Tree 300 / LogL: -50785.142
+Tree 301 / LogL: -50785.149
+Tree 302 / LogL: -50785.150
+Tree 303 / LogL: -50785.150
+Tree 304 / LogL: -50785.151
+Tree 305 / LogL: -50785.153
+Tree 306 / LogL: -50785.153
+Tree 307 / LogL: -50785.153
+Tree 308 / LogL: -50785.155
+Tree 309 / LogL: -50785.155
+Tree 310 / LogL: -50785.163
+Tree 311 / LogL: -50785.163
+Tree 312 / LogL: -50785.167
+Tree 313 / LogL: -50785.168
+Tree 314 / LogL: -50785.170
+Tree 315 / LogL: -50785.170
+Tree 316 / LogL: -50785.170
+Tree 317 / LogL: -50785.170
+Tree 318 / LogL: -50785.176
+Tree 319 / LogL: -50785.175
+Tree 320 / LogL: -50785.176
+Tree 321 / LogL: -50785.178
+Tree 322 / LogL: -50785.178
+Tree 323 / LogL: -50785.182
+Tree 324 / LogL: -50785.182
+Tree 325 / LogL: -50785.185
+Tree 326 / LogL: -50785.185
+Tree 327 / LogL: -50785.190
+Tree 328 / LogL: -50785.190
+Tree 329 / LogL: -50785.189
+Tree 330 / LogL: -50785.193
+Tree 331 / LogL: -50785.195
+Tree 332 / LogL: -50785.196
+Tree 333 / LogL: -50785.196
+Tree 334 / LogL: -50785.198
+Tree 335 / LogL: -50785.198
+Tree 336 / LogL: -50785.201
+Tree 337 / LogL: -50785.202
+Tree 338 / LogL: -50785.202
+Tree 339 / LogL: -50785.202
+Tree 340 / LogL: -50785.202
+Tree 341 / LogL: -50785.202
+Tree 342 / LogL: -50785.209
+Tree 343 / LogL: -50785.210
+Tree 344 / LogL: -50785.210
+Tree 345 / LogL: -50785.210
+Tree 346 / LogL: -50785.211
+Tree 347 / LogL: -50785.213
+Tree 348 / LogL: -50785.213
+Tree 349 / LogL: -50785.212
+Tree 350 / LogL: -50785.217
+Tree 351 / LogL: -50785.217
+Tree 352 / LogL: -50785.218
+Tree 353 / LogL: -50785.229
+Tree 354 / LogL: -50785.231
+Tree 355 / LogL: -50785.233
+Tree 356 / LogL: -50785.233
+Tree 357 / LogL: -50785.234
+Tree 358 / LogL: -50785.234
+Tree 359 / LogL: -50785.234
+Tree 360 / LogL: -50785.234
+Tree 361 / LogL: -50785.241
+Tree 362 / LogL: -50785.242
+Tree 363 / LogL: -50785.244
+Tree 364 / LogL: -50785.258
+Tree 365 / LogL: -50785.258
+Tree 366 / LogL: -50785.264
+Tree 367 / LogL: -50785.264
+Tree 368 / LogL: -50785.265
+Tree 369 / LogL: -50785.266
+Tree 370 / LogL: -50785.267
+Tree 371 / LogL: -50785.267
+Tree 372 / LogL: -50785.268
+Tree 373 / LogL: -50785.270
+Tree 374 / LogL: -50785.270
+Tree 375 / LogL: -50785.271
+Tree 376 / LogL: -50785.272
+Tree 377 / LogL: -50785.276
+Tree 378 / LogL: -50785.276
+Tree 379 / LogL: -50785.278
+Tree 380 / LogL: -50785.278
+Tree 381 / LogL: -50785.278
+Tree 382 / LogL: -50785.278
+Tree 383 / LogL: -50785.279
+Tree 384 / LogL: -50785.279
+Tree 385 / LogL: -50785.282
+Tree 386 / LogL: -50785.283
+Tree 387 / LogL: -50785.284
+Tree 388 / LogL: -50785.284
+Tree 389 / LogL: -50785.284
+Tree 390 / LogL: -50785.286
+Tree 391 / LogL: -50785.286
+Tree 392 / LogL: -50785.286
+Tree 393 / LogL: -50785.287
+Tree 394 / LogL: -50785.287
+Tree 395 / LogL: -50785.291
+Tree 396 / LogL: -50785.291
+Tree 397 / LogL: -50785.291
+Tree 398 / LogL: -50785.291
+Tree 399 / LogL: -50785.291
+Tree 400 / LogL: -50785.292
+Tree 401 / LogL: -50785.292
+Tree 402 / LogL: -50785.293
+Tree 403 / LogL: -50785.294
+Tree 404 / LogL: -50785.295
+Tree 405 / LogL: -50785.295
+Tree 406 / LogL: -50785.295
+Tree 407 / LogL: -50785.297
+Tree 408 / LogL: -50785.298
+Tree 409 / LogL: -50785.298
+Tree 410 / LogL: -50785.298
+Tree 411 / LogL: -50785.299
+Tree 412 / LogL: -50785.299
+Tree 413 / LogL: -50785.298
+Tree 414 / LogL: -50785.301
+Tree 415 / LogL: -50785.302
+Tree 416 / LogL: -50785.303
+Tree 417 / LogL: -50785.304
+Tree 418 / LogL: -50785.305
+Tree 419 / LogL: -50785.305
+Tree 420 / LogL: -50785.307
+Tree 421 / LogL: -50785.307
+Tree 422 / LogL: -50785.312
+Tree 423 / LogL: -50785.316
+Tree 424 / LogL: -50785.317
+Tree 425 / LogL: -50785.323
+Tree 426 / LogL: -50785.329
+Tree 427 / LogL: -50785.331
+Tree 428 / LogL: -50785.331
+Tree 429 / LogL: -50785.333
+Tree 430 / LogL: -50785.334
+Tree 431 / LogL: -50785.334
+Tree 432 / LogL: -50785.334
+Tree 433 / LogL: -50785.337
+Tree 434 / LogL: -50785.337
+Tree 435 / LogL: -50785.338
+Tree 436 / LogL: -50785.339
+Tree 437 / LogL: -50785.340
+Tree 438 / LogL: -50785.345
+Tree 439 / LogL: -50785.357
+Tree 440 / LogL: -50785.358
+Tree 441 / LogL: -50785.358
+Tree 442 / LogL: -50785.360
+Tree 443 / LogL: -50785.363
+Tree 444 / LogL: -50785.363
+Tree 445 / LogL: -50785.367
+Tree 446 / LogL: -50785.367
+Tree 447 / LogL: -50785.368
+Tree 448 / LogL: -50785.368
+Tree 449 / LogL: -50785.368
+Tree 450 / LogL: -50785.374
+Tree 451 / LogL: -50785.374
+Tree 452 / LogL: -50785.376
+Tree 453 / LogL: -50785.376
+Tree 454 / LogL: -50785.376
+Tree 455 / LogL: -50785.375
+Tree 456 / LogL: -50785.377
+Tree 457 / LogL: -50785.377
+Tree 458 / LogL: -50785.377
+Tree 459 / LogL: -50785.377
+Tree 460 / LogL: -50785.378
+Tree 461 / LogL: -50785.380
+Tree 462 / LogL: -50785.383
+Tree 463 / LogL: -50785.383
+Tree 464 / LogL: -50785.384
+Tree 465 / LogL: -50785.384
+Tree 466 / LogL: -50785.384
+Tree 467 / LogL: -50785.385
+Tree 468 / LogL: -50785.386
+Tree 469 / LogL: -50785.386
+Tree 470 / LogL: -50785.392
+Tree 471 / LogL: -50785.393
+Tree 472 / LogL: -50785.395
+Tree 473 / LogL: -50785.394
+Tree 474 / LogL: -50785.396
+Tree 475 / LogL: -50785.399
+Tree 476 / LogL: -50785.399
+Tree 477 / LogL: -50785.399
+Tree 478 / LogL: -50785.399
+Tree 479 / LogL: -50785.405
+Tree 480 / LogL: -50785.408
+Tree 481 / LogL: -50785.410
+Tree 482 / LogL: -50785.416
+Tree 483 / LogL: -50785.425
+Tree 484 / LogL: -50785.425
+Tree 485 / LogL: -50785.427
+Tree 486 / LogL: -50785.427
+Tree 487 / LogL: -50785.428
+Tree 488 / LogL: -50785.428
+Tree 489 / LogL: -50785.429
+Tree 490 / LogL: -50785.429
+Tree 491 / LogL: -50785.431
+Tree 492 / LogL: -50785.433
+Tree 493 / LogL: -50785.433
+Tree 494 / LogL: -50785.434
+Tree 495 / LogL: -50785.437
+Tree 496 / LogL: -50785.438
+Tree 497 / LogL: -50785.439
+Tree 498 / LogL: -50785.440
+Tree 499 / LogL: -50785.445
+Tree 500 / LogL: -50785.447
+Tree 501 / LogL: -50785.447
+Tree 502 / LogL: -50785.454
+Tree 503 / LogL: -50785.454
+Tree 504 / LogL: -50785.457
+Tree 505 / LogL: -50785.460
+Tree 506 / LogL: -50785.466
+Tree 507 / LogL: -50785.469
+Tree 508 / LogL: -50785.470
+Tree 509 / LogL: -50785.472
+Tree 510 / LogL: -50785.477
+Tree 511 / LogL: -50785.479
+Tree 512 / LogL: -50785.479
+Tree 513 / LogL: -50785.481
+Tree 514 / LogL: -50785.482
+Tree 515 / LogL: -50785.482
+Tree 516 / LogL: -50785.483
+Tree 517 / LogL: -50785.485
+Tree 518 / LogL: -50785.485
+Tree 519 / LogL: -50785.485
+Tree 520 / LogL: -50785.486
+Tree 521 / LogL: -50785.487
+Tree 522 / LogL: -50785.488
+Tree 523 / LogL: -50785.490
+Tree 524 / LogL: -50785.492
+Tree 525 / LogL: -50785.492
+Tree 526 / LogL: -50785.495
+Tree 527 / LogL: -50785.496
+Tree 528 / LogL: -50785.497
+Tree 529 / LogL: -50785.498
+Tree 530 / LogL: -50785.501
+Tree 531 / LogL: -50785.508
+Tree 532 / LogL: -50785.513
+Tree 533 / LogL: -50785.515
+Tree 534 / LogL: -50785.515
+Tree 535 / LogL: -50785.516
+Tree 536 / LogL: -50785.517
+Tree 537 / LogL: -50785.517
+Tree 538 / LogL: -50785.518
+Tree 539 / LogL: -50785.533
+Tree 540 / LogL: -50785.533
+Tree 541 / LogL: -50785.537
+Tree 542 / LogL: -50785.536
+Tree 543 / LogL: -50785.538
+Tree 544 / LogL: -50785.539
+Tree 545 / LogL: -50785.542
+Tree 546 / LogL: -50785.544
+Tree 547 / LogL: -50785.549
+Tree 548 / LogL: -50785.553
+Tree 549 / LogL: -50785.556
+Tree 550 / LogL: -50785.561
+Tree 551 / LogL: -50785.562
+Tree 552 / LogL: -50785.563
+Tree 553 / LogL: -50785.564
+Tree 554 / LogL: -50785.565
+Tree 555 / LogL: -50785.566
+Tree 556 / LogL: -50785.575
+Tree 557 / LogL: -50785.575
+Tree 558 / LogL: -50785.576
+Tree 559 / LogL: -50785.577
+Tree 560 / LogL: -50785.577
+Tree 561 / LogL: -50785.579
+Tree 562 / LogL: -50785.579
+Tree 563 / LogL: -50785.583
+Tree 564 / LogL: -50785.584
+Tree 565 / LogL: -50785.584
+Tree 566 / LogL: -50785.584
+Tree 567 / LogL: -50785.585
+Tree 568 / LogL: -50785.587
+Tree 569 / LogL: -50785.589
+Tree 570 / LogL: -50785.596
+Tree 571 / LogL: -50785.596
+Tree 572 / LogL: -50785.596
+Tree 573 / LogL: -50785.600
+Tree 574 / LogL: -50785.602
+Tree 575 / LogL: -50785.607
+Tree 576 / LogL: -50785.607
+Tree 577 / LogL: -50785.608
+Tree 578 / LogL: -50785.612
+Tree 579 / LogL: -50785.612
+Tree 580 / LogL: -50785.612
+Tree 581 / LogL: -50785.613
+Tree 582 / LogL: -50785.617
+Tree 583 / LogL: -50785.619
+Tree 584 / LogL: -50785.621
+Tree 585 / LogL: -50785.625
+Tree 586 / LogL: -50785.626
+Tree 587 / LogL: -50785.627
+Tree 588 / LogL: -50785.633
+Tree 589 / LogL: -50785.635
+Tree 590 / LogL: -50785.635
+Tree 591 / LogL: -50785.635
+Tree 592 / LogL: -50785.636
+Tree 593 / LogL: -50785.651
+Tree 594 / LogL: -50785.653
+Tree 595 / LogL: -50785.659
+Tree 596 / LogL: -50785.671
+Tree 597 / LogL: -50785.680
+Tree 598 / LogL: -50785.680
+Tree 599 / LogL: -50785.683
+Tree 600 / LogL: -50785.685
+Tree 601 / LogL: -50785.686
+Tree 602 / LogL: -50785.688
+Tree 603 / LogL: -50785.690
+Tree 604 / LogL: -50785.698
+Tree 605 / LogL: -50785.702
+Tree 606 / LogL: -50785.704
+Tree 607 / LogL: -50785.718
+Tree 608 / LogL: -50785.718
+Tree 609 / LogL: -50785.723
+Tree 610 / LogL: -50785.730
+Tree 611 / LogL: -50785.733
+Tree 612 / LogL: -50785.733
+Tree 613 / LogL: -50785.736
+Tree 614 / LogL: -50785.736
+Tree 615 / LogL: -50785.738
+Tree 616 / LogL: -50785.742
+Tree 617 / LogL: -50785.752
+Tree 618 / LogL: -50785.752
+Tree 619 / LogL: -50785.752
+Tree 620 / LogL: -50785.757
+Tree 621 / LogL: -50785.757
+Tree 622 / LogL: -50785.760
+Tree 623 / LogL: -50785.760
+Tree 624 / LogL: -50785.761
+Tree 625 / LogL: -50785.763
+Tree 626 / LogL: -50785.764
+Tree 627 / LogL: -50785.764
+Tree 628 / LogL: -50785.766
+Tree 629 / LogL: -50785.766
+Tree 630 / LogL: -50785.766
+Tree 631 / LogL: -50785.766
+Tree 632 / LogL: -50785.770
+Tree 633 / LogL: -50785.770
+Tree 634 / LogL: -50785.772
+Tree 635 / LogL: -50785.773
+Tree 636 / LogL: -50785.773
+Tree 637 / LogL: -50785.779
+Tree 638 / LogL: -50785.779
+Tree 639 / LogL: -50785.780
+Tree 640 / LogL: -50785.780
+Tree 641 / LogL: -50785.780
+Tree 642 / LogL: -50785.783
+Tree 643 / LogL: -50785.785
+Tree 644 / LogL: -50785.799
+Tree 645 / LogL: -50785.806
+Tree 646 / LogL: -50785.808
+Tree 647 / LogL: -50785.813
+Tree 648 / LogL: -50785.814
+Tree 649 / LogL: -50785.820
+Tree 650 / LogL: -50785.825
+Tree 651 / LogL: -50785.825
+Tree 652 / LogL: -50785.828
+Tree 653 / LogL: -50785.829
+Tree 654 / LogL: -50785.830
+Tree 655 / LogL: -50785.830
+Tree 656 / LogL: -50785.832
+Tree 657 / LogL: -50785.833
+Tree 658 / LogL: -50785.849
+Tree 659 / LogL: -50785.850
+Tree 660 / LogL: -50785.852
+Tree 661 / LogL: -50785.863
+Tree 662 / LogL: -50785.869
+Tree 663 / LogL: -50785.870
+Tree 664 / LogL: -50785.874
+Tree 665 / LogL: -50785.878
+Tree 666 / LogL: -50785.878
+Tree 667 / LogL: -50785.883
+Tree 668 / LogL: -50785.884
+Tree 669 / LogL: -50785.885
+Tree 670 / LogL: -50785.891
+Tree 671 / LogL: -50785.891
+Tree 672 / LogL: -50785.893
+Tree 673 / LogL: -50785.894
+Tree 674 / LogL: -50785.894
+Tree 675 / LogL: -50785.895
+Tree 676 / LogL: -50785.896
+Tree 677 / LogL: -50785.899
+Tree 678 / LogL: -50785.901
+Tree 679 / LogL: -50785.902
+Tree 680 / LogL: -50785.909
+Tree 681 / LogL: -50785.914
+Tree 682 / LogL: -50785.932
+Tree 683 / LogL: -50785.940
+Tree 684 / LogL: -50785.948
+Tree 685 / LogL: -50785.949
+Tree 686 / LogL: -50785.948
+Tree 687 / LogL: -50785.949
+Tree 688 / LogL: -50785.949
+Tree 689 / LogL: -50785.949
+Tree 690 / LogL: -50785.954
+Tree 691 / LogL: -50785.956
+Tree 692 / LogL: -50785.956
+Tree 693 / LogL: -50785.956
+Tree 694 / LogL: -50785.957
+Tree 695 / LogL: -50785.957
+Tree 696 / LogL: -50785.960
+Tree 697 / LogL: -50785.964
+Tree 698 / LogL: -50785.980
+Tree 699 / LogL: -50785.980
+Tree 700 / LogL: -50785.980
+Tree 701 / LogL: -50785.980
+Tree 702 / LogL: -50785.982
+Tree 703 / LogL: -50785.990
+Tree 704 / LogL: -50785.992
+Tree 705 / LogL: -50785.992
+Tree 706 / LogL: -50785.992
+Tree 707 / LogL: -50785.998
+Tree 708 / LogL: -50786.003
+Tree 709 / LogL: -50786.003
+Tree 710 / LogL: -50786.003
+Tree 711 / LogL: -50786.004
+Tree 712 / LogL: -50786.004
+Tree 713 / LogL: -50786.007
+Tree 714 / LogL: -50786.007
+Tree 715 / LogL: -50786.026
+Tree 716 / LogL: -50786.026
+Tree 717 / LogL: -50786.033
+Tree 718 / LogL: -50786.054
+Tree 719 / LogL: -50786.059
+Tree 720 / LogL: -50786.059
+Tree 721 / LogL: -50786.062
+Tree 722 / LogL: -50786.063
+Tree 723 / LogL: -50786.064
+Tree 724 / LogL: -50786.064
+Tree 725 / LogL: -50786.067
+Tree 726 / LogL: -50786.071
+Tree 727 / LogL: -50786.072
+Tree 728 / LogL: -50786.072
+Tree 729 / LogL: -50786.072
+Tree 730 / LogL: -50786.072
+Tree 731 / LogL: -50786.072
+Tree 732 / LogL: -50786.072
+Tree 733 / LogL: -50786.088
+Tree 734 / LogL: -50786.089
+Tree 735 / LogL: -50786.089
+Tree 736 / LogL: -50786.089
+Tree 737 / LogL: -50786.104
+Tree 738 / LogL: -50786.115
+Tree 739 / LogL: -50786.116
+Tree 740 / LogL: -50786.116
+Tree 741 / LogL: -50786.120
+Tree 742 / LogL: -50786.120
+Tree 743 / LogL: -50786.125
+Tree 744 / LogL: -50786.126
+Tree 745 / LogL: -50786.126
+Tree 746 / LogL: -50786.130
+Tree 747 / LogL: -50786.132
+Tree 748 / LogL: -50786.132
+Tree 749 / LogL: -50786.135
+Tree 750 / LogL: -50786.135
+Tree 751 / LogL: -50786.144
+Tree 752 / LogL: -50786.144
+Tree 753 / LogL: -50786.145
+Tree 754 / LogL: -50786.152
+Tree 755 / LogL: -50786.193
+Tree 756 / LogL: -50786.226
+Tree 757 / LogL: -50786.226
+Tree 758 / LogL: -50786.227
+Tree 759 / LogL: -50786.254
+Tree 760 / LogL: -50786.254
+Tree 761 / LogL: -50786.256
+Tree 762 / LogL: -50786.257
+Tree 763 / LogL: -50786.279
+Tree 764 / LogL: -50786.279
+Tree 765 / LogL: -50786.279
+Tree 766 / LogL: -50786.280
+Tree 767 / LogL: -50786.281
+Tree 768 / LogL: -50786.282
+Tree 769 / LogL: -50786.282
+Tree 770 / LogL: -50786.283
+Tree 771 / LogL: -50786.284
+Tree 772 / LogL: -50786.296
+Tree 773 / LogL: -50786.297
+Tree 774 / LogL: -50786.298
+Tree 775 / LogL: -50786.307
+Tree 776 / LogL: -50786.307
+Tree 777 / LogL: -50786.307
+Tree 778 / LogL: -50786.330
+Tree 779 / LogL: -50786.343
+Tree 780 / LogL: -50786.344
+Tree 781 / LogL: -50786.349
+Tree 782 / LogL: -50786.351
+Tree 783 / LogL: -50786.359
+Tree 784 / LogL: -50786.359
+Tree 785 / LogL: -50786.359
+Tree 786 / LogL: -50786.371
+Tree 787 / LogL: -50786.394
+Tree 788 / LogL: -50786.394
+Tree 789 / LogL: -50786.419
+Tree 790 / LogL: -50786.419
+Tree 791 / LogL: -50786.442
+Tree 792 / LogL: -50786.456
+Tree 793 / LogL: -50786.456
+Tree 794 / LogL: -50786.468
+Tree 795 / LogL: -50786.476
+Tree 796 / LogL: -50786.477
+Tree 797 / LogL: -50786.477
+Tree 798 / LogL: -50786.557
+Tree 799 / LogL: -50786.574
+Tree 800 / LogL: -50786.574
+Tree 801 / LogL: -50786.588
+Tree 802 / LogL: -50786.605
+Tree 803 / LogL: -50786.614
+Tree 804 / LogL: -50786.614
+Tree 805 / LogL: -50786.619
+Tree 806 / LogL: -50786.665
+Tree 807 / LogL: -50786.665
+Tree 808 / LogL: -50786.665
+Tree 809 / LogL: -50786.677
+Tree 810 / LogL: -50786.681
+Tree 811 / LogL: -50786.685
+Tree 812 / LogL: -50786.687
+Tree 813 / LogL: -50786.720
+Tree 814 / LogL: -50786.722
+Tree 815 / LogL: -50786.725
+Tree 816 / LogL: -50786.732
+Tree 817 / LogL: -50786.736
+Tree 818 / LogL: -50786.739
+Tree 819 / LogL: -50786.743
+Tree 820 / LogL: -50786.747
+Tree 821 / LogL: -50786.747
+Tree 822 / LogL: -50786.747
+Tree 823 / LogL: -50786.759
+Tree 824 / LogL: -50786.784
+Tree 825 / LogL: -50786.806
+Tree 826 / LogL: -50786.806
+Tree 827 / LogL: -50786.812
+Tree 828 / LogL: -50786.812
+Tree 829 / LogL: -50786.840
+Tree 830 / LogL: -50786.862
+Tree 831 / LogL: -50786.866
+Tree 832 / LogL: -50786.875
+Tree 833 / LogL: -50786.883
+Tree 834 / LogL: -50786.883
+Tree 835 / LogL: -50786.886
+Tree 836 / LogL: -50786.886
+Tree 837 / LogL: -50786.888
+Tree 838 / LogL: -50786.899
+Tree 839 / LogL: -50786.899
+Tree 840 / LogL: -50786.920
+Tree 841 / LogL: -50786.923
+Tree 842 / LogL: -50786.936
+Tree 843 / LogL: -50786.944
+Tree 844 / LogL: -50786.945
+Tree 845 / LogL: -50786.945
+Tree 846 / LogL: -50786.945
+Tree 847 / LogL: -50786.945
+Tree 848 / LogL: -50786.950
+Tree 849 / LogL: -50786.951
+Tree 850 / LogL: -50786.961
+Tree 851 / LogL: -50786.968
+Tree 852 / LogL: -50786.981
+Tree 853 / LogL: -50787.007
+Tree 854 / LogL: -50787.007
+Tree 855 / LogL: -50787.014
+Tree 856 / LogL: -50787.014
+Tree 857 / LogL: -50787.118
+Tree 858 / LogL: -50787.128
+Tree 859 / LogL: -50787.133
+Tree 860 / LogL: -50787.149
+Tree 861 / LogL: -50787.153
+Tree 862 / LogL: -50787.153
+Tree 863 / LogL: -50787.153
+Tree 864 / LogL: -50787.193
+Tree 865 / LogL: -50787.203
+Performing RELL-BP test...
+Performing KH and SH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+WARNING: Too few replicates for AU test. At least -zb 10000 for reliable results!
+65 MB required for AU test
+Generating 10 x 1000 multiscale bootstrap replicates... 3.820 seconds
+TreeID	AU	RSS	d	c
+1	0.714	6.864	0.417	0.981
+2	0.731	9.950	0.422	1.038
+3	0.685	7.508	0.455	0.938
+4	0.733	6.768	0.398	1.020
+5	0.582	10.809	0.986	1.192
+6	0.328	5.137	1.331	0.886
+7	0.328	5.127	1.331	0.885
+8	0.329	5.121	1.330	0.887
+9	0.328	5.139	1.331	0.886
+10	0.329	5.139	1.331	0.887
+11	0.458	7.043	1.404	1.299
+12	0.570	2.547	0.768	0.944
+13	0.417	8.481	1.206	0.996
+14	0.434	8.791	1.188	1.020
+15	0.530	4.366	0.989	1.064
+16	0.553	4.836	1.279	1.411
+17	0.390	2.529	1.345	1.066
+18	0.450	10.195	1.032	0.906
+19	0.443	11.136	1.041	0.896
+20	0.443	11.194	1.040	0.898
+21	0.762	4.310	0.730	1.444
+22	0.815	13.453	0.664	1.560
+23	0.499	7.543	1.210	1.209
+24	0.101	2.737	2.383	1.107
+25	0.245	4.408	1.829	1.139
+26	0.081	4.214	2.052	0.653
+27	0.456	7.039	0.993	0.881
+28	0.478	2.781	0.855	0.800
+29	0.460	6.578	1.150	1.049
+30	0.361	4.891	1.237	0.880
+31	0.410	11.015	1.043	0.817
+32	0.618	19.382	0.763	1.063
+33	0.662	22.127	0.714	1.133 !!!
+34	0.662	21.781	0.714	1.131 !!!
+35	0.598	12.551	0.677	0.926
+36	0.599	12.595	0.677	0.927
+37	0.473	12.820	1.072	1.005
+38	0.443	10.697	1.245	1.102
+39	0.449	10.140	1.187	1.060
+40	0.583	13.959	0.693	0.903
+41	0.524	14.943	0.962	1.022
+42	0.512	10.068	0.977	1.007
+43	0.171	7.843	1.851	0.900
+44	0.086	2.538	2.300	0.935
+45	0.433	6.053	1.189	1.020
+46	0.004	3.802	3.254	0.608
+47	0.000	0.503	8.606	-1.977
+48	0.404	4.487	1.546	1.302
+49	0.742	5.981	1.188	1.838
+50	0.742	5.910	1.187	1.838
+51	0.420	8.165	1.108	0.906
+52	0.339	7.343	1.785	1.369
+53	0.621	2.393	1.497	1.804
+54	0.000	0.249	8.958	-2.163
+55	0.000	0.000	11.050	-3.224
+56	0.371	12.650	1.157	0.828
+57	0.516	2.988	1.737	1.777
+58	0.426	5.956	1.240	1.054
+59	0.526	2.691	1.187	1.252
+60	0.307	5.990	1.649	1.145
+61	0.366	1.819	2.109	1.766
+62	0.599	2.547	1.641	1.892
+63	0.109	7.862	2.116	0.886
+64	0.164	9.214	1.952	0.975
+65	0.221	6.739	1.761	0.990
+66	0.455	5.568	1.279	1.166
+67	0.454	5.554	1.280	1.164
+68	0.455	5.620	1.276	1.164
+69	0.107	8.095	1.954	0.709
+70	0.107	8.093	1.953	0.709
+71	0.527	7.738	1.425	1.493
+72	0.037	1.689	2.604	0.817
+73	0.259	8.300	1.609	0.964
+74	0.075	1.277	2.606	1.169
+75	0.051	0.855	2.762	1.124
+76	0.162	3.426	2.246	1.261
+77	0.330	8.851	1.454	1.016
+78	0.551	7.653	1.286	1.414
+79	0.678	6.883	0.665	1.127
+80	0.598	7.343	1.051	1.300
+81	0.178	6.492	1.833	0.911
+82	0.439	4.356	1.364	1.210
+83	0.256	3.058	1.783	1.128
+84	0.214	2.480	1.840	1.048
+85	0.339	2.588	1.259	0.843
+86	0.000	0.039	10.037	-2.664
+87	0.591	8.274	0.999	1.230
+88	0.591	8.273	1.000	1.230
+89	0.618	6.594	1.036	1.336
+90	0.356	2.396	1.487	1.119
+91	0.323	8.490	1.523	1.064
+92	0.323	8.490	1.523	1.064
+93	0.558	8.166	1.232	1.379
+94	0.010	2.944	3.102	0.762
+95	0.554	7.531	1.435	1.571
+96	0.232	14.566	1.754	1.022
+97	0.232	14.603	1.755	1.022
+98	0.168	5.927	2.007	1.046
+99	0.415	7.302	1.352	1.137
+100	0.002	0.545	3.576	0.709
+101	0.010	3.345	2.860	0.533
+102	0.365	4.031	1.758	1.412
+103	0.016	1.914	2.839	0.687
+104	0.004	1.263	3.138	0.507
+105	0.392	1.583	1.746	1.472
+106	0.664	7.450	0.940	1.364
+107	0.092	3.214	2.253	0.923
+108	0.572	3.195	1.631	1.813
+109	0.567	3.383	1.632	1.801
+110	0.570	3.676	1.623	1.800
+111	0.432	7.287	1.303	1.130
+112	0.419	6.429	1.066	0.861
+113	0.000	0.085	4.114	0.596
+114	0.121	4.305	2.176	1.006
+115	0.354	12.092	1.269	0.893
+116	0.678	1.101	1.591	2.052
+117	0.044	0.683	2.952	1.248
+118	0.526	12.036	1.193	1.258
+119	0.169	1.423	2.380	1.422
+120	0.169	1.424	2.379	1.423
+121	0.483	10.729	1.236	1.193
+122	0.034	0.766	3.005	1.178
+123	0.470	9.857	1.313	1.237
+124	0.024	1.577	2.996	1.014
+125	0.003	0.094	3.757	0.989
+126	0.454	2.679	1.527	1.411
+127	0.314	8.731	1.523	1.037
+128	0.315	8.713	1.521	1.041
+129	0.046	1.617	2.706	1.021
+130	0.047	1.480	2.712	1.033
+131	0.006	0.915	3.331	0.829
+132	0.006	0.914	3.333	0.828
+133	0.365	7.817	1.469	1.123
+134	0.342	6.062	1.258	0.851
+135	0.450	2.425	1.656	1.531
+136	0.338	1.127	2.032	1.614
+137	0.338	1.127	2.032	1.614
+138	0.554	1.154	1.832	1.969
+139	0.000	0.197	8.601	-1.828
+140	0.205	8.107	1.605	0.780
+141	0.564	1.164	1.821	1.981
+142	0.565	1.166	1.820	1.983
+143	0.574	1.144	1.809	1.997
+144	0.937	1.069	1.111	2.644
+145	0.275	3.318	1.709	1.110
+146	0.301	4.214	1.441	0.920
+147	0.301	4.182	1.441	0.921
+148	0.491	2.417	1.547	1.524
+149	0.490	2.368	1.548	1.523
+150	0.143	5.604	1.935	0.869
+151	0.100	6.270	1.983	0.699
+152	0.077	4.886	2.068	0.642
+153	0.362	10.025	1.275	0.923
+154	0.497	14.312	0.986	0.979
+155	0.041	2.539	2.566	0.823
+156	0.052	1.791	2.514	0.887
+157	0.486	3.827	1.754	1.718
+158	0.930	2.554	0.468	1.945
+159	0.256	15.504	1.465	0.809
+160	0.229	4.077	1.909	1.167
+161	0.246	3.255	1.830	1.141
+162	0.001	0.558	3.584	0.475
+163	0.409	2.629	1.505	1.276
+164	0.091	2.481	2.460	1.126
+165	0.083	2.488	2.485	1.102
+166	0.414	9.120	1.410	1.193
+167	0.457	11.437	1.163	1.054
+168	0.394	2.187	1.511	1.242
+169	0.274	6.183	1.671	1.070
+170	0.338	8.855	1.458	1.041
+171	0.362	7.057	1.366	1.012
+172	0.350	7.377	1.382	0.998
+173	0.487	7.769	1.423	1.390
+174	0.120	5.655	2.233	1.056
+175	0.511	3.001	1.585	1.614
+176	0.262	19.041	1.526	0.888
+177	0.656	17.613	0.752	1.155
+178	0.360	2.857	1.431	1.073
+179	0.819	2.003	1.355	2.265
+180	0.614	4.296	1.461	1.750
+181	0.260	3.006	1.786	1.144
+182	0.244	2.464	1.806	1.112
+183	0.911	10.198	0.208	1.553
+184	0.911	10.567	0.207	1.555
+185	0.583	4.017	1.386	1.595
+186	0.495	3.130	1.602	1.589
+187	0.501	3.261	1.594	1.598
+188	0.502	3.260	1.594	1.599
+189	0.264	12.269	1.621	0.988
+190	0.264	12.269	1.621	0.988
+191	0.278	3.587	1.731	1.143
+192	0.278	3.641	1.732	1.143
+193	0.126	3.570	2.102	0.954
+194	0.295	8.061	1.693	1.154
+195	0.305	2.681	1.683	1.172
+196	0.001	1.914	3.581	0.526
+197	0.272	12.183	1.608	1.003
+198	0.297	3.212	1.679	1.147
+199	0.001	0.856	3.637	0.656
+200	0.263	12.807	1.623	0.987
+201	0.278	12.430	1.605	1.015
+202	0.278	12.430	1.605	1.015
+203	0.278	12.430	1.605	1.015
+204	0.278	12.430	1.605	1.015
+205	0.286	6.745	1.663	1.096
+206	0.283	12.461	1.599	1.025
+207	0.219	8.061	1.734	0.958
+208	0.000	0.292	11.993	-3.744
+209	0.318	12.298	1.658	1.185
+210	0.167	3.588	1.762	0.798
+211	0.175	4.608	1.895	0.962
+212	0.175	7.919	1.936	1.000
+213	0.161	6.831	1.955	0.966
+214	0.378	3.204	1.459	1.149
+215	0.183	6.421	1.816	0.911
+216	0.226	7.556	1.859	1.108
+217	0.001	1.201	3.617	0.601
+218	0.065	3.390	2.548	1.036
+219	0.873	4.355	1.047	2.190
+220	0.000	0.580	9.847	-2.656
+221	0.007	3.763	3.108	0.676
+222	0.002	0.398	3.669	0.783
+223	0.112	4.609	2.200	0.986
+224	0.002	0.329	3.693	0.805
+225	0.188	1.549	2.371	1.485
+226	0.194	1.585	2.357	1.493
+227	0.177	6.224	1.896	0.969
+228	0.177	6.230	1.896	0.969
+229	0.177	6.228	1.895	0.969
+230	0.840	1.503	1.318	2.314
+231	0.832	1.438	1.338	2.299
+232	0.054	3.529	2.433	0.827
+233	0.089	5.181	2.265	0.919
+234	0.088	4.368	2.059	0.707
+235	0.001	1.674	3.599	0.544
+236	0.000	0.363	10.770	-3.105
+237	0.476	2.822	1.489	1.428
+238	0.475	2.814	1.490	1.428
+239	0.475	2.814	1.490	1.428
+240	0.059	2.416	2.254	0.692
+241	0.004	0.647	3.422	0.740
+242	0.004	0.638	3.410	0.745
+243	0.026	4.909	2.775	0.828
+244	0.260	3.495	1.792	1.147
+245	0.260	3.493	1.791	1.147
+246	0.266	3.674	1.777	1.153
+247	0.267	3.674	1.777	1.154
+248	0.881	3.363	1.162	2.341
+249	0.333	8.071	1.542	1.111
+250	0.198	2.959	2.030	1.183
+251	0.233	3.503	1.983	1.254
+252	0.046	0.272	3.043	1.359
+253	0.046	0.426	2.997	1.308
+254	0.240	6.314	1.910	1.205
+255	0.111	2.607	2.222	1.001
+256	0.168	3.143	2.371	1.408
+257	0.751	3.926	1.067	1.744
+258	0.040	1.961	2.685	0.930
+259	0.000	0.070	10.254	-2.647
+260	0.000	0.111	8.657	-1.846
+261	0.003	1.699	3.294	0.582
+262	0.039	2.038	2.794	1.037
+263	0.234	8.459	1.901	1.175
+264	0.169	1.221	2.483	1.525
+265	0.362	9.662	1.302	0.950
+266	0.131	3.554	2.178	1.056
+267	0.043	0.933	2.924	1.206
+268	0.002	0.586	3.654	0.720
+269	0.947	2.515	1.055	2.670
+270	0.070	3.028	2.619	1.147
+271	0.426	1.958	1.655	1.468
+272	0.229	3.936	1.996	1.252
+273	0.372	1.963	2.094	1.768
+274	0.636	2.617	1.338	1.686
+275	0.000	0.080	9.603	-2.391
+276	0.000	0.060	10.577	-2.878
+277	0.464	6.805	1.311	1.222
+278	0.001	2.544	3.568	0.475
+279	0.401	2.595	1.841	1.591
+280	0.002	0.323	3.702	0.804
+281	0.614	0.954	1.861	2.150
+282	0.002	0.582	3.651	0.723
+283	0.012	1.394	3.069	0.806
+284	0.297	2.281	2.075	1.542
+285	0.961	1.351	1.009	2.766
+286	0.285	9.580	1.505	0.935
+287	0.001	0.829	3.641	0.661
+288	0.199	8.805	1.667	0.821
+289	0.025	1.557	2.950	0.995
+290	0.000	0.385	9.387	-2.320
+291	0.206	0.698	2.430	1.609
+292	0.419	3.235	1.190	0.986
+293	0.509	1.449	1.584	1.607
+294	0.039	2.558	2.827	1.067
+295	0.039	2.558	2.829	1.066
+296	0.381	2.263	1.896	1.593
+297	0.856	6.806	0.866	1.928
+298	0.351	4.227	1.597	1.214
+299	0.000	0.062	13.932	-4.588
+300	0.410	2.418	1.960	1.732
+301	0.002	0.643	3.643	0.708
+302	0.117	1.714	2.365	1.175
+303	0.123	1.713	2.349	1.190
+304	0.377	8.544	1.647	1.334
+305	0.254	3.240	2.053	1.391
+306	0.255	3.237	2.052	1.392
+307	0.253	3.135	2.057	1.394
+308	0.112	3.037	2.472	1.258
+309	0.048	2.209	2.729	1.061
+310	0.636	4.502	1.095	1.443
+311	0.630	4.578	1.097	1.428
+312	0.001	1.077	3.623	0.619
+313	0.649	4.110	1.073	1.457
+314	0.441	2.622	1.444	1.295
+315	0.432	2.880	1.445	1.273
+316	0.329	3.573	1.895	1.452
+317	0.270	4.025	1.971	1.358
+318	0.044	0.691	2.955	1.244
+319	0.332	3.515	1.892	1.458
+320	0.044	0.695	2.954	1.244
+321	0.649	3.984	1.077	1.458
+322	0.649	3.983	1.077	1.458
+323	0.009	0.959	3.152	0.799
+324	0.011	0.794	3.143	0.855
+325	0.323	3.631	1.902	1.442
+326	0.323	3.631	1.902	1.442
+327	0.448	10.708	1.448	1.316
+328	0.451	10.669	1.443	1.320
+329	0.000	0.000	8.707	-1.808
+330	0.002	0.312	3.703	0.810
+331	0.130	10.842	1.939	0.814
+332	0.270	2.957	2.033	1.419
+333	0.278	3.021	2.017	1.430
+334	0.682	1.858	1.308	1.780
+335	0.488	12.141	1.380	1.350
+336	0.097	2.110	2.352	1.051
+337	0.093	2.478	2.344	1.020
+338	0.093	2.469	2.344	1.021
+339	0.162	0.377	2.626	1.642
+340	0.094	2.458	2.341	1.024
+341	0.094	2.458	2.341	1.024
+342	0.290	4.457	1.927	1.375
+343	0.290	4.455	1.927	1.375
+344	0.290	4.455	1.927	1.375
+345	0.290	4.455	1.927	1.375
+346	0.351	2.081	2.006	1.624
+347	0.001	1.283	3.609	0.592
+348	0.626	2.036	1.755	2.076
+349	0.056	0.905	2.697	1.107
+350	0.001	2.072	3.588	0.506
+351	0.443	1.540	1.980	1.836
+352	0.967	1.156	0.790	2.625
+353	0.379	4.739	1.976	1.668
+354	0.002	0.471	3.676	0.749
+355	0.153	4.083	2.110	1.085
+356	0.172	3.826	2.073	1.125
+357	1.000	0.103	-0.698	5.362
+358	0.622	4.779	1.344	1.655
+359	0.284	4.750	2.052	1.481
+360	0.284	4.735	2.051	1.482
+361	0.182	2.469	2.236	1.326
+362	0.104	7.682	2.066	0.805
+363	0.002	0.351	3.696	0.792
+364	0.001	1.377	3.611	0.579
+365	0.001	1.568	3.591	0.566
+366	0.000	0.087	4.618	-0.006
+367	0.000	0.087	4.619	-0.006
+368	0.242	10.173	1.571	0.873
+369	0.340	0.989	2.134	1.722
+370	0.257	3.970	1.638	0.984
+371	0.159	1.091	2.463	1.464
+372	0.001	1.471	3.607	0.565
+373	0.128	6.660	1.763	0.629
+374	0.383	5.661	1.717	1.420
+375	0.067	3.652	2.466	0.964
+376	0.260	4.790	1.803	1.159
+377	0.271	3.472	1.701	1.091
+378	0.876	1.700	1.344	2.498
+379	0.144	4.050	2.043	0.979
+380	0.143	3.254	2.201	1.135
+381	0.102	5.355	2.158	0.888
+382	0.104	5.434	2.153	0.894
+383	0.148	1.654	2.277	1.231
+384	0.149	1.644	2.275	1.234
+385	0.238	3.689	1.857	1.146
+386	0.525	2.416	1.809	1.873
+387	0.039	9.058	2.255	0.496
+388	0.022	2.953	2.469	0.452
+389	0.049	8.723	2.201	0.548
+390	0.020	2.170	2.837	0.789
+391	0.021	2.174	2.831	0.793
+392	0.027	2.016	2.779	0.846
+393	0.355	3.838	1.569	1.198
+394	0.064	4.383	2.294	0.775
+395	0.273	4.162	1.696	1.093
+396	0.273	4.083	1.690	1.086
+397	0.273	4.090	1.690	1.086
+398	0.273	4.090	1.690	1.086
+399	0.166	3.948	2.156	1.187
+400	0.177	1.313	2.404	1.477
+401	0.490	14.851	1.308	1.284
+402	0.480	3.136	1.468	1.416
+403	0.345	2.354	1.416	1.017
+404	0.045	0.558	2.971	1.274
+405	0.044	0.557	2.975	1.272
+406	0.042	5.666	2.548	0.822
+407	0.269	1.978	1.623	1.007
+408	0.270	4.522	1.813	1.200
+409	0.132	3.158	2.311	1.195
+410	0.136	3.113	2.305	1.207
+411	0.133	3.156	2.309	1.197
+412	0.296	9.435	1.546	1.011
+413	0.333	3.443	1.598	1.166
+414	0.148	3.140	2.280	1.235
+415	0.290	6.985	1.619	1.065
+416	0.328	4.627	1.622	1.178
+417	0.001	1.914	3.591	0.525
+418	0.001	1.906	3.592	0.524
+419	0.001	1.886	3.593	0.524
+420	0.010	5.007	2.852	0.508
+421	0.011	4.554	2.815	0.521
+422	0.878	6.850	0.953	2.117
+423	0.401	1.895	1.868	1.617
+424	0.857	1.021	1.461	2.529
+425	0.209	2.272	2.203	1.393
+426	0.857	0.838	1.483	2.551
+427	0.518	2.685	1.646	1.691
+428	0.518	2.687	1.646	1.691
+429	0.044	0.654	2.959	1.252
+430	0.137	3.776	2.376	1.283
+431	0.137	3.775	2.376	1.283
+432	0.040	1.703	2.869	1.123
+433	0.042	1.325	2.890	1.160
+434	0.043	0.761	2.944	1.232
+435	0.043	0.829	2.937	1.221
+436	0.176	1.852	2.350	1.419
+437	0.431	1.631	1.914	1.740
+438	0.043	1.209	2.896	1.174
+439	0.207	5.949	2.137	1.319
+440	0.136	3.741	2.289	1.192
+441	0.038	3.351	2.803	1.027
+442	0.388	3.432	1.390	1.105
+443	0.130	2.672	2.348	1.224
+444	0.033	2.879	2.855	1.022
+445	0.617	2.759	1.532	1.829
+446	0.554	2.327	1.602	1.737
+447	0.038	3.129	2.807	1.038
+448	0.573	2.923	1.603	1.787
+449	0.628	2.928	1.520	1.848
+450	0.114	3.477	2.286	1.082
+451	0.332	2.043	1.845	1.412
+452	0.483	3.624	1.382	1.340
+453	0.484	3.585	1.381	1.341
+454	0.034	6.196	2.598	0.767
+455	0.222	1.989	2.059	1.295
+456	0.489	3.545	1.376	1.349
+457	0.983	10.451	0.105	2.218
+458	0.983	9.411	0.086	2.204
+459	0.000	0.111	9.603	-2.367
+460	0.547	2.825	1.576	1.693
+461	0.038	3.101	2.811	1.037
+462	0.088	4.559	2.235	0.885
+463	0.089	4.561	2.234	0.886
+464	0.217	7.317	2.065	1.283
+465	0.000	0.499	3.937	0.261
+466	0.000	0.480	3.962	0.242
+467	0.000	0.242	4.300	0.011
+468	0.144	2.657	2.254	1.190
+469	0.171	2.841	2.225	1.276
+470	0.043	1.099	2.901	1.189
+471	0.168	0.609	2.564	1.603
+472	0.310	4.446	1.690	1.193
+473	0.562	6.550	1.226	1.383
+474	0.179	1.568	2.297	1.377
+475	0.000	0.320	4.254	0.225
+476	0.380	4.355	1.365	1.060
+477	0.000	0.510	3.996	0.325
+478	0.000	0.508	3.994	0.327
+479	0.584	3.696	1.563	1.776
+480	0.239	6.007	1.627	0.917
+481	0.000	0.000	18.081	-7.004
+482	0.641	3.356	1.493	1.853
+483	0.448	2.941	1.591	1.459
+484	0.447	2.942	1.591	1.459
+485	0.215	5.662	1.862	1.072
+486	0.216	5.717	1.865	1.079
+487	0.042	1.057	2.913	1.190
+488	0.042	1.057	2.913	1.190
+489	0.042	1.053	2.914	1.190
+490	0.042	1.053	2.914	1.190
+491	0.687	5.306	1.159	1.646
+492	0.001	0.998	3.771	0.534
+493	0.001	0.994	3.773	0.533
+494	0.482	2.730	1.552	1.507
+495	0.063	3.539	2.581	1.050
+496	0.063	3.530	2.580	1.052
+497	0.173	0.327	2.620	1.678
+498	0.144	3.406	2.047	0.985
+499	0.072	0.615	2.791	1.332
+500	0.170	2.895	2.109	1.154
+501	0.168	2.983	2.110	1.149
+502	0.355	4.681	1.757	1.386
+503	0.002	0.160	3.738	0.912
+504	0.000	0.502	10.303	-2.885
+505	0.000	0.021	6.178	-0.887
+506	0.551	3.826	1.364	1.491
+507	0.000	0.737	4.310	0.006
+508	0.164	3.195	2.378	1.402
+509	0.557	4.630	1.298	1.440
+510	0.531	4.628	1.319	1.396
+511	0.008	0.966	3.137	0.733
+512	0.493	2.919	1.780	1.763
+513	0.038	3.162	2.809	1.036
+514	0.038	3.158	2.808	1.037
+515	0.038	3.158	2.808	1.037
+516	0.001	0.668	3.607	0.401
+517	0.425	4.461	1.599	1.409
+518	0.436	4.499	1.584	1.424
+519	0.017	1.105	3.037	0.910
+520	0.437	4.498	1.584	1.425
+521	0.448	5.817	1.469	1.339
+522	0.533	3.956	1.486	1.568
+523	0.001	1.621	3.470	0.501
+524	0.000	0.018	8.711	-1.425
+525	0.602	4.282	1.216	1.473
+526	0.599	1.796	1.478	1.729
+527	0.344	6.835	1.738	1.335
+528	0.007	1.683	3.110	0.653
+529	0.979	7.317	0.242	2.284
+530	0.001	1.197	3.618	0.605
+531	0.322	0.256	2.361	1.899
+532	0.653	3.238	1.259	1.654
+533	0.077	1.694	2.614	1.186
+534	0.072	1.655	2.633	1.173
+535	0.007	6.179	3.099	0.625
+536	0.383	3.185	1.966	1.669
+537	0.992	3.806	0.085	2.502
+538	0.089	3.659	2.368	1.020
+539	0.000	0.419	4.479	0.006
+540	0.000	0.430	4.487	-0.005
+541	0.040	1.529	2.885	1.138
+542	0.000	0.056	6.422	-1.199
+543	0.446	3.385	1.514	1.378
+544	0.884	2.997	1.155	2.349
+545	0.045	0.454	2.994	1.299
+546	0.000	0.000	10.096	-2.802
+547	0.000	0.000	8.271	-1.675
+548	0.637	8.020	1.278	1.628
+549	0.198	1.619	1.944	1.094
+550	0.786	2.267	1.274	2.068
+551	0.782	2.237	1.314	2.091
+552	0.447	3.531	1.510	1.378
+553	1.000	0.167	-0.695	5.349
+554	0.000	0.377	5.823	-0.819
+555	0.043	3.424	2.522	0.809
+556	0.138	0.946	2.245	1.157
+557	0.079	1.345	2.460	1.048
+558	0.001	0.978	3.630	0.638
+559	0.004	4.399	3.170	0.495
+560	0.004	4.397	3.172	0.494
+561	0.691	3.020	1.125	1.625
+562	0.685	2.594	1.429	1.912
+563	0.012	1.417	3.106	0.850
+564	0.050	2.243	2.559	0.915
+565	0.051	2.243	2.554	0.918
+566	0.051	2.243	2.553	0.919
+567	0.000	6.354	3.434	0.101
+568	0.103	2.588	2.427	1.162
+569	0.043	0.210	2.927	1.205
+570	0.168	1.718	2.445	1.483
+571	0.487	2.937	1.537	1.505
+572	0.000	0.582	11.414	-3.542
+573	0.709	2.592	1.369	1.918
+574	0.106	5.084	2.166	0.919
+575	0.139	1.614	2.281	1.196
+576	0.191	2.390	2.023	1.150
+577	0.139	1.598	2.281	1.198
+578	0.139	5.697	2.092	1.009
+579	0.261	1.548	2.020	1.379
+580	0.139	5.695	2.093	1.009
+581	0.745	4.724	1.067	1.724
+582	0.460	3.888	1.753	1.653
+583	0.183	3.652	2.057	1.151
+584	0.000	0.040	14.374	-4.888
+585	0.165	1.815	2.445	1.472
+586	0.736	3.965	1.322	1.953
+587	0.735	3.983	1.324	1.952
+588	0.021	4.624	2.890	0.862
+589	0.004	2.340	3.305	0.629
+590	0.000	0.310	4.523	-0.011
+591	0.000	0.331	4.171	0.215
+592	0.031	2.915	2.772	0.901
+593	0.335	4.310	1.743	1.317
+594	0.681	3.044	1.443	1.913
+595	0.012	2.713	2.933	0.669
+596	0.000	0.060	4.952	-0.032
+597	0.480	3.353	1.343	1.292
+598	0.474	3.600	1.350	1.284
+599	0.170	1.134	2.486	1.532
+600	0.617	9.048	1.216	1.513
+601	0.000	0.340	11.859	-3.838
+602	0.015	1.183	2.601	0.443
+603	0.082	4.580	1.964	0.570
+604	0.087	3.254	2.289	0.931
+605	0.000	1.276	3.838	0.406
+606	0.415	2.280	1.644	1.431
+607	0.090	3.573	2.262	0.923
+608	0.091	3.567	2.260	0.924
+609	0.840	0.451	1.590	2.584
+610	0.005	3.343	2.801	0.239
+611	0.306	2.857	1.876	1.368
+612	0.079	3.721	2.301	0.891
+613	0.016	2.842	2.937	0.789
+614	0.016	2.842	2.937	0.789
+615	0.008	1.601	3.195	0.794
+616	0.142	2.110	2.129	1.060
+617	0.000	0.047	5.397	-0.377
+618	0.293	2.821	1.888	1.344
+619	0.000	0.046	5.398	-0.377
+620	0.216	2.977	2.143	1.355
+621	0.193	2.943	2.166	1.298
+622	0.039	3.059	2.810	1.042
+623	0.002	0.339	3.689	0.803
+624	0.246	4.227	1.945	1.258
+625	0.276	2.602	1.916	1.322
+626	0.002	0.790	3.638	0.674
+627	0.221	3.069	2.005	1.237
+628	0.088	3.222	2.314	0.964
+629	0.193	3.730	2.171	1.304
+630	0.193	3.730	2.171	1.304
+631	0.196	3.714	2.166	1.309
+632	0.307	4.440	1.584	1.079
+633	0.309	4.408	1.582	1.082
+634	0.033	1.552	2.778	0.943
+635	0.029	10.193	2.538	0.642
+636	0.028	10.402	2.551	0.634
+637	0.041	1.672	2.870	1.126
+638	0.284	8.162	1.805	1.234
+639	0.284	8.182	1.806	1.234
+640	0.000	0.103	10.661	-2.837
+641	0.284	8.189	1.805	1.235
+642	0.208	3.027	2.021	1.206
+643	0.382	4.234	1.529	1.229
+644	0.000	0.000	12.814	-4.298
+645	0.000	0.110	10.882	-2.972
+646	0.216	2.001	2.262	1.477
+647	0.091	1.053	2.566	1.229
+648	0.172	3.831	2.018	1.072
+649	0.000	0.070	10.201	-2.865
+650	0.016	6.577	2.778	0.632
+651	0.016	6.577	2.778	0.632
+652	0.000	0.208	4.575	-0.169
+653	0.000	0.211	4.571	-0.165
+654	0.041	1.529	2.876	1.140
+655	0.211	1.345	2.336	1.532
+656	0.213	6.456	1.837	1.040
+657	0.242	5.761	1.791	1.091
+658	0.254	2.527	2.131	1.468
+659	0.252	2.527	2.133	1.466
+660	0.000	1.004	4.361	-0.058
+661	0.092	1.488	2.514	1.186
+662	0.299	8.234	1.675	1.148
+663	0.461	3.952	1.519	1.420
+664	0.165	1.381	2.390	1.416
+665	0.000	1.228	4.688	0.048
+666	0.000	1.105	5.078	-0.148
+667	0.016	4.127	2.769	0.625
+668	0.427	2.162	1.812	1.627
+669	0.000	1.417	3.965	0.434
+670	0.000	0.000	9.574	-2.392
+671	0.487	0.940	1.973	1.940
+672	0.006	1.633	3.320	0.806
+673	0.006	1.577	3.330	0.808
+674	0.006	1.630	3.323	0.805
+675	0.002	0.125	3.761	0.941
+676	0.058	4.915	2.377	0.804
+677	0.005	1.566	3.380	0.776
+678	0.058	2.336	2.663	1.094
+679	0.074	3.007	2.588	1.139
+680	0.000	1.244	4.231	0.306
+681	0.000	1.265	4.354	0.231
+682	0.000	0.000	6.927	-0.808
+683	0.200	2.432	2.023	1.180
+684	0.194	2.278	1.995	1.133
+685	0.162	5.627	2.312	1.326
+686	0.194	2.278	1.995	1.133
+687	0.194	2.278	1.995	1.133
+688	0.162	5.618	2.313	1.326
+689	0.194	2.278	1.995	1.133
+690	0.040	2.112	2.846	1.095
+691	0.188	3.912	1.967	1.083
+692	0.212	4.710	1.940	1.140
+693	0.196	3.341	1.858	1.001
+694	1.000	0.077	0.268	4.437
+695	0.000	0.022	10.716	-2.664
+696	0.210	2.464	1.998	1.192
+697	0.000	0.713	4.158	0.127
+698	0.223	2.732	1.976	1.213
+699	0.000	0.201	4.634	0.050
+700	0.225	2.732	1.973	1.216
+701	0.225	2.732	1.973	1.217
+702	0.336	4.480	1.560	1.135
+703	0.471	2.339	1.522	1.450
+704	0.001	3.062	3.568	0.436
+705	0.001	3.062	3.568	0.436
+706	0.001	3.060	3.568	0.436
+707	0.001	3.132	3.564	0.437
+708	0.000	0.121	11.999	-3.966
+709	0.194	3.429	2.078	1.216
+710	0.192	3.459	2.082	1.213
+711	0.022	3.893	2.666	0.646
+712	0.022	3.890	2.665	0.646
+713	0.001	3.127	3.566	0.432
+714	0.001	3.127	3.566	0.432
+715	0.007	3.564	3.131	0.665
+716	0.008	3.638	3.100	0.693
+717	0.125	0.638	2.575	1.424
+718	0.165	1.629	2.459	1.485
+719	0.199	5.279	1.975	1.128
+720	0.199	5.288	1.975	1.129
+721	0.000	0.000	10.747	-3.273
+722	0.002	0.358	3.678	0.800
+723	0.014	1.357	2.912	0.726
+724	0.014	1.357	2.912	0.726
+725	0.048	0.168	3.081	1.421
+726	0.000	0.000	15.725	-5.758
+727	0.000	0.000	10.492	-3.137
+728	0.000	0.000	17.484	-6.637
+729	0.000	0.000	11.685	-3.740
+730	0.000	0.000	11.674	-3.734
+731	0.000	0.000	11.682	-3.738
+732	0.000	0.000	11.682	-3.738
+733	0.357	5.593	1.748	1.382
+734	0.000	0.794	4.054	0.292
+735	0.000	0.812	4.050	0.291
+736	0.000	0.816	4.055	0.285
+737	0.340	5.385	1.597	1.186
+738	0.183	1.256	2.345	1.441
+739	0.001	1.289	3.613	0.589
+740	0.079	1.495	2.480	1.066
+741	0.000	0.055	7.934	-1.231
+742	0.000	0.065	7.570	-1.060
+743	0.000	0.118	12.801	-4.101
+744	0.000	1.070	4.162	0.120
+745	0.000	1.069	4.163	0.119
+746	0.357	7.149	1.541	1.174
+747	0.360	5.212	1.569	1.212
+748	0.360	5.212	1.569	1.212
+749	0.042	0.874	2.937	1.213
+750	0.043	0.868	2.936	1.215
+751	0.000	0.078	8.756	-1.697
+752	0.000	0.108	7.714	-1.175
+753	0.000	0.040	13.485	-4.447
+754	0.000	0.046	11.133	-2.948
+755	0.002	0.164	3.762	0.902
+756	0.001	1.369	3.606	0.581
+757	0.001	1.556	3.602	0.557
+758	0.001	1.591	3.603	0.552
+759	0.000	0.400	4.338	0.205
+760	0.000	0.398	4.345	0.201
+761	0.001	1.441	3.607	0.571
+762	0.000	0.269	4.291	0.315
+763	0.067	2.776	2.551	1.050
+764	0.067	2.778	2.550	1.051
+765	0.070	2.799	2.540	1.064
+766	0.000	0.348	4.719	-0.169
+767	0.065	3.181	2.465	0.951
+768	0.001	1.579	3.602	0.554
+769	0.001	1.722	3.596	0.540
+770	0.000	0.361	4.159	0.356
+771	0.000	0.669	4.274	0.112
+772	0.248	2.669	1.972	1.289
+773	0.000	0.037	8.270	-1.385
+774	0.000	0.016	7.613	-0.882
+775	0.045	0.477	2.985	1.294
+776	0.045	0.471	2.988	1.295
+777	0.000	0.036	8.668	-1.501
+778	0.128	4.978	2.130	0.992
+779	0.080	2.362	2.548	1.141
+780	0.080	2.360	2.548	1.141
+781	0.059	3.554	2.564	0.999
+782	0.404	1.899	2.023	1.779
+783	0.090	3.447	2.445	1.102
+784	0.111	3.738	2.368	1.145
+785	0.111	3.738	2.368	1.145
+786	0.609	4.639	1.388	1.666
+787	0.000	0.044	9.541	-2.120
+788	0.000	0.033	10.345	-2.520
+789	0.013	3.834	2.921	0.708
+790	0.013	3.834	2.921	0.708
+791	0.133	3.782	2.204	1.091
+792	0.023	1.132	2.834	0.847
+793	0.023	1.138	2.834	0.847
+794	0.000	0.498	10.426	-3.055
+795	0.230	1.865	2.197	1.459
+796	0.005	1.204	3.166	0.614
+797	0.066	2.912	2.409	0.903
+798	0.002	0.631	3.588	0.625
+799	0.011	0.622	3.248	0.959
+800	0.022	0.615	3.121	1.099
+801	0.005	0.404	3.427	0.875
+802	0.051	3.869	2.555	0.919
+803	0.180	3.099	2.059	1.143
+804	0.180	3.100	2.059	1.143
+805	0.023	0.110	3.240	1.236
+806	0.007	0.429	3.368	0.920
+807	0.007	0.428	3.365	0.923
+808	0.007	0.428	3.365	0.923
+809	0.066	2.325	2.489	0.985
+810	0.075	2.175	2.453	1.017
+811	0.114	2.088	2.360	1.153
+812	0.077	2.254	2.450	1.027
+813	0.044	0.780	2.940	1.232
+814	0.000	0.358	10.073	-2.794
+815	0.026	2.468	2.925	0.983
+816	0.034	2.855	2.850	1.029
+817	0.011	3.376	2.948	0.666
+818	0.039	2.480	2.831	1.072
+819	0.046	2.543	2.772	1.092
+820	0.061	3.446	2.546	1.000
+821	0.041	2.152	2.840	1.095
+822	0.041	2.152	2.840	1.095
+823	0.000	0.112	9.356	-2.180
+824	0.001	1.802	3.592	0.533
+825	0.000	0.247	8.965	-2.109
+826	0.000	0.256	9.788	-2.573
+827	0.000	0.012	14.876	-5.186
+828	0.000	0.165	12.521	-4.031
+829	0.004	0.988	3.397	0.705
+830	0.031	1.542	2.945	1.077
+831	0.001	0.891	3.803	0.521
+832	0.293	10.305	1.491	0.946
+833	0.300	9.777	1.479	0.954
+834	0.053	2.856	2.646	1.028
+835	0.000	0.493	11.595	-3.710
+836	0.000	0.378	12.564	-4.207
+837	0.074	4.198	2.555	1.109
+838	0.298	9.412	1.564	1.032
+839	0.006	0.898	3.078	0.586
+840	0.017	3.715	2.847	0.736
+841	0.000	0.006	12.752	-3.649
+842	0.214	2.285	2.277	1.484
+843	0.002	0.201	3.722	0.879
+844	0.219	2.256	2.270	1.495
+845	0.221	2.213	2.270	1.501
+846	0.224	2.170	2.268	1.509
+847	0.224	2.169	2.268	1.510
+848	0.103	6.363	2.313	1.051
+849	0.076	5.858	2.368	0.938
+850	0.071	6.799	2.403	0.932
+851	0.010	1.691	2.874	0.562
+852	0.054	7.398	2.483	0.872
+853	0.000	0.138	14.051	-4.874
+854	0.000	0.138	14.052	-4.874
+855	0.029	1.950	2.829	0.931
+856	0.029	1.953	2.827	0.933
+857	0.001	2.496	3.575	0.476
+858	0.000	0.107	4.065	0.702
+859	0.002	0.467	3.676	0.750
+860	0.002	0.502	3.673	0.738
+861	0.003	0.046	3.832	1.068
+862	0.003	0.104	3.772	0.965
+863	0.002	0.104	3.783	0.959
+864	0.197	6.656	2.048	1.194
+865	0.250	5.597	1.909	1.235
+Time for AU test: 4.050 seconds
+Time for evaluating all trees: 47.353 sec.
+Tree test results printed to nonrev_dna_test.roottest.csv
+Total tree length: 56.282
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 604.109 sec (0h:10m:4s)
+Total wall-clock time used: 613.948 sec (0h:10m:13s)
+
+Analysis results written to: 
+  IQ-TREE report:                nonrev_dna_test.iqtree
+  Maximum-likelihood tree:       nonrev_dna_test.treefile
+  Screen log file:               nonrev_dna_test.log
+
+Date and Time: Mon Jul  1 14:03:14 2024
