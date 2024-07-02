@@ -148,3 +148,47 @@ iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy -B 1000 --model-
 ```
 iqtree -s ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy --model-joint UNREST --root-test -zb 1000 -au -te nonrev_dna.treefile --prefix nonrev_dna_test
 ```
+
+## PnTx3 analyses
+
+- Explore Full peptide phylogeny and extract clade associated with PnTx3
+    - We chose 17 sequences
+    - Place terminal names in text file (PnTx3.fasta.txt)
+
+### Extract PnTx3 associated sequences from CDS, Full Peptide, and Mature Peptides
+
+```
+python ../ToxinSorter.py PnTx3.fasta.txt ickFinderCDS.correctedCDS_Ctenids_CDS.fasta ickFinderCDS.correctedCDS_Ctenids_FullPeptides.fasta ickFinderCDS.correctedCDS_Ctenids_MaturePeptides.fasta
+```
+
+### PnTx3 phylogenetic analyses
+
+#### CDS sequences
+
+##### Multiple sequence alignment
+
+- Full peptides
+
+```
+ mafft ickFinderCDS.correctedCDS_Ctenids_FullPeptides.fastaToxinSorterout.fasta > ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.MAFFT.aln.fasta
+```
+
+- Backtranslate CDS sequences onto Full peptide alignment
+
+```
+pal2nal.pl ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.MAFFT.aln.fasta ickFinderCDS.correctedCDS_Ctenids_CDS.fastaToxinSorterout.fasta -output fasta > ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.fasta
+```
+
+- Convert FASTA to PHYLIP
+
+```
+fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.phy -r
+```
+
+##### Phylogeny inference using IQTREE2
+
+###### Unrooted tree
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.phy -T AUTO -B 1000 -st CODON1 --modelomatic
+```

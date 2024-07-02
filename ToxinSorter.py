@@ -25,7 +25,7 @@ for name in targetnames:
                 name_found = False
         elif name_found:
             #print(">",name,"\n",CDSline.strip())
-            fp1.write(">"+name+CDSline+"\n")
+            fp1.write(">"+name+"\n"+CDSline+"\n")
     for FullPepline in FullPeplines:
         if FullPepline.startswith('>'):  
             if name in FullPepline:
@@ -34,7 +34,7 @@ for name in targetnames:
                 name_found = False
         elif name_found:
             #print(">",name,"\n",FullPepline.strip())
-            fp2.write(">"+name+FullPepline+"\n")
+            fp2.write(">"+name+"\n"+FullPepline+"\n")
     for MaturePepline in MaturePeplines:
         if MaturePepline.startswith('>'):  
             if name in MaturePepline:
@@ -43,7 +43,7 @@ for name in targetnames:
                 name_found = False
         elif name_found:
             #print(">",name,"\n",MaturePepline.strip())
-            fp3.write(">"+name+MaturePepline+"\n")
+            fp3.write(">"+name+"\n"+MaturePepline+"\n")
 
 fp1.close()
 fp2.close()
