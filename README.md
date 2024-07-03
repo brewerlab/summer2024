@@ -5,6 +5,20 @@
 ### Jordan Baccus
 ### Amir El
 
+## Dependencies
+
+### Install from conda
+
+```
+conda install -c bioconda -c conda-forge mafft pal2nal iqtree biopython
+```
+
+### Install from GitHub
+
+```
+wget https://raw.githubusercontent.com/jvollme/fasta2phylip/master/fasta2phylip.py
+```
+
 ## Sequence collection and curration
 
 ### Download ickFinderCDS.correctedCDS.csv from tijeco/killerknots GitHub
@@ -84,7 +98,7 @@ mafft ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank.fasta >
 - Convert FASTA to PHYLIP
 
 ```
-fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.phy -r
+../fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_FullPeptides_withPnTxFromGenbank_MAFFT.aln.phy -r
 ```
 
 ### Phylogeny inference using IQTREE2
@@ -126,7 +140,7 @@ pal2nal.pl ickFinderCDS.correctedCDS_Ctenids_FullPeptides_MAFFT.aln.fasta ickFin
 - Convert FASTA to PHYLIP
 
 ```
-fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy -r
+../fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_CDS_PAL2NAL.aln.phy -r
 ```
 
 ### Phylogeny inference using IQTREE2
@@ -182,7 +196,7 @@ pal2nal.pl ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.MAFFT.a
 - Convert FASTA to PHYLIP
 
 ```
-fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.phy -r
+../fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.phy -r
 ```
 
 ##### Phylogeny inference using IQTREE2
