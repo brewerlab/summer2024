@@ -206,3 +206,23 @@ pal2nal.pl ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.MAFFT.a
 ```
 iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.phy -T AUTO -B 1000 -st CODON1 --modelomatic
 ```
+
+#### CDS sequences without _Ctenus corniger_
+
+- Full peptides
+
+```
+ mafft ickFinderCDS.correctedCDS_Ctenids_FullPeptides.fastaToxinSorterout_noCtenuscorniger.fasta > ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.MAFFT.aln.fasta
+```
+
+- Backtranslate CDS sequences onto Full peptide alignment
+
+```
+pal2nal.pl ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.MAFFT.aln.fasta ickFinderCDS.correctedCDS_Ctenids_CDS.fastaToxinSorterout_noCtenuscorniger.fasta -output fasta > ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.fasta
+```
+
+- Convert FASTA to PHYLIP
+
+```
+../fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy -r
+```
