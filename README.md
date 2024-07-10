@@ -7,6 +7,13 @@
 
 ## Dependencies
 
+- Ubuntu 22.04.4 LTS (GNU/Linux 5.15.153.1-microsoft-standard-WSL2 x86_64)
+- HYPHY 2.5.62(MP) for Linux on x86_64 x86 SSE4 SIMD zlib (v1.2.13)
+- MAFFT v7.525 (2024/Mar/13)
+- pal2nal.pl v14
+- IQ-TREE multicore version 2.3.4 COVID-edition for Linux x86 64-bit built Jun 18 2024
+- biopython v1.78
+
 ### Install from conda
 
 ```
