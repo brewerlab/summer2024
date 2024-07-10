@@ -1,0 +1,143 @@
+IQ-TREE 2.3.4 COVID-edition built Jun 18 2024
+
+Input file name: ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy
+User tree file name: nonrev_dna_ToxinSorterout_NoCtenusconiger.treefile
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 93691
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 285 nucleotide sites
+Number of constant sites: 171 (= 60% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 171 (= 60% of all sites)
+Number of parsimony informative sites: 65
+Number of distinct site patterns: 92
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: UNREST+FO
+
+Rate parameter R:
+
+  A-C: 1.7748
+  A-G: 2.8319
+  A-T: 0.8546
+  C-A: 2.4902
+  C-G: 0.3871
+  C-T: 6.4594
+  G-A: 2.4602
+  G-C: 1.3710
+  G-T: 0.6053
+  T-A: 1.7075
+  T-C: 2.6524
+  T-G: 1.0000
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.2844
+  pi(C) = 0.1726
+  pi(G) = 0.2603
+  pi(T) = 0.2827
+
+Rate matrix Q:
+
+  A    -0.936    0.3042    0.4854    0.1465
+  C    0.4268      -1.6   0.06634     1.107
+  G    0.4216     0.235   -0.7604    0.1037
+  T    0.2926    0.4546    0.1714   -0.9186
+
+Model of rate heterogeneity: Uniform
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -1171.9686 (s.e. 60.2696)
+Unconstrained log-likelihood (without tree): -970.8311
+Number of free parameters (#branches + #model parameters): 35
+Akaike information criterion (AIC) score: 2413.9373
+Corrected Akaike information criterion (AICc) score: 2424.0578
+Bayesian information criterion (BIC) score: 2541.7744
+
+Total tree length (sum of branch lengths): 0.7464
+Sum of internal branch lengths: 0.3913 (52.4320% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0035) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is ROOTED at virtual root '__root__'
+
+                                                        +--Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1
+                                             +----------| (99)
+                                             |          +--Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1
+                              +--------------| (99)
+                              |              +----------------Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2
+                           +**| (43)
+                           |  +--Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1
+                        +--| (79)
+                        |  +--Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10
+                    +---| (92)
+                    |   +--Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN49_c0_g1_i4
+                +---| (56)
+                |   |  +--Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1
+                |   +--| (49)
+                |      |      +**Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2
+                |      |   +--| (80)
+                |      |   |  +**Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1
+                |      +---| (97)
+                |          |  +**Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1
+                |          +**| (63)
+                |             +**Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1
++---------------| (51)
+|               +--Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5
+|
++--------------------------Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN94115_c0_g1_i1
+|
++**__root__
+
+Tree in newick format:
+
+((((((((Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1:0.0038306816,Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1:0.0106634431)99:0.0768706104,Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2:0.1097041118)99:0.1023936374,Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1:0.0039459728)43:0.0033772878,Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10:0.0071410169)79:0.0090003313,Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN49_c0_g1_i4:0.0130199595)92:0.0303692429,(Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1:0.0117353926,((Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2:0.0000010000,Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1:0.0000010000)80:0.0036003521,(Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1:0.0000010000,Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1:0.0000010000)63:0.0000026519)97:0.0295670997)49:0.0086084327)56:0.0270975060,Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5:0.0157597381)51:0.1040580608,Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN94115_c0_g1_i1:0.1756304011):0.0000000000;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t nonrev_dna_test_ToxinSorterout_noCtenusconiger.treefile -m "UNREST{1.77481,2.83191,0.854551,2.49024,0.387093,6.45943,2.46022,1.37097,0.605286,1.70746,2.65243,1}+FO{0.284362,0.172597,0.260304,0.282737}" --length 285
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jul 10 13:45:10 2024
+Total CPU time used: 0.085723 seconds (0h:0m:0s)
+Total wall-clock time used: 0.191921371 seconds (0h:0m:0s)
+

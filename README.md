@@ -10,7 +10,7 @@
 ### Install from conda
 
 ```
-conda install -c bioconda -c conda-forge mafft pal2nal iqtree biopython
+conda install -c bioconda -c conda-forge mafft pal2nal iqtree biopython hyphy
 ```
 
 ### Install from GitHub
@@ -212,7 +212,7 @@ iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.
 - Full peptides
 
 ```
- mafft ickFinderCDS.correctedCDS_Ctenids_FullPeptides.fastaToxinSorterout_noCtenuscorniger.fasta > ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.MAFFT.aln.fasta
+ mafft ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.fasta > ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.MAFFT.aln.fasta
 ```
 
 - Backtranslate CDS sequences onto Full peptide alignment
@@ -226,3 +226,80 @@ pal2nal.pl ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenu
 ```
 ../fasta2phylip.py -i ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.fasta -o ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy -r
 ```
+
+##### Phylogeny inference using IQTREE2
+
+###### Unrooted tree
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy -T AUTO -B 1000 -st CODON1 --modelomatic
+```
+
+###### Tree rooted using non-reversible model
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy -B 1000 --model-joint UNREST -T AUTO --prefix  nonrev_dna_ToxinSorterout_noCtenusconiger
+```
+
+###### Rootstrapping to explore support for root position
+
+```
+iqtree -s ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy --model-joint UNREST --root-test -zb 1000 -au -te nonrev_dna.treefile --prefix nonrev_dna_test_ToxinSorterout_noCtenusconiger
+```
+
+##### Tests for Selection
+
+###### HyPhy - FEL
+
+```
+hyphy
+```
+- Options
+    - 1
+    - 2
+    - ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy
+    - ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy.treefile
+
+|     Codon      |   Partition    |     alpha      |      beta      |      LRT       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+|       4        |       1        |        9.115   |        0.548   |        5.367   |  Neg. p = 0.0205  |
+|       6        |       1        |        8.129   |        0.530   |        3.686   |  Neg. p = 0.0549  |
+|       15       |       1        |       12.016   |        0.000   |        3.904   |  Neg. p = 0.0482  |
+|       17       |       1        |       25.560   |        0.323   |        8.762   |  Neg. p = 0.0031  |
+|       35       |       1        |        3.667   |        0.000   |        6.485   |  Neg. p = 0.0109  |
+|       40       |       1        |        5.715   |        0.748   |        2.763   |  Neg. p = 0.0964  |
+|       41       |       1        |        0.000   |        3.229   |        2.745   |  Pos. p = 0.0975  |
+|       44       |       1        |       12.096   |        1.330   |        2.773   |  Neg. p = 0.0959  |
+|       49       |       1        |       12.508   |        0.000   |       11.044   |  Neg. p = 0.0009  |
+|       50       |       1        |        1.320   |        0.000   |        2.940   |  Neg. p = 0.0864  |
+|       54       |       1        |       25.749   |        0.442   |       13.288   |  Neg. p = 0.0003  |
+|       61       |       1        |        1.275   |        0.000   |        2.895   |  Neg. p = 0.0888  |
+|       62       |       1        |        1.866   |        0.000   |        6.271   |  Neg. p = 0.0123  |
+|       63       |       1        |        6.710   |        0.336   |        8.589   |  Neg. p = 0.0034  |
+|       66       |       1        |        2.761   |        0.000   |        6.388   |  Neg. p = 0.0115  |
+|       72       |       1        |        3.216   |        0.470   |        3.568   |  Neg. p = 0.0589  |
+|       77       |       1        |        5.853   |        0.000   |        7.096   |  Neg. p = 0.0077  |
+|       85       |       1        |        1.386   |        0.000   |        2.993   |  Neg. p = 0.0836  |
+|       89       |       1        |        3.642   |        0.322   |        3.360   |  Neg. p = 0.0668  |
+|       92       |       1        |        4.357   |        0.000   |        6.354   |  Neg. p = 0.0117  |
+|       94       |       1        |       13.547   |        0.573   |        2.764   |  Neg. p = 0.0964  |
+|       95       |       1        |        0.000   |        1.437   |        2.766   |  Pos. p = 0.0963  |
+
+**Found _2_ sites under pervasive positive diversifying and _20_ sites under negative selection at p <= 0.1**
+
+###### HyPhy - MEME
+
+```
+hyphy
+```
+- Options
+    - 1
+    - 1
+    - ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy
+    - ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout_noCtenuscorniger.PAL2NAL.aln.phy.treefile
+
+|   Codon    | Partition  |   alpha    |non-syn rate (beta) distribution, rates : weights|    LRT     |Episodic selection detected?| # branches |         List of most common codon substitutions at this site          |
+|:----------:|:----------:|:----------:|:-----------------------------------------------:|:----------:|:--------------------------:|:----------:|:---------------------------------------------------------------------:|
+|     41     |     1      |    0.000   |             0.00/24.59 : 0.00/1.00              |    3.274   |      Yes, p =  0.0924      |     1      |                  [1]aaT>aaA,AaT>GaG,gAt>gCt,GCt>AAt                   |
+
+**Found _1_ sites under episodic diversifying positive selection at p <= 0.1**

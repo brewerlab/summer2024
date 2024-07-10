@@ -1,0 +1,108 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=13;
+TAXLABELS
+[1] 'Ctenus_captiosis_female_tjc00311_clean_trinity_Trinity_TRINITY_DN2670_c0_g2_i1'
+[2] 'Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1'
+[3] 'Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2'
+[4] 'Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN94115_c0_g1_i1'
+[5] 'Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1'
+[6] 'Ctenus_exlineae_female_tjc00244_clean_trinity_Trinity_TRINITY_DN518_c0_g2_i2'
+[7] 'Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1'
+[8] 'Ctenus_hibernalis_female_4926_BCB_0001_clean_trinity_Trinity_TRINITY_DN178_c1_g2_i1'
+[9] 'Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1'
+[10] 'Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5'
+[11] 'Phoneutria_nigriventer_female_I_IBSP_221740_clean_trinity_Trinity_TRINITY_DN49_c0_g1_i4'
+[12] 'Isoctenus_sp_female_F_IBSP_221743_clean_trinity_Trinity_TRINITY_DN2656_c0_g1_i1'
+[13] 'Phoneutria_nigriventer_female_J_IBSP_221741_clean_trinity_Trinity_TRINITY_DN218_c0_g1_i10'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=13 nsplits=80;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	100	 5,
+	100	 6,
+	100	 9,
+	78	 6 9,
+	100	 7,
+	100	 8,
+	35	 7 8,
+	99	 6 7 8 9,
+	16	 5 6 7 8 9,
+	42	 4 5 6 7 8 9,
+	100	 10,
+	91	 1 2 3 11 12 13,
+	100	 11,
+	31	 1 2 3 12 13,
+	100	 12,
+	11	 1 2 3 13,
+	100	 13,
+	100	 1 2 3,
+	100	 1 2,
+	100	 1,
+	76	 4 5,
+	49	 12 13,
+	18	 11 12 13,
+	1	 1 2 3 4 5 10,
+	2	 1 2 3 10,
+	19	 6 7 9,
+	24	 6 7 8 9 10,
+	40	 1 2 3 11,
+	5	 8 9,
+	10	 7 8 9,
+	18	 1 2 3 12,
+	11	 11 12,
+	40	 6 8 9,
+	2	 4 6 7 8 9,
+	16	 4 5 10,
+	10	 1 2 3 11 13,
+	4	 6 7 8,
+	1	 5 6 7 8 9 10,
+	4	 11 13,
+	4	 7 9,
+	2	 6 7,
+	4	 4 5 11 12 13,
+	14	 4 10,
+	0	 1 2 3 10 11,
+	8	 1 2 3 11 12,
+	2	 1 2 3 4 10,
+	2	 6 8,
+	0	 7 10,
+	0	 1 2 3 4 5,
+	4	 4 6 7 8 9 10,
+	1	 10 11 12 13,
+	2	 4 5 10 11 12 13,
+	0	 4 5 6 9,
+	0	 4 5 6 7 9,
+	0	 4 9,
+	0	 4 6 9,
+	0	 4 6 7 9,
+	0	 3 11 12 13,
+	0	 10 12 13,
+	0	 7 8 10,
+	0	 4 5 7 8,
+	0	 6 10,
+	0	 4 5 6 7 8 10,
+	0	 10 11,
+	0	 1 2 3 4,
+	0	 5 6 7 8 9 11,
+	0	 6 7 8 9 11,
+	0	 2 3,
+	0	 4 5 10 11,
+	0	 6 9 10,
+	0	 10 11 12,
+	0	 5 10,
+	0	 4 5 6 8 9,
+	0	 4 10 11 12 13,
+	0	 1 2 3 5,
+	0	 6 7 8 9 10 11,
+	0	 10 12,
+;
+END; [Splits]
+
