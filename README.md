@@ -17,7 +17,7 @@
 ### Install from conda
 
 ```
-conda install -c bioconda -c conda-forge mafft pal2nal iqtree biopython hyphy
+conda install -c bioconda -c conda-forge mafft pal2nal iqtree biopython hyphy wkhtmltopdf pandoc
 ```
 
 ### Install from GitHub
@@ -363,3 +363,7 @@ hyphy
     - dplyr_1.1.4
 - Methods and results in PnTx3-6_PhylogeneticSignalRTests.Rmd
     - Rendered in PnTx3-6_PhylogeneticSignalRTests.nb.html
+
+```
+pandoc PnTx3-6_PhylogeneticSignalRTests.nb.html --pdf-engine wkhtmltopdf -o PnTx3-6_PhylogeneticSignalRTests.nb.pdf
+```
