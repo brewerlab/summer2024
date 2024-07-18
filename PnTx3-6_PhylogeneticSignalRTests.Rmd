@@ -1,0 +1,145 @@
+---
+title: "PnTx3-6 homologs US-align phylogenetic signal tests"
+output: html_notebook
+---
+
+# PnTx3-6 homologs US-align phylogenetic signal tests
+- see github.com/brewerlab/summer2024 for more information
+
+## Dependencies
+
+```{r}
+#install.packages("phylosignal", dependencies = T)
+#install.packages("readr", dependencies = T)
+#install.packages("dplyr", dependencies = T)
+#install.packages("tibble", dependencies = T)
+#install.packages("stringr", dependencies = T)
+```
+
+## Importing data
+
+### US-align results
+```{r}
+library(dplyr)
+library(tibble)
+library(stringr)
+
+usalign_data <- read.csv("4usalign/ctenidusalignresults.csv")
+
+usalign_data %>%
+  mutate(Name = str_replace(as.character(Name), "_model_0", "")) %>%
+  column_to_rownames("Name")
+```
+
+```{r}
+boxplot(usalign_data$RMSD, ylab="US-align RMSD values")
+```
+
+### CDS-based Phylogeny
+
+```{r}
+library(ape)
+library(adephylo)
+library(phylobase)
+library(phylosignal)
+library(readr)
+```
+
+```{r}
+pntx3_6_homologs_tree <- read_file("ctenid_sequences/ickFinderCDS.correctedCDS_Ctenids_FullPeptides_ToxinSorterout.PAL2NAL.aln.phy.treefile")
+
+#pntx3_6_homologs_tree <- read_file("PnTx3-6_17HomologTree_rooted.tre")
+
+pntx3_6_homologs_tree <- tolower(pntx3_6_homologs_tree)
+
+pntx3_6_homologs_tree <- read.tree(text = pntx3_6_homologs_tree)
+
+plot.phylo(pntx3_6_homologs_tree, align.tip.label = F, use.edge.length = F, type = "unrooted", cex = 0.4)
+
+#nodelabels()
+```
+
+```{r}
+plot.phylo(pntx3_6_homologs_tree, align.tip.label = F, use.edge.length = F, type = "unrooted", show.tip.label = F)
+
+nodelabels()
+
+#edgelabels()
+```
+
+```{r}
+pntx3_6_homologs_tree_rooted <- root(pntx3_6_homologs_tree, c("ctenus_corniger_sra_clean_trinity_trinity_trinity_dn26760_c0_g1_i1",
+                                                              "ctenus_corniger_sra_clean_trinity_trinity_trinity_dn27263_c0_g1_i1",
+                                                              "ctenus_corniger_sra_clean_trinity_trinity_trinity_dn27263_c0_g2_i1",
+                                                              "ctenus_corniger_sra_clean_trinity_trinity_trinity_dn8463_c0_g1_i1"),
+                                     resolve.root = T)
+
+plot.phylo(pntx3_6_homologs_tree_rooted, show.node.label = T, align.tip.label = T, use.edge.length = F)
+```
+
+```{r}
+plot.phylo(pntx3_6_homologs_tree_rooted, show.node.label = T, align.tip.label = T, root.edge = T, use.edge.length = T)
+```
+
+
+```{r}
+dat <- list()
+dat$RMSD <- usalign_data$RMSD
+dat$random <- rnorm(17, sd = sd(usalign_data$RMSD))
+dat$bm <- rTraitCont(pntx3_6_homologs_tree)
+dat <- as.data.frame(dat)
+
+dat
+```
+
+
+```{r}
+pntx3_6_homologs_p4d <- phylo4d(pntx3_6_homologs_tree_rooted, dat)
+```
+```{r}
+barplot.phylo4d(pntx3_6_homologs_p4d)
+```
+
+```{r}
+phyloSignal(p4d = pntx3_6_homologs_p4d, method = "all")
+```
+
+```{r}
+phylosim <- phyloSim(tree = pntx3_6_homologs_tree_rooted, method = "all", nsim = 100, reps = 99)
+```
+
+```{r}
+plot(phylosim, stacked.methods = FALSE, quantiles = c(0.05, 0.95))
+```
+
+```{r}
+plot.phylosim(phylosim, what = "pval", stacked.methods = TRUE)
+```
+
+```{r}
+RMSD.crlg <- phyloCorrelogram(pntx3_6_homologs_p4d, trait = "RMSD")
+random.crlg <- phyloCorrelogram(pntx3_6_homologs_p4d, trait = "random")
+bm.crlg <- phyloCorrelogram(pntx3_6_homologs_p4d, trait = "bm")
+
+plot(RMSD.crlg)
+```
+
+```{r}
+plot(random.crlg)
+```
+
+```{r}
+plot(bm.crlg)
+```
+
+```{r}
+pntx3_6_homologs.lipa <- lipaMoran(pntx3_6_homologs_p4d)
+carni.lipa.p4d <- lipaMoran(pntx3_6_homologs_p4d, as.p4d = TRUE)
+
+barplot.phylo4d(pntx3_6_homologs_p4d, bar.col=(pntx3_6_homologs.lipa$p.value < 0.05) + 1, center = FALSE , scale = FALSE)
+```
+
+```{r}
+barplot.phylo4d(pntx3_6_homologs_p4d, bar.col = (pntx3_6_homologs.lipa$p.value < 0.05) + 1, center = FALSE, scale = FALSE)
+```
+
