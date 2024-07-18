@@ -6,6 +6,15 @@ output: html_notebook
 # PnTx3-6 homologs US-align phylogenetic signal tests
 - see github.com/brewerlab/summer2024 for more information
 
+## Clean up workspace
+
+```{r}
+#invisible(lapply(paste0('package:', names(sessionInfo()$otherPkgs)), detach, character.only=TRUE, unload=TRUE))
+
+rm(list = ls(all = TRUE))
+```
+
+
 ## Dependencies
 
 ```{r}
@@ -143,3 +152,6 @@ barplot.phylo4d(pntx3_6_homologs_p4d, bar.col=(pntx3_6_homologs.lipa$p.value < 0
 barplot.phylo4d(pntx3_6_homologs_p4d, bar.col = (pntx3_6_homologs.lipa$p.value < 0.05) + 1, center = FALSE, scale = FALSE)
 ```
 
+```{r}
+sessionInfo()
+```

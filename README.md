@@ -348,3 +348,18 @@ hyphy
 | isoctenus_aff_ordinario_female_g_ibsp_221742_clean_trinity_trinity_trinity_dn167_c0_g1_i5_model_0 | 52             | 2.78 | 0.58605  |
 | phoneutria_nigriventer_female_i_ibsp_221740_clean_trinity_trinity_trinity_dn49_c0_g1_i4_model_0   | 54             | 2.51 | 0.64526  |
 | phoneutria_nigriventer_female_j_ibsp_221741_clean_trinity_trinity_trinity_dn218_c0_g1_i10_model_0 | 51             | 2.9  | 0.5718   |
+
+##### Test for phylogenetic signal in RMSD scores
+
+- Used R v4.3.1
+    - readr_2.1.5
+    - phylosignal_1.3.1
+    - phylobase_0.8.12 
+    - adephylo_1.1-16
+    - ade4_1.7-22
+    - ape_5.8          
+    - stringr_1.5.1
+    - tibble_3.2.1
+    - dplyr_1.1.4
+- Methods and results in PnTx3-6_PhylogeneticSignalRTests.Rmd
+    - Rendered in PnTx3-6_PhylogeneticSignalRTests.nb.html
