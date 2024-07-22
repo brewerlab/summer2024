@@ -13,17 +13,36 @@
 - pal2nal.pl v14
 - IQ-TREE multicore version 2.3.4 COVID-edition for Linux x86 64-bit built Jun 18 2024
 - biopython v1.78
+- PyMol v3.10
+- ffmpeg 
+- libsm6 (on Linux)
+- libxext6 (on Linux)
+- libgl1 (on Linux)
+- gradpose v
+
+### Install from apt (compatible Linux distros only)
+
+```
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt install libsm6 libxext6 libgl1 -y
+```
 
 ### Install from conda
 
 ```
-conda install -c bioconda -c conda-forge mafft pal2nal iqtree biopython hyphy wkhtmltopdf pandoc
+conda install -c bioconda -c conda-forge mafft pal2nal iqtree biopython hyphy wkhtmltopdf pandoc ffmpeg
+conda install -c conda-forge -c schrodinger pymol-bundle
 ```
 
 ### Install from GitHub
 
 ```
 wget https://raw.githubusercontent.com/jvollme/fasta2phylip/master/fasta2phylip.py
+```
+
+### Install from pip
+
+```
+pip install gradpose
 ```
 
 ## Sequence collection and curration
@@ -367,3 +386,23 @@ hyphy
 ```
 pandoc PnTx3-6_PhylogeneticSignalRTests.nb.html --pdf-engine wkhtmltopdf -o PnTx3-6_PhylogeneticSignalRTests.nb.pdf
 ```
+
+##### Creation of superimposed 3D structures using multimer structural alignment
+
+```
+ls 4alphafold/*_model_0.cif > 4alphafold/list4usalignsuperimposition.txt
+```
+
+```
+USalign -dir ./ 4alphafold/list4usalignsuperimposition.txt -mm 4 -o 4usalign/PnTx3-6_USALIGN_sup
+```
+
+```
+for FileName in 4alphafold/*_model_0.cif; do ~/BeEM/BeEM $FileName; done
+```
+
+```
+gradpose -i 4alphafold/final_models/ -t 4alphafold/PnTx3-6_fromPDB.pdb -o 4alphafold/final_models/output
+```
+
+
