@@ -1,0 +1,15 @@
+[{
+ "name": "2024-07-03_14:42 Phoneutria_nigriventer_female_H_IBSP_221739_clean_trinity_Trinity_TRINITY_DN417_c0_g1_i2",
+ "modelSeeds": [
+  "1499768227"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "EEEPDSDALVPQERACLARGETCKDDCECCDCDNQCYCPFDWFGGKWHPVGCSCAHANQYFCDHKKEKCKKA",
+    "count": 1
+   }
+  }
+ ]
+}
+]

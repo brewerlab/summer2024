@@ -1,0 +1,15 @@
+[{
+ "name": "2024-07-03 Isoctenus_aff_ordinario_female_G_IBSP_221742_clean_trinity_Trinity_TRINITY_DN167_c0_g1_i5",
+ "modelSeeds": [
+  "1356660583"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "EDEAEFDALAPEERGCKARGDTCEKDCDCCGCFYKCHCPLDWFGGKWHPLGCSCVYGDKYMCAKKKKECPNV",
+    "count": 1
+   }
+  }
+ ]
+}
+]

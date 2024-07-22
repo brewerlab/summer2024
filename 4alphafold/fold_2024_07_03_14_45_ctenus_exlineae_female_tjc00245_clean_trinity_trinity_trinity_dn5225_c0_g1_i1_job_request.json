@@ -1,0 +1,15 @@
+[{
+ "name": "2024-07-03_14:45 Ctenus_exlineae_female_tjc00245_clean_trinity_Trinity_TRINITY_DN5225_c0_g1_i1",
+ "modelSeeds": [
+  "1325015438"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "EDEAEFDALVAEERGCKKREETCQKDCDCCGCFYKCHCPLDWFGGKWHPLGCSCVYGDKYMCAKKKKECPNV",
+    "count": 1
+   }
+  }
+ ]
+}
+]

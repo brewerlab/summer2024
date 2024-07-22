@@ -1,0 +1,15 @@
+[{
+ "name": "2024-07-03_14:46 Ctenus_corniger_sra_clean_trinity_Trinity_TRINITY_DN27263_c0_g1_i1",
+ "modelSeeds": [
+  "158533629"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "LDDQDLEAAELLEVLDFIDTASDVVEIDDASIPEDEARAWKCLPKDSTCGDDCDCCEGLHCHCPLRKVLPAILRCSCQSKDDHVNTCPKYNKKG",
+    "count": 1
+   }
+  }
+ ]
+}
+]

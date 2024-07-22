@@ -1,0 +1,15 @@
+[{
+ "name": "2024-07-03_14:43 Leptoctenus_byrrhus_female_tjc00136_clean_trinity_Trinity_TRINITY_DN2803_c0_g1_i1",
+ "modelSeeds": [
+  "591642654"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "EDEAEFDALVPEERGCKNRGDTCQKDCDCCGCFYKCHCPLDWFGGKWHPLGCSCVYGDKYMCEKKKKECPNV",
+    "count": 1
+   }
+  }
+ ]
+}
+]

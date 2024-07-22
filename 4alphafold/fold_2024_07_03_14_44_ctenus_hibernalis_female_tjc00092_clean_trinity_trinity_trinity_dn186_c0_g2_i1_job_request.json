@@ -1,0 +1,15 @@
+[{
+ "name": "2024-07-03_14:44 Ctenus_hibernalis_female_tjc00092_clean_trinity_Trinity_TRINITY_DN186_c0_g2_i1",
+ "modelSeeds": [
+  "1044317943"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "EDEAEFDALVAEERGCKKREETCQKDCDCCGCFYKCHCPLDWFGGKWHPLGCSCVYGDKYMCAKKKKECPNV",
+    "count": 1
+   }
+  }
+ ]
+}
+]

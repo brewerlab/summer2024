@@ -1,0 +1,15 @@
+[{
+ "name": "2024-07-03_14:41 Phoneutria_nigriventer_sra_clean_trinity_Trinity_TRINITY_DN26_c0_g1_i1",
+ "modelSeeds": [
+  "555742534"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "EDEPESDALVPQERGCLDIGKTCKDDCECCGCGNVCYCPFDWFGGKWQPFGCSCAYGLKYVCAHKQKKCPNV",
+    "count": 1
+   }
+  }
+ ]
+}
+]
